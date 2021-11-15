@@ -9,7 +9,7 @@ const stat = util.promisify(fs.stat);
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
-// npm run extract:xml:data ./src/assets/document_and_metatata_collection/ ./src/assets/output.json
+// npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/data.json
 
 const getArgs = () => {
 
@@ -53,6 +53,14 @@ const retrieveDataFromFileAsJSON = async (filePath) => {
   const fileContent = await readFile(filePath, 'utf8');
   try {
     const soup = new JSSoup(fileContent);
+    const TEIsoup = soup.find('TEI');
+    const isHasContents = TEIsoup && TEIsoup.contents.length
+    if (!isHasContents) return undefined;
+
+    const title = R.compose(
+      titleSoup => titleSoup && safeGetText(titleSoup.find('title')) || '',
+      s => s.find('titleStmt')
+    )(soup)
 
     const authorTags = R.compose(
       analyticSoup => analyticSoup && analyticSoup.findAll('author') || [],
@@ -68,15 +76,16 @@ const retrieveDataFromFileAsJSON = async (filePath) => {
     )(soup);
 
     const citations = R.compose(
-      R.map(titleSoup => ({
-        title: titleSoup.getText(),
-        authors: getAuthors(titleSoup.parent.findAll('author'))
+      R.map(analyticsSoup => analyticsSoup && ({
+        title: analyticsSoup.find('title').getText(),
+        authors: getAuthors(analyticsSoup.findAll('author'))
       })),
-      biblSoup => biblSoup ? biblSoup.findAll('title') : [],
-      s => s.find('biblStruct')
+      s => s && s.findAll('biblStruct'),
+      s => s && s.find('listBibl')
     )(soup)
 
     return {
+      title,
       authors,
       keywords,
       citations
@@ -88,6 +97,27 @@ const retrieveDataFromFileAsJSON = async (filePath) => {
   }
 }
 
+const convertData = (papers) => {
+  const citations = R.compose(
+    R.flatten,
+    R.map(R.prop('citations')))
+  (papers);
+
+  const citationCount = R.reduce((accum, citation) => {
+    const count = accum[citation.title] || 0;
+    return {
+      ...accum,
+      [citation.title]: count + 1
+    }
+  }, {}, citations);
+
+  const papersWithCitedBy = R.map(paper => {
+    const citedBy = paper.title && citationCount[paper.title] || 0;
+    return { ...paper, citedBy };
+  }, papers)
+  return papersWithCitedBy;
+}
+
 const run = async () => {
     console.clear();
     try {
@@ -95,12 +125,17 @@ const run = async () => {
 
       const filePaths = await getXMLFilePaths(inputDirectoryPath);
       const data = await Promise.all(R.map(retrieveDataFromFileAsJSON)(filePaths));
+      const filteredData = R.filter(item => !!item, data);
+      const convertedData = convertData(filteredData);
+
+      const formattedData = R.compose(
+        JSON.stringify,
+      )(convertedData);
 
       console.log(chalk.greenBright(`Writing the data to JSON file: ${outputJSONFilePath}`));
 
-      const stringifiedData = JSON.stringify(data);
-      await writeFile(outputJSONFilePath, stringifiedData);
-      return data;
+      await writeFile(outputJSONFilePath, formattedData);
+      return formattedData;
 
     } catch (error) {
       console.error("error", error);
