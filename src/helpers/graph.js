@@ -9,7 +9,3 @@ export const ticked = (nodeElements, linkElements) => () => {
     return 'translate(' + d.x + ',' + d.y + ')';
   });
 };
-
-// citation graph-related
-export const getCiteNodeRadius = (d) => Math.sqrt((5 + 100 * d.citedBy) / Math.PI);
-export const getCiteCollisionRadius = (d) => getCiteNodeRadius(d) + 5;
