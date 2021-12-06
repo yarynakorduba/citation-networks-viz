@@ -12,4 +12,6 @@ export const ticked = (nodeElements, linkElements) => () => {
   });
 };
 
+export const getD3ElementLifecycle = (element) => [(enter) => enter.append(element), (update) => update, (exit) => exit.remove()];
+
 export const getColorScale = (domain, colorRange) => d3.scaleLinear().domain(domain).range(colorRange);

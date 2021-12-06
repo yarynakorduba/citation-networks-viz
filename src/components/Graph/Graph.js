@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import * as d3 from 'd3';
 import { reduce, slice, indexBy, filter, compose, map, prop } from 'ramda';
 
-import { ticked, getColorScale } from '../../helpers/graph';
+import { ticked, getColorScale, getD3ElementLifecycle } from '../../helpers/graph';
 import { useDnD, useLoadData, useArrowMarker } from '../../hooks/graph';
 
 import './Graph.scss';
@@ -35,21 +35,21 @@ function Graph() {
 
   const computeNodesAndLinks = useCallback(async () => {
     if (data) {
-      const nodes = d3.map(data, (paper, index) => ({
+      const nodes = d3.map(data, ({ title, ...paper }, index) => ({
         ...paper,
-        id: paper.title,
+        id: title,
         order: index,
       }));
       const nodeIdsObj = indexBy(prop('id'), nodes);
       const links = reduce(
-        (accum, paper) => {
+        (accum, { title, citations }) => {
           const paperLinks = compose(
             map((citation) => ({
-              source: paper.title,
+              source: title,
               target: citation.title,
             })),
-            filter(({ title }) => nodeIdsObj[title]),
-          )(paper.citations);
+            filter((p) => nodeIdsObj[p.title]),
+          )(citations);
           return [...accum, ...paperLinks];
         },
         [],
@@ -68,11 +68,7 @@ function Graph() {
   const linkElements = svg
     .selectAll('line')
     .data(links)
-    .join(
-      (enter) => enter.append('line'),
-      (update) => update,
-      (exit) => exit.remove(),
-    )
+    .join(...getD3ElementLifecycle('line'))
     .attr('stroke', '#999')
     .attr('stroke-opacity', 0.6)
     .attr('stroke-width', 2)
@@ -82,11 +78,7 @@ function Graph() {
   const nodeElements = svg
     .selectAll('circle')
     .data(nodes)
-    .join(
-      (enter) => enter.append('circle'),
-      (update) => update,
-      (exit) => exit.remove(),
-    )
+    .join(...getD3ElementLifecycle('circle'))
     .attr('r', getCiteNodeRadius)
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
     .call(
@@ -102,14 +94,12 @@ function Graph() {
       .forceSimulation()
       .force('charge', d3.forceManyBody().strength(0))
       .force('center', d3.forceCenter().strength(0.01))
-      .force(
-        'link',
-        d3.forceLink().id((d) => d.id),
-      )
+      .force('link', d3.forceLink().id(prop('id')))
       .force('collision', d3.forceCollide(getCiteCollisionRadius));
 
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements));
     simulationRef.current.force('link').links(links);
+
   }, [nodes, links, nodeElements, linkElements]);
 
   return (
