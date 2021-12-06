@@ -1,3 +1,5 @@
+import * as d3 from 'd3';
+
 export const ticked = (nodeElements, linkElements) => () => {
   linkElements
     .attr('x1', (d) => d.source.x)
@@ -9,3 +11,5 @@ export const ticked = (nodeElements, linkElements) => () => {
     return 'translate(' + d.x + ',' + d.y + ')';
   });
 };
+
+export const getColorScale = (domain, colorRange) => d3.scaleLinear().domain(domain).range(colorRange);

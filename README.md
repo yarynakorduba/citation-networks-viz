@@ -6,6 +6,20 @@ This is the data digital libraries course project. The goal of this project is t
 
 ### Dataset processing
 
+```JSON
+[{
+    'forename': "<Author name>",
+    'surname': "<Author surname>",
+    'coauthors': [
+        {
+            'forename': "<Author name>",
+            'surname': "<Author surname>",
+            'papers': ["<Paper title>"]
+        }
+    ]
+}]
+```
+
 ## Starting the project
 
 To start the project, open the terminal and run these commands
@@ -14,3 +28,4 @@ To start the project, open the terminal and run these commands
 npm install
 npm run start
 ```
+
