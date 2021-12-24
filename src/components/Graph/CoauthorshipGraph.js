@@ -20,7 +20,6 @@ function Graph() {
   const [nodes, setNodes] = useState([]);
 
   const [data, setData] = useLoadData('authorData.json');
-  //   console.log('===AAAA>>> ', values(pathOr({}, ['coauthorships'], data)));
   const authorshipDomain = useMemo(
     () => d3.extent(values(pathOr({}, ['coauthorships'], data)), (d) => (d.papers || []).length),
     [data],
@@ -83,7 +82,7 @@ function Graph() {
     .attr('r', getAuthorNodeRadius)
     .style('stroke', 'red')
     // .style('fill', (d) => getColorScale(authorshipDomain, COLOR_RANGE)(d.citedBy))
-    .on('click', (d) => console.log(d.target))
+    .on('click', (ev, d) => console.log(d))
     .call(
       d3
         .drag()
@@ -96,7 +95,7 @@ function Graph() {
     simulationRef.current = d3
       .forceSimulation()
       .alphaDecay(0.01)
-      .force('charge', d3.forceManyBody().distanceMin(15).distanceMax(100).strength(-20))
+      .force('charge', d3.forceManyBody().distanceMin(15).distanceMax(45).strength(-20))
       .force('center', d3.forceCenter())
       .force(
         'link',

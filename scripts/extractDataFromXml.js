@@ -9,7 +9,7 @@ const stat = util.promisify(fs.stat);
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
-// npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/citeData.json
+// npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/citeData.json ./src/assets/authData.json
 
 /**
  * TODO:
@@ -48,11 +48,30 @@ const getXMLFilePaths = async (directory) => {
 
 const safeGetText = (tag) => (tag ? tag.getText() : '');
 
-const getAuthors = R.map((tag) => {
-  const forename = safeGetText(tag.find('forename'));
-  const surname = safeGetText(tag.find('surname'));
-  return { forename, surname };
-});
+const getAuthors = R.compose(
+  R.filter(({ forename, surname }) => {
+    return !(forename === '' && surname === '');
+  }),
+  R.map((tag) => {
+    const forename = R.compose(
+      R.trim(),
+      R.join(' '),
+      R.map((word) => word.replace(/[ +-]+$/gi, '').trim()),
+      R.map(safeGetText),
+      (t) => t.findAll('forename'),
+    )(tag);
+
+    const surname = R.compose(
+      R.trim(),
+      R.join(' '),
+      R.map((word) => word.replace(/[ +-]+$/gi, '').trim()),
+      R.map(safeGetText),
+      (t) => t.findAll('surname'),
+    )(tag);
+
+    return { forename, surname };
+  }),
+);
 
 const retrieveDataFromFileAsJSON = async (filePath) => {
   console.log(chalk.magentaBright(`Starting retrieval of the data from file: ${filePath}`));
