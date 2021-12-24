@@ -23,7 +23,7 @@ function Graph() {
   const [data, setData] = useLoadData('citeData.json');
   const citedByDomain = useMemo(() => d3.extent(data, (d) => d.citedBy), [data]);
 
-  const svg = d3.select('svg');
+  const svg = d3.select('svg#citationGraph');
   useArrowMarker(ARROW_MARKER_ID);
 
   const simulationRef = useRef(null);
@@ -99,13 +99,17 @@ function Graph() {
 
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements));
     simulationRef.current.force('link').links(links);
-
   }, [nodes, links, nodeElements, linkElements]);
 
   return (
     <div>
       <button onClick={testClick}>Test</button>
-      <svg width={WIDTH} height={HEIGHT} viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${WIDTH} ${HEIGHT}`} />
+      <svg
+        id="citationGraph"
+        width={WIDTH}
+        height={HEIGHT}
+        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${WIDTH} ${HEIGHT}`}
+      />
     </div>
   );
 }

@@ -1,5 +1,7 @@
 {
   "authors": {
+    "-": {"forename": "-", "surname": "-"},
+    "+-": {"forename": "+", "surname": "-"},
     "E-": { "forename": "E", "surname": "" },
     "Wes-Bethel": { "forename": "Wes", "surname": "Bethel" },
     "Scott-Campbell": { "forename": "Scott", "surname": "Campbell" },

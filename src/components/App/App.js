@@ -1,4 +1,6 @@
-import Graph from '../Graph';
+import CitationGraph from '../Graph/CitationGraph';
+import CoauthorshipGraph from '../Graph/CoauthorshipGraph';
+
 import './App.scss';
 
 function App() {
@@ -6,7 +8,8 @@ function App() {
     <div className="App">
       <header>
         <h1>Publications Viz</h1>
-        <Graph />
+        <CitationGraph />
+        <CoauthorshipGraph />
       </header>
     </div>
   );
