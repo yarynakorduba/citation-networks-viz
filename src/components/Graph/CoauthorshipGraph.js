@@ -9,22 +9,27 @@ import './Graph.scss';
 
 const WIDTH = 1000;
 const HEIGHT = 1000;
-const COLOR_RANGE = ['#d77474', 'blue'];
+const COLOR_RANGE = ['gray', 'blue'];
+const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 
 // citation graph-related
-const getAuthorNodeRadius = (d) => 4; // Math.sqrt((10 + 100 * d.citedBy) / Math.PI);
-const getCiteCollisionRadius = (d) => getAuthorNodeRadius(d);
+const getAuthorNodeRadius = (d) => Math.sqrt((7 * d.papersCount) / Math.PI);
+const getCiteCollisionRadius = (d) => getAuthorNodeRadius(d) + 1;
 
 function Graph() {
   const [links, setLinks] = useState([]);
   const [nodes, setNodes] = useState([]);
 
-  const [data, setData] = useLoadData('authorData.json');
+  const [data, setData] = useLoadData('authData.json');
   const authorshipDomain = useMemo(
     () => d3.extent(values(pathOr({}, ['coauthorships'], data)), (d) => (d.papers || []).length),
     [data],
   );
-  console.log('--->>> ', authorshipDomain);
+  const papersCountDomain = useMemo(
+    () => d3.extent(values(pathOr({}, ['authors'], data)), (d) => d.papersCount),
+    [data],
+  );
+  console.log('--->>> ', papersCountDomain);
   const svg = d3.select('svg#coauthorshipGraph');
 
   const simulationRef = useRef(null);
@@ -81,7 +86,7 @@ function Graph() {
     .join(...getD3ElementLifecycle('circle'))
     .attr('r', getAuthorNodeRadius)
     .style('stroke', 'red')
-    // .style('fill', (d) => getColorScale(authorshipDomain, COLOR_RANGE)(d.citedBy))
+    .style('fill', (d) => getColorScale(papersCountDomain, NODE_COLOR_RANGE)(d.papersCount))
     .on('click', (ev, d) => console.log(d))
     .call(
       d3
@@ -95,18 +100,17 @@ function Graph() {
     simulationRef.current = d3
       .forceSimulation()
       .alphaDecay(0.01)
-      .force('charge', d3.forceManyBody().distanceMin(15).distanceMax(45).strength(-20))
+      .force('charge', d3.forceManyBody().distanceMin(45).distanceMax(65).strength(-20))
       .force('center', d3.forceCenter())
       .force(
         'link',
         d3
           .forceLink()
           .id(prop('id'))
-          .distance((d) => d3.scaleLog(authorshipDomain, [25, 45])((d.papers || []).length))
-          .strength(0.2),
+          .distance((d) => d3.scaleLog(authorshipDomain, [45, 65])((d.papers || []).length))
+          .strength(0.25),
       )
-      .force('collision', d3.forceCollide(getCiteCollisionRadius).strength(1));
-    //   .alpha(0.5);
+      .force('collision', d3.forceCollide(getCiteCollisionRadius));
 
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements));
     simulationRef.current.force('link').links(links);

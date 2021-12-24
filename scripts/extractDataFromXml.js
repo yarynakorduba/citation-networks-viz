@@ -11,11 +11,6 @@ const writeFile = util.promisify(fs.writeFile);
 
 // npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/citeData.json ./src/assets/authData.json
 
-/**
- * TODO:
- * 1. Filter out authors if name and surname are empty strings
- */
-
 const getArgs = () => {
   const inputDirectoryPath = process.argv[2];
   const outputJSONCitationFilePath = process.argv[3];
@@ -151,7 +146,6 @@ const convertDataForCitationGraph = (data) => {
 };
 
 const convertDataForAuthorGraph = (data) => {
-  // const authorsObj = {};
   const authors = R.reduce(
     (accum, paper) => {
       if (!accum || !accum.authors) {
@@ -171,11 +165,13 @@ const convertDataForAuthorGraph = (data) => {
 
           const coauthorship = coauthorships[coAuthKey] || {};
           const papers = coauthorship.papers || [];
+          const firstAuthorPapersCount = R.pathOr(0, [firstAuthorName, 'papersCount'], paperAuthors);
+          const secondAuthorPapersCount = R.pathOr(0, [firstAuthorName, 'papersCount'], paperAuthors);
 
           paperAuthors = {
             ...paperAuthors,
-            [firstAuthorName]: paper.authors[i],
-            [secondAuthorName]: paper.authors[j],
+            [firstAuthorName]: { ...paper.authors[i], papersCount: firstAuthorPapersCount + 1 },
+            [secondAuthorName]: { ...paper.authors[j], papersCount: secondAuthorPapersCount + 1 },
           };
           paperCoauthorships = {
             ...paperCoauthorships,
