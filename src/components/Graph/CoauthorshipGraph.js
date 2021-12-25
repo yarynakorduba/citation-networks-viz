@@ -9,11 +9,11 @@ import './Graph.scss';
 
 const WIDTH = 1000;
 const HEIGHT = 1000;
-const COLOR_RANGE = ['gray', 'blue'];
+const COLOR_RANGE = ['#CCCCCC', 'blue'];
 const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 
 // citation graph-related
-const getAuthorNodeRadius = (d) => Math.sqrt((7 * d.papersCount) / Math.PI);
+const getAuthorNodeRadius = (d) => Math.sqrt((5 * d.papersCount) / Math.PI);
 const getCiteCollisionRadius = (d) => getAuthorNodeRadius(d) + 1;
 
 function Graph() {
@@ -29,7 +29,7 @@ function Graph() {
     () => d3.extent(values(pathOr({}, ['authors'], data)), (d) => d.papersCount),
     [data],
   );
-  console.log('--->>> ', papersCountDomain);
+
   const svg = d3.select('svg#coauthorshipGraph');
 
   const simulationRef = useRef(null);
@@ -39,18 +39,22 @@ function Graph() {
     setData(slice(1, data.length - 20, data));
   };
 
+  const [selectedNode, setSelectedNode] = useState(null);
+  const handleSelectNode = (ev, d) => {
+    console.log('==d=> ', d);
+    setSelectedNode(d);
+  };
+
   const computeNodesAndLinks = useCallback(async () => {
     if (data && keys(data).length) {
       const nodes = compose(
-        (d) => console.log('>>> ', d) || d,
+        (d) => d,
         (d) => values(d),
         mapObjIndexed((author, id) => ({
           ...author,
           id,
         })),
       )(data.authors);
-
-      console.log('nodes', nodes);
 
       const links = compose(
         map((d) => ({
@@ -71,7 +75,6 @@ function Graph() {
     computeNodesAndLinks();
   }, [computeNodesAndLinks]);
 
-  console.log('===links ', links);
   const linkElements = svg
     .selectAll('line')
     .data(links)
@@ -100,19 +103,25 @@ function Graph() {
     simulationRef.current = d3
       .forceSimulation()
       .alphaDecay(0.01)
-      .force('charge', d3.forceManyBody().distanceMin(45).distanceMax(65).strength(-20))
-      .force('center', d3.forceCenter())
+      .force('charge', d3.forceManyBody().distanceMin(45).distanceMax(95).strength(-20))
+      .force(
+        'center',
+        d3
+          .forceCenter()
+          .x(WIDTH / 2)
+          .y(HEIGHT / 2),
+      )
       .force(
         'link',
         d3
           .forceLink()
           .id(prop('id'))
-          .distance((d) => d3.scaleLog(authorshipDomain, [45, 65])((d.papers || []).length))
+          .distance((d) => d3.scaleLog(authorshipDomain, [45, 95])((d.papers || []).length))
           .strength(0.25),
       )
       .force('collision', d3.forceCollide(getCiteCollisionRadius));
 
-    simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements));
+    simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements, WIDTH, HEIGHT));
     simulationRef.current.force('link').links(links);
   }, [nodes, links, nodeElements, linkElements]);
 
@@ -123,8 +132,9 @@ function Graph() {
         id="coauthorshipGraph"
         width={WIDTH}
         height={HEIGHT}
-        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${WIDTH} ${HEIGHT}`}
+        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
       />
+      <div>{}</div>
     </div>
   );
 }

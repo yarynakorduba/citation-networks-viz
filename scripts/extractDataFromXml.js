@@ -48,13 +48,7 @@ const getAuthors = R.compose(
     return !(forename === '' && surname === '');
   }),
   R.map((tag) => {
-    const forename = R.compose(
-      R.trim(),
-      R.join(' '),
-      R.map((word) => word.replace(/[ +-]+$/gi, '').trim()),
-      R.map(safeGetText),
-      (t) => t.findAll('forename'),
-    )(tag);
+    const forename = R.compose(R.toUpper, R.head, R.trim, safeGetText, (t) => t.find('forename'))(tag);
 
     const surname = R.compose(
       R.trim(),
@@ -148,14 +142,23 @@ const convertDataForCitationGraph = (data) => {
 const convertDataForAuthorGraph = (data) => {
   const authors = R.reduce(
     (accum, paper) => {
-      if (!accum || !accum.authors) {
-        console.log('====accum --- > ', accum, paper);
-      }
-      const { authors, coauthorships } = accum;
-      let paperAuthors = { ...authors };
-      let paperCoauthorships = { ...coauthorships };
+      console.log('===>>> ', paper.title);
+      const { authors: authorsAccum, coauthorships: coauthorshipsAccum } = accum;
+      let paperAuthors = { ...authorsAccum };
+      let paperCoauthorships = { ...coauthorshipsAccum };
       for (let i = 0; i < paper.authors.length; i++) {
         const firstAuthorName = `${paper.authors[i].forename}-${paper.authors[i].surname}`;
+        const existingFirstAuthorProp = R.pathOr(paper.authors[i], [firstAuthorName], paperAuthors);
+        const authorPapersCount = R.pathOr(0, ['papersCount'], existingFirstAuthorProp);
+        const authorPapers = R.pathOr([], ['papers'], existingFirstAuthorProp);
+        paperAuthors = {
+          ...paperAuthors,
+          [firstAuthorName]: {
+            ...existingFirstAuthorProp,
+            papersCount: authorPapersCount + 1,
+            papers: [...authorPapers, { title: paper.title, authors: paper.authors }],
+          },
+        };
         for (let j = i + 1; j < paper.authors.length; j++) {
           const secondAuthorName = `${paper.authors[j].forename}-${paper.authors[j].surname}`;
           const coAuthKey = R.compose(
@@ -163,16 +166,16 @@ const convertDataForAuthorGraph = (data) => {
             R.sort((a, b) => a - b),
           )([firstAuthorName, secondAuthorName]);
 
-          const coauthorship = coauthorships[coAuthKey] || {};
+          const coauthorship = paperCoauthorships[coAuthKey] || {};
           const papers = coauthorship.papers || [];
-          const firstAuthorPapersCount = R.pathOr(0, [firstAuthorName, 'papersCount'], paperAuthors);
-          const secondAuthorPapersCount = R.pathOr(0, [firstAuthorName, 'papersCount'], paperAuthors);
 
-          paperAuthors = {
-            ...paperAuthors,
-            [firstAuthorName]: { ...paper.authors[i], papersCount: firstAuthorPapersCount + 1 },
-            [secondAuthorName]: { ...paper.authors[j], papersCount: secondAuthorPapersCount + 1 },
-          };
+          // const secondAuthorPapersCount = R.pathOr(0, [firstAuthorName, 'papersCount'], paperAuthors);
+
+          // paperAuthors = {
+          //   ...paperAuthors,
+          //   [firstAuthorName]: { ...paper.authors[i], papersCount: firstAuthorPapersCount + 1 },
+          //   [secondAuthorName]: { ...paper.authors[j], papersCount: secondAuthorPapersCount + 1 },
+          // };
           paperCoauthorships = {
             ...paperCoauthorships,
             [coAuthKey]: {

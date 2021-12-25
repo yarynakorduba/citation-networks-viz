@@ -93,11 +93,17 @@ function Graph() {
     simulationRef.current = d3
       .forceSimulation()
       .force('charge', d3.forceManyBody().strength(0))
-      .force('center', d3.forceCenter().strength(0.01))
+      .force(
+        'center',
+        d3
+          .forceCenter()
+          .x(WIDTH / 2)
+          .y(HEIGHT / 2),
+      )
       .force('link', d3.forceLink().id(prop('id')))
       .force('collision', d3.forceCollide(getCiteCollisionRadius));
 
-    simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements));
+    simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements, WIDTH, HEIGHT));
     simulationRef.current.force('link').links(links);
   }, [nodes, links, nodeElements, linkElements]);
 
@@ -108,7 +114,7 @@ function Graph() {
         id="citationGraph"
         width={WIDTH}
         height={HEIGHT}
-        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${WIDTH} ${HEIGHT}`}
+        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
       />
     </div>
   );
