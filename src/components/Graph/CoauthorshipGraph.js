@@ -14,7 +14,8 @@ const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 
 // citation graph-related
 const getAuthorNodeRadius = (d) => Math.sqrt((5 * d.papersCount) / Math.PI);
-const getCiteCollisionRadius = (d) => getAuthorNodeRadius(d) + 1;
+const getCiteCollisionRadius = (d) =>
+  getAuthorNodeRadius(d) > 4 ? getAuthorNodeRadius(d) * 10 : getAuthorNodeRadius(d);
 
 function Graph() {
   const [links, setLinks] = useState([]);
@@ -103,7 +104,7 @@ function Graph() {
     simulationRef.current = d3
       .forceSimulation()
       .alphaDecay(0.01)
-      .force('charge', d3.forceManyBody().distanceMin(45).distanceMax(95).strength(-20))
+      .force('charge', d3.forceManyBody().distanceMin(3).distanceMax(50).strength(-20))
       .force(
         'center',
         d3
@@ -116,10 +117,14 @@ function Graph() {
         d3
           .forceLink()
           .id(prop('id'))
-          .distance((d) => d3.scaleLog(authorshipDomain, [45, 95])((d.papers || []).length))
+          .distance((d) =>
+            d.source.papersCount + d.target.papersCount <= 4
+              ? 3
+              : d3.scaleLinear(authorshipDomain, [4, 50])(d.source.papersCount + d.target.papersCount),
+          )
           .strength(0.25),
       )
-      .force('collision', d3.forceCollide(getCiteCollisionRadius));
+      .force('collision', d3.forceCollide(getCiteCollisionRadius).strength(0.25));
 
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements, WIDTH, HEIGHT));
     simulationRef.current.force('link').links(links);
