@@ -8,7 +8,7 @@ import { useDnD, useLoadData } from '../../hooks/graph';
 import './Graph.scss';
 
 const WIDTH = 1000;
-const HEIGHT = 1000;
+const HEIGHT = 800;
 const COLOR_RANGE = ['#CCCCCC', 'blue'];
 const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 
@@ -20,12 +20,15 @@ const getCiteCollisionRadius = (d) =>
 function Graph() {
   const [links, setLinks] = useState([]);
   const [nodes, setNodes] = useState([]);
+  const [selectedNode, setSelectedNode] = useState(null);
 
   const [data, setData] = useLoadData('authData.json');
+
   const authorshipDomain = useMemo(
     () => d3.extent(values(pathOr({}, ['coauthorships'], data)), (d) => (d.papers || []).length),
     [data],
   );
+
   const papersCountDomain = useMemo(
     () => d3.extent(values(pathOr({}, ['authors'], data)), (d) => d.papersCount),
     [data],
@@ -38,12 +41,6 @@ function Graph() {
 
   const testClick = () => {
     setData(slice(1, data.length - 20, data));
-  };
-
-  const [selectedNode, setSelectedNode] = useState(null);
-  const handleSelectNode = (ev, d) => {
-    console.log('==d=> ', d);
-    setSelectedNode(d);
   };
 
   const computeNodesAndLinks = useCallback(async () => {
@@ -91,7 +88,22 @@ function Graph() {
     .attr('r', getAuthorNodeRadius)
     .style('stroke', 'red')
     .style('fill', (d) => getColorScale(papersCountDomain, NODE_COLOR_RANGE)(d.papersCount))
-    .on('click', (ev, d) => console.log(d))
+    .on('click', (ev, d) => {
+      const { forename, surname } = d;
+      let { papers } = d;
+      papers = papers.map((paper) => {
+        const { authors, title } = paper;
+        const authorNames = authors.map((author) => `${author.forename}. ${author.surname}`);
+        return {
+          authorNames,
+          title,
+        };
+      });
+      setSelectedNode({
+        fullName: `${forename}. ${surname}`,
+        papers,
+      });
+    })
     .call(
       d3
         .drag()
@@ -131,15 +143,34 @@ function Graph() {
   }, [nodes, links, nodeElements, linkElements]);
 
   return (
-    <div>
-      <button onClick={testClick}>Test</button>
+    <div className="coauthorship-graph-container">
+      <div className="coauthorship-results">
+        {selectedNode ? (
+          <div className="author-info">
+            <div className="author-info-title">{selectedNode.fullName}</div>
+            <div className="author-info-list">
+              {selectedNode.papers.map((paper, i) => (
+                <div key={i} className="author-info-list-item">
+                  <div className="author-info-list-item-title">{paper.title}</div>
+                  <div className="author-info-list-item-subtitle">{paper.authorNames.join(', ')}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="item">
+            <div className="item-title">No coauthorship node selected.</div>
+            <div className="item-subtitle">Click on a red node to view more information.</div>
+          </div>
+        )}
+      </div>
       <svg
+        className="coauthorship-graph"
         id="coauthorshipGraph"
         width={WIDTH}
         height={HEIGHT}
         viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
       />
-      <div>{}</div>
     </div>
   );
 }

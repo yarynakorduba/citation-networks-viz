@@ -81,6 +81,7 @@ function Graph() {
     .join(...getD3ElementLifecycle('circle'))
     .attr('r', getCiteNodeRadius)
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
+    .on('click', (ev, d) => { console.log(d) })
     .call(
       d3
         .drag()

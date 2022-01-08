@@ -1,13 +1,188 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --navbar-height: 80px;
+}
 
 body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.navbar {
+  height: var(--navbar-height);
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bb2222;
+}
+
+.navbar-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-subtitle {
+  font-size: 14px;
+  padding-top: 4px;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: rgba(245, 247, 248, 0.5);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid rgba(211, 206, 206, 0.404);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(0.96);
+}
+
+.card-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-img {
+  height: 95px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card-body {
+  border-top: 1px solid rgba(211, 206, 206, 0.404);
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.4em;
+}
+
+.card-subtitle {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5em;
+}
+
+.coauthorship-graph-container {
+  display: flex;
+}
+
+.coauthorship-graph {
+  border: 1px solid rgba(211, 206, 206, 0.404);
+  border-radius: 6px;
+}
+
+.top-right-btn {
+  position: absolute;
+  top: calc(var(--navbar-height) + 15px);
+  right: 15px;
+}
+
+.coauthorship-results {
+  border-radius: 6px;
+  margin-right: 10px;
+  padding: 20px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.4em;
+}
+
+.item-subtitle {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5em;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-info-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+
+.author-info-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  overflow: auto;
+}
+
+.author-info-list-item {
+  background-color: rgb(213 185 185 / 16%);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.author-info-list-item-title {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.author-info-list-item-subtitle {
+  font-size: 10px;
+  color: grey;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c7c1c1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
