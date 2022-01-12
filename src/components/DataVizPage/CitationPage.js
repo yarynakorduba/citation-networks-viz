@@ -1,36 +1,34 @@
-import { useState, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { toLower, includes } from 'ramda';
+
 import CitationGraph from '../Graph/CitationGraph';
 import Search from '../Search';
 
-import { useLoadData } from '../../hooks/graph';
-import { useEffect } from 'react/cjs/react.development';
+import { useLoadData, useSearchWithNodeHighlighting } from '../../hooks/graph';
 
 function CitationPage() {
-  const [searchInput, setSearchInput] = useState('');
   const [data] = useLoadData('citeData.json');
 
-  const [formattedData, seFormattedData] = useState('');
-
-  const lowerSearchInput = useMemo(() => toLower(searchInput), [searchInput]);
+  const [formattedData, setFormattedData] = useState('');
   useEffect(() => {
-    if (!searchInput) {
-      seFormattedData(data);
-    } else {
-      const updatedData = data.map(({ title, authors, ...rest }) => {
-        const authorsString = authors.map(({ forename, surname }) => `${forename} ${surname}`).join(' ');
-        const stringToCompare = toLower(`${title} ${authorsString}`);
-        const isHighlighted = includes(lowerSearchInput, stringToCompare);
-        return {
-          ...rest,
-          title,
-          authors,
-          isHighlighted,
-        };
-      });
-      seFormattedData(updatedData);
-    }
-  }, [data, lowerSearchInput, searchInput]);
+    const updatedData = data.map(({ title, ...paper }) => ({
+      ...paper,
+      id: title,
+      title,
+    }));
+    setFormattedData(updatedData);
+  }, [setFormattedData, data]);
+
+  const searcher =
+    (lowerSearchInput) =>
+    ({ id, title, authors }) => {
+      const authorsString = authors.map(({ forename, surname }) => `${forename} ${surname}`).join(' ');
+      const stringToCompare = toLower(`${title} ${authorsString}`);
+      const isHighlighted = includes(lowerSearchInput, stringToCompare);
+      return { id, isHighlighted };
+    };
+
+  const { searchInput, setSearchInput } = useSearchWithNodeHighlighting(formattedData, searcher);
 
   return (
     <div>

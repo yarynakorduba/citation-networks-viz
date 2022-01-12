@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback, useRef, useMemo, memo } from 'react';
 import * as d3 from 'd3';
-import { reduce, slice, indexBy, filter, compose, map, prop } from 'ramda';
+import { reduce, indexBy, filter, compose, map, prop } from 'ramda';
 
 import { ticked, getColorScale, getD3ElementLifecycle } from '../../helpers/graph';
-import { useDnD, useLoadData, useArrowMarker } from '../../hooks/graph';
+import { useDnD, useArrowMarker } from '../../hooks/graph';
 
 import './Graph.scss';
 
@@ -30,11 +30,7 @@ function Graph({ data }) {
 
   const computeNodesAndLinks = useCallback(async () => {
     if (data) {
-      const nodes = d3.map(data, ({ title, ...paper }, index) => ({
-        ...paper,
-        id: title,
-        order: index,
-      }));
+      const nodes = data;
       const nodeIdsObj = indexBy(prop('id'), nodes);
       const links = reduce(
         (accum, { title, citations }) => {
@@ -50,7 +46,6 @@ function Graph({ data }) {
         [],
         data,
       );
-
       setNodes(nodes);
       setLinks(links);
     }
@@ -75,19 +70,13 @@ function Graph({ data }) {
     .data(nodes)
     .join(...getD3ElementLifecycle('circle'))
     .attr('r', getCiteNodeRadius)
-    .attr('stroke', (d) => (d.isHighlighted ? '#2929a9' : 'none'))
+    .attr('id', (d) => d.id)
+    .attr('stroke', 'transparent')
     .attr('stroke-width', 3)
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
     .on('click', (ev, d) => {
       console.log(d);
-    })
-    .call(
-      d3
-        .drag()
-        .on('start', (ev, d) => dragstarted(simulationRef.current)(ev, d))
-        .on('drag', (ev, d) => dragged(simulationRef.current)(ev, d))
-        .on('end', (ev, d) => dragended(simulationRef.current)(ev, d)),
-    );
+    });
 
   useEffect(() => {
     simulationRef.current = d3
@@ -107,6 +96,11 @@ function Graph({ data }) {
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements, WIDTH, HEIGHT));
     simulationRef.current.force('link').links(links);
   }, [nodes, links, nodeElements, linkElements]);
+
+  useEffect(() => {
+    const simulationStop = setTimeout(() => simulationRef.current.stop(), 5000);
+    return () => clearTimeout(simulationStop);
+  }, []);
 
   return (
     <svg

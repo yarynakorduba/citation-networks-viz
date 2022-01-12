@@ -1,5 +1,7 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState, useMemo } from 'react';
 import * as d3 from 'd3';
+import { toLower } from 'ramda';
+import { useDebounce } from 'use-debounce';
 
 export const useLoadData = (fileName) => {
   const [data, setData] = useState([]);
@@ -54,4 +56,33 @@ export const useArrowMarker = (markerId) => {
       .attr('fill', '#999')
       .style('stroke', 'none');
   }, [markerId]);
+};
+
+export const useSearchWithNodeHighlighting = (data, searcher) => {
+  const [searchInput, setSearchInput] = useState('');
+  const [debouncedSearchInput] = useDebounce(searchInput, 400);
+  const [highlighted, setHighlighted] = useState([]);
+  const lowerSearchInput = useMemo(() => toLower(debouncedSearchInput), [debouncedSearchInput]);
+
+  useEffect(() => {
+    if (debouncedSearchInput) {
+      const newHighlighted = data.map(searcher(lowerSearchInput));
+      setHighlighted(newHighlighted);
+    } else {
+      setHighlighted(data);
+    }
+  }, [data, lowerSearchInput, debouncedSearchInput, setHighlighted, searcher]);
+
+  useEffect(() => {
+    highlighted.map(
+      ({ id, isHighlighted }) =>
+        console.log(id, document.getElementById(id)) ||
+        document.getElementById(id)?.setAttribute('stroke', isHighlighted ? 'blue' : 'none'),
+    );
+  }, [highlighted]);
+
+  return {
+    searchInput,
+    setSearchInput,
+  };
 };

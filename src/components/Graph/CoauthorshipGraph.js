@@ -20,7 +20,7 @@ const getCiteCollisionRadius =
   (domain, range = [1, 7]) =>
   (d) =>
     getAuthorNodeRadius(domain, range)(d) > 4
-      ? getAuthorNodeRadius(domain, range)(d) * 10
+      ? getAuthorNodeRadius(domain, range)(d) * 5
       : getAuthorNodeRadius(domain, range)(d);
 
 function Graph({ data, setSelectedNode }) {
@@ -61,7 +61,6 @@ function Graph({ data, setSelectedNode }) {
         (d) => values(d),
       )(data.coauthorships);
 
-      console.log('-', nodes);
       setNodes(nodes);
       setLinks(links);
     }
@@ -84,7 +83,9 @@ function Graph({ data, setSelectedNode }) {
     .data(nodes)
     .join(...getD3ElementLifecycle('circle'))
     .attr('r', (d) => getAuthorNodeRadius(papersCountDomain, [2, 7])(d.papersCount))
-    .style('stroke', 'red')
+    .attr('id', (d) => d.id)
+    .attr('stroke', 'transparent')
+    .attr('stroke-width', 3)
     .style('fill', (d) => getColorScale(papersCountDomain, NODE_COLOR_RANGE)(d.papersCount))
     .on('click', (ev, d) => {
       const { forename, surname } = d;
@@ -106,7 +107,7 @@ function Graph({ data, setSelectedNode }) {
     simulationRef.current = d3
       .forceSimulation()
       .alphaDecay(0.03)
-      .force('charge', d3.forceManyBody().distanceMin(3).distanceMax(50).strength(-40))
+      .force('charge', d3.forceManyBody().distanceMin(3).distanceMax(50).strength(-50))
       .force(
         'center',
         d3

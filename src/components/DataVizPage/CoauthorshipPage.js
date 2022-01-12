@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useMemo, useCallback } from 'react';
+import { compose, values, mapObjIndexed, toLower, includes } from 'ramda';
 
-import { useLoadData } from '../../hooks/graph';
+import { useLoadData, useSearchWithNodeHighlighting } from '../../hooks/graph';
 
 import CoauthorshipGraph from '../Graph/CoauthorshipGraph';
 import Search from '../Search';
@@ -8,8 +9,33 @@ import Search from '../Search';
 function CoauthorshipPage() {
   const [data] = useLoadData('authData.json');
 
-  const [searchInput, setSearchInput] = useState('');
   const [selectedNode, setSelectedNode] = useState(undefined);
+
+  const formattedAuthorsForSearch = useMemo(
+    () =>
+      compose(
+        (d) => d,
+        (d) => values(d),
+        mapObjIndexed((author, id) => ({
+          ...author,
+          id,
+        })),
+      )(data.authors),
+    [data],
+  );
+
+  console.log('---data -- >', formattedAuthorsForSearch);
+  const searcher = useCallback(
+    (lowerSearchInput) =>
+      ({ id, forename, surname }) => {
+        const stringToCompare = toLower(`${forename} ${surname}`);
+        const isHighlighted = includes(lowerSearchInput, stringToCompare);
+        return { id, isHighlighted };
+      },
+    [],
+  );
+
+  const { searchInput, setSearchInput } = useSearchWithNodeHighlighting(formattedAuthorsForSearch, searcher);
 
   return (
     <div className="coauthorship-graph-container">
