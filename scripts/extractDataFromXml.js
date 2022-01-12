@@ -9,7 +9,7 @@ const stat = util.promisify(fs.stat);
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
-// npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/citeData.json ./src/assets/authData.json
+// npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/citeData-try-to-clean.json ./src/assets/authData-try-to-clean.json
 
 const getArgs = () => {
   const inputDirectoryPath = process.argv[2];
@@ -45,10 +45,17 @@ const safeGetText = (tag) => (tag ? tag.getText() : '');
 
 const getAuthors = R.compose(
   R.filter(({ forename, surname }) => {
-    return !(forename === '' && surname === '');
+    return !(surname === '' || R.includes('†', [forename, surname]));
   }),
   R.map((tag) => {
-    const forename = R.compose(R.toUpper, R.head, R.trim, safeGetText, (t) => t.find('forename'))(tag);
+    const forename = R.compose(
+      R.toUpper,
+      (word) => word.replace(/[ +-]+$/gi, '').trim(),
+      R.head,
+      R.trim,
+      safeGetText,
+      (t) => t.find('forename'),
+    )(tag);
 
     const surname = R.compose(
       R.trim(),
@@ -103,6 +110,7 @@ const retrieveDataFromFileAsJSON = async (filePath) => {
     )(soup);
 
     return {
+      filePath,
       title,
       authors,
       keywords,
@@ -142,7 +150,6 @@ const convertDataForCitationGraph = (data) => {
 const convertDataForAuthorGraph = (data) => {
   const authors = R.reduce(
     (accum, paper) => {
-      console.log('===>>> ', paper.title);
       const { authors: authorsAccum, coauthorships: coauthorshipsAccum } = accum;
       let paperAuthors = { ...authorsAccum };
       let paperCoauthorships = { ...coauthorshipsAccum };
@@ -169,13 +176,6 @@ const convertDataForAuthorGraph = (data) => {
           const coauthorship = paperCoauthorships[coAuthKey] || {};
           const papers = coauthorship.papers || [];
 
-          // const secondAuthorPapersCount = R.pathOr(0, [firstAuthorName, 'papersCount'], paperAuthors);
-
-          // paperAuthors = {
-          //   ...paperAuthors,
-          //   [firstAuthorName]: { ...paper.authors[i], papersCount: firstAuthorPapersCount + 1 },
-          //   [secondAuthorName]: { ...paper.authors[j], papersCount: secondAuthorPapersCount + 1 },
-          // };
           paperCoauthorships = {
             ...paperCoauthorships,
             [coAuthKey]: {
@@ -192,8 +192,6 @@ const convertDataForAuthorGraph = (data) => {
     { authors: {}, coauthorships: {} },
     data,
   );
-
-  //   console.log('----authors --- > ', authors);
   return authors;
 };
 
@@ -204,7 +202,9 @@ const run = async () => {
 
     const filePaths = await getXMLFilePaths(inputDirectoryPath);
     const data = await Promise.all(R.map(retrieveDataFromFileAsJSON)(filePaths));
-    const filteredData = R.filter((item) => !!item, data);
+    const filteredData = R.filter((item) => {
+      return !!item && item.title && item.authors && item.authors.length;
+    }, data);
 
     // const convertedCiteData = convertDataForCitationGraph(filteredData);
     const convertedAuthorData = convertDataForAuthorGraph(filteredData);

@@ -74,11 +74,11 @@ export const useSearchWithNodeHighlighting = (data, searcher) => {
   }, [data, lowerSearchInput, debouncedSearchInput, setHighlighted, searcher]);
 
   useEffect(() => {
-    highlighted.map(
-      ({ id, isHighlighted }) =>
-        console.log(id, document.getElementById(id)) ||
-        document.getElementById(id)?.setAttribute('stroke', isHighlighted ? 'blue' : 'none'),
-    );
+    highlighted &&
+      highlighted.map(({ id, isHighlighted }) => {
+        const element = document.getElementById(id);
+        element && element.setAttribute('stroke', isHighlighted ? 'blue' : 'none');
+      });
   }, [highlighted]);
 
   return {

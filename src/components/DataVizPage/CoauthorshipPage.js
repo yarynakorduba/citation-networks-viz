@@ -7,7 +7,7 @@ import CoauthorshipGraph from '../Graph/CoauthorshipGraph';
 import Search from '../Search';
 
 function CoauthorshipPage() {
-  const [data] = useLoadData('authData.json');
+  const [data] = useLoadData('authData1.json');
 
   const [selectedNode, setSelectedNode] = useState(undefined);
 
@@ -24,7 +24,6 @@ function CoauthorshipPage() {
     [data],
   );
 
-  console.log('---data -- >', formattedAuthorsForSearch);
   const searcher = useCallback(
     (lowerSearchInput) =>
       ({ id, forename, surname }) => {
