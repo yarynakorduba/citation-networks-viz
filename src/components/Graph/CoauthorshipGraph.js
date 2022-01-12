@@ -1,9 +1,8 @@
-import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo, memo } from 'react';
 import * as d3 from 'd3';
-import { slice, pathOr, keys, compose, map, prop, values, mapObjIndexed } from 'ramda';
+import { pathOr, keys, compose, map, prop, values, mapObjIndexed } from 'ramda';
 
 import { ticked, getColorScale, getD3ElementLifecycle } from '../../helpers/graph';
-import { useDnD, useLoadData } from '../../hooks/graph';
 
 import './Graph.scss';
 
@@ -13,16 +12,22 @@ const COLOR_RANGE = ['#CCCCCC', 'blue'];
 const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 
 // citation graph-related
-const getAuthorNodeRadius = (d) => Math.sqrt((5 * d.papersCount) / Math.PI);
-const getCiteCollisionRadius = (d) =>
-  getAuthorNodeRadius(d) > 4 ? getAuthorNodeRadius(d) * 10 : getAuthorNodeRadius(d);
+const getAuthorNodeRadius =
+  (domain, range = [1, 7]) =>
+  (d) =>
+    d3.scaleLog().domain(domain).range(range)(d);
+const getCiteCollisionRadius =
+  (domain, range = [1, 7]) =>
+  (d) =>
+    getAuthorNodeRadius(domain, range)(d) > 4
+      ? getAuthorNodeRadius(domain, range)(d) * 10
+      : getAuthorNodeRadius(domain, range)(d);
 
-function Graph() {
+function Graph({ data, setSelectedNode }) {
+  const svg = d3.select('svg#coauthorshipGraph');
+
   const [links, setLinks] = useState([]);
   const [nodes, setNodes] = useState([]);
-  const [selectedNode, setSelectedNode] = useState(null);
-
-  const [data, setData] = useLoadData('authData.json');
 
   const authorshipDomain = useMemo(
     () => d3.extent(values(pathOr({}, ['coauthorships'], data)), (d) => (d.papers || []).length),
@@ -34,14 +39,7 @@ function Graph() {
     [data],
   );
 
-  const svg = d3.select('svg#coauthorshipGraph');
-
   const simulationRef = useRef(null);
-  const { dragstarted, dragged, dragended } = useDnD();
-
-  const testClick = () => {
-    setData(slice(1, data.length - 20, data));
-  };
 
   const computeNodesAndLinks = useCallback(async () => {
     if (data && keys(data).length) {
@@ -85,7 +83,7 @@ function Graph() {
     .selectAll('circle')
     .data(nodes)
     .join(...getD3ElementLifecycle('circle'))
-    .attr('r', getAuthorNodeRadius)
+    .attr('r', (d) => getAuthorNodeRadius(papersCountDomain, [2, 7])(d.papersCount))
     .style('stroke', 'red')
     .style('fill', (d) => getColorScale(papersCountDomain, NODE_COLOR_RANGE)(d.papersCount))
     .on('click', (ev, d) => {
@@ -103,20 +101,12 @@ function Graph() {
         fullName: `${forename}. ${surname}`,
         papers,
       });
-    })
-    .call(
-      d3
-        .drag()
-        .on('start', (ev, d) => dragstarted(simulationRef.current)(ev, d))
-        .on('drag', (ev, d) => dragged(simulationRef.current)(ev, d))
-        .on('end', (ev, d) => dragended(simulationRef.current)(ev, d)),
-    );
-
+    });
   useEffect(() => {
     simulationRef.current = d3
       .forceSimulation()
-      .alphaDecay(0.01)
-      .force('charge', d3.forceManyBody().distanceMin(3).distanceMax(50).strength(-20))
+      .alphaDecay(0.03)
+      .force('charge', d3.forceManyBody().distanceMin(3).distanceMax(50).strength(-40))
       .force(
         'center',
         d3
@@ -134,45 +124,26 @@ function Graph() {
               ? 3
               : d3.scaleLinear(authorshipDomain, [4, 50])(d.source.papersCount + d.target.papersCount),
           )
-          .strength(0.25),
+          .strength(0.5),
       )
-      .force('collision', d3.forceCollide(getCiteCollisionRadius).strength(0.25));
+      .force(
+        'collision',
+        d3.forceCollide((d) => getCiteCollisionRadius(papersCountDomain, [2, 7])(d.papersCount)).strength(0.25),
+      );
 
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements, WIDTH, HEIGHT));
     simulationRef.current.force('link').links(links);
-  }, [nodes, links, nodeElements, linkElements]);
+  }, [nodes, links, svg, authorshipDomain, papersCountDomain, setSelectedNode, nodeElements, linkElements]);
 
   return (
-    <div className="coauthorship-graph-container">
-      <div className="coauthorship-results">
-        {selectedNode ? (
-          <div className="author-info">
-            <div className="author-info-title">{selectedNode.fullName}</div>
-            <div className="author-info-list">
-              {selectedNode.papers.map((paper, i) => (
-                <div key={i} className="author-info-list-item">
-                  <div className="author-info-list-item-title">{paper.title}</div>
-                  <div className="author-info-list-item-subtitle">{paper.authorNames.join(', ')}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        ) : (
-          <div className="item">
-            <div className="item-title">No coauthorship node selected.</div>
-            <div className="item-subtitle">Click on a red node to view more information.</div>
-          </div>
-        )}
-      </div>
-      <svg
-        className="coauthorship-graph"
-        id="coauthorshipGraph"
-        width={WIDTH}
-        height={HEIGHT}
-        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
-      />
-    </div>
+    <svg
+      className="coauthorship-graph"
+      id="coauthorshipGraph"
+      width={WIDTH}
+      height={HEIGHT}
+      viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
+    />
   );
 }
 
-export default Graph;
+export default memo(Graph);

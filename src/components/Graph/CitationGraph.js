@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo, memo } from 'react';
 import * as d3 from 'd3';
 import { reduce, slice, indexBy, filter, compose, map, prop } from 'ramda';
 
@@ -16,11 +16,10 @@ const ARROW_MARKER_ID = 'arrowhead';
 const getCiteNodeRadius = (d) => Math.sqrt((10 + 100 * d.citedBy) / Math.PI);
 const getCiteCollisionRadius = (d) => getCiteNodeRadius(d) + 5;
 
-function Graph() {
+function Graph({ data }) {
   const [links, setLinks] = useState([]);
   const [nodes, setNodes] = useState([]);
 
-  const [data, setData] = useLoadData('citeData.json');
   const citedByDomain = useMemo(() => d3.extent(data, (d) => d.citedBy), [data]);
 
   const svg = d3.select('svg#citationGraph');
@@ -28,10 +27,6 @@ function Graph() {
 
   const simulationRef = useRef(null);
   const { dragstarted, dragged, dragended } = useDnD();
-
-  const testClick = () => {
-    setData(slice(1, data.length - 20, data));
-  };
 
   const computeNodesAndLinks = useCallback(async () => {
     if (data) {
@@ -80,8 +75,12 @@ function Graph() {
     .data(nodes)
     .join(...getD3ElementLifecycle('circle'))
     .attr('r', getCiteNodeRadius)
+    .attr('stroke', (d) => (d.isHighlighted ? '#2929a9' : 'none'))
+    .attr('stroke-width', 3)
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
-    .on('click', (ev, d) => { console.log(d) })
+    .on('click', (ev, d) => {
+      console.log(d);
+    })
     .call(
       d3
         .drag()
@@ -93,6 +92,7 @@ function Graph() {
   useEffect(() => {
     simulationRef.current = d3
       .forceSimulation()
+      .alphaDecay(0.03)
       .force('charge', d3.forceManyBody().strength(0))
       .force(
         'center',
@@ -109,16 +109,13 @@ function Graph() {
   }, [nodes, links, nodeElements, linkElements]);
 
   return (
-    <div>
-      <button onClick={testClick}>Test</button>
-      <svg
-        id="citationGraph"
-        width={WIDTH}
-        height={HEIGHT}
-        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
-      />
-    </div>
+    <svg
+      id="citationGraph"
+      width={WIDTH}
+      height={HEIGHT}
+      viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
+    />
   );
 }
 
-export default Graph;
+export default memo(Graph);

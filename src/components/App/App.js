@@ -1,6 +1,6 @@
-import CitationGraph from '../Graph/CitationGraph';
-import CoauthorshipGraph from '../Graph/CoauthorshipGraph';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import CitationPage from '../DataVizPage/CitationPage';
+import CoauthorshipPage from '../DataVizPage/CoauthorshipPage';
 import Home from '../../views/Home';
 import Navbar from '../../components/Navbar';
 import './App.scss';
@@ -8,16 +8,16 @@ import './App.scss';
 function App() {
   return (
     <>
-      <Navbar />
       <main className="app">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/citation" element={<CitationGraph />} />
-            <Route path="/coauthorship" element={<CoauthorshipGraph />} />
+            <Route path="/citation" element={<CitationPage />} />
+            <Route path="/coauthorship" element={<CoauthorshipPage />} />
           </Routes>
         </BrowserRouter>
       </main>
+      <Navbar />
     </>
   );
 }

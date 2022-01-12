@@ -7,7 +7,7 @@ export const useLoadData = (fileName) => {
   const loadData = useCallback(async () => {
     const loadedData = await d3.json(fileName);
     setData(loadedData);
-  }, [setData]);
+  }, [fileName]);
 
   useEffect(() => {
     loadData();
