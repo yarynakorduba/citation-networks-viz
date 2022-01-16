@@ -72,6 +72,9 @@ const getAuthors = R.compose(
 const retrieveDataFromFileAsJSON = async (filePath) => {
   console.log(chalk.magentaBright(`Starting retrieval of the data from file: ${filePath}`));
 
+  const yearStr = filePath.match(/Vast-[0-9]{4}/g);
+  const year = yearStr && yearStr[0].split('-')[1];
+
   const fileContent = await readFile(filePath, 'utf8');
   try {
     const soup = new JSSoup(fileContent);
@@ -110,6 +113,7 @@ const retrieveDataFromFileAsJSON = async (filePath) => {
     )(soup);
 
     return {
+      year,
       filePath,
       title,
       authors,
@@ -163,7 +167,7 @@ const convertDataForAuthorGraph = (data) => {
           [firstAuthorName]: {
             ...existingFirstAuthorProp,
             papersCount: authorPapersCount + 1,
-            papers: [...authorPapers, { title: paper.title, authors: paper.authors }],
+            papers: [...authorPapers, { title: paper.title, authors: paper.authors, year: paper.years }],
           },
         };
         for (let j = i + 1; j < paper.authors.length; j++) {
@@ -206,16 +210,16 @@ const run = async () => {
       return !!item && item.title && item.authors && item.authors.length;
     }, data);
 
-    // const convertedCiteData = convertDataForCitationGraph(filteredData);
+    const convertedCiteData = convertDataForCitationGraph(filteredData);
     const convertedAuthorData = convertDataForAuthorGraph(filteredData);
 
-    // const formattedCiteData = R.compose(JSON.stringify)(convertedCiteData);
+    const formattedCiteData = R.compose(JSON.stringify)(convertedCiteData);
     const formattedAuthorData = R.compose(JSON.stringify)(convertedAuthorData);
 
-    // console.log(chalk.greenBright(`Writing the citation data to JSON file: ${outputJSONCitationFilePath}`));
+    console.log(chalk.greenBright(`Writing the citation data to JSON file: ${outputJSONCitationFilePath}`));
     console.log(chalk.greenBright(`Writing the author data to JSON file: ${outputJSONAuthorFilePath}`));
 
-    // await writeFile(outputJSONCitationFilePath, formattedCiteData);
+    await writeFile(outputJSONCitationFilePath, formattedCiteData);
     await writeFile(outputJSONAuthorFilePath, formattedAuthorData);
 
     return { formattedCiteData: [], formattedAuthorData };
