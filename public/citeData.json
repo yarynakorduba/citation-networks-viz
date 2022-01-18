@@ -1,5 +1,6 @@
 [
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_bethel.pdf.tei.xml",
     "title": "Accelerating Network Traffic Analytics Using Query-Driven Visualization",
     "authors": [
@@ -14,6 +15,7 @@
     "citedBy": 1
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_bilgic.pdf.tei.xml",
     "title": "D-Dupe: An Interactive Tool for Entity Resolution in Social Networks",
     "authors": [
@@ -34,6 +36,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_brennan.pdf.tei.xml",
     "title": "Toward a Multi-Analyst, Collaborative Framework for Visual Analytics",
     "authors": [
@@ -48,6 +51,7 @@
     "citedBy": 1
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_card.pdf.tei.xml",
     "title": "TimeTree: Exploring Time Changing Hierarchies",
     "authors": [
@@ -68,6 +72,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_chen.pdf.tei.xml",
     "title": "Visual Analysis of Conflicting Opinions",
     "authors": [
@@ -88,6 +93,7 @@
     "citedBy": 1
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_chi.pdf.tei.xml",
     "title": "ScentIndex: Conceptually Reorganizing Subject Indexes for Reading",
     "authors": [
@@ -105,6 +111,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_eick.pdf.tei.xml",
     "title": "Visualizing the Performance of Computational Linguistics Algorithms",
     "authors": [
@@ -122,6 +129,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_fails.pdf.tei.xml",
     "title": "A Visual Interface for Multivariate Temporal Data: Finding Patterns of Events across Multiple Histories",
     "authors": [
@@ -140,6 +148,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_gotz.pdf.tei.xml",
     "title": "Interactive Visual Synthesis of Analytic Knowledge",
     "authors": [
@@ -158,6 +167,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_kang.pdf.tei.xml",
     "title": "NetLens: Iterative Exploration of Content-Actor Network Data",
     "authors": [
@@ -182,6 +192,7 @@
     "citedBy": 3
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_keim.pdf.tei.xml",
     "title": "Monitoring Network Traffic with Radial Traffic Analyzer",
     "authors": [
@@ -199,6 +210,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_luo.pdf.tei.xml",
     "title": "Exploring Large-Scale Video News via Interactive Visualization",
     "authors": [
@@ -220,6 +232,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_mehta.pdf.tei.xml",
     "title": "Visual Exploration of Spatio-temporal Relationships for Scientific Data",
     "authors": [
@@ -236,6 +249,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_pattath.pdf.tei.xml",
     "title": "Interactive Visualization and Analysis of Network and Sensor Data on Mobile Devices",
     "authors": [
@@ -258,6 +272,7 @@
     "citedBy": 1
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_proulx.pdf.tei.xml",
     "title": "Avian Flu Case Study with nSpace and GeoTime",
     "authors": [
@@ -280,6 +295,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_schneidewind.pdf.tei.xml",
     "title": "Pixnostics: Towards Measuring the Value of Visualization",
     "authors": [
@@ -298,6 +314,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_scholtz.pdf.tei.xml",
     "title": "Beyond Usability: Evaluation Aspects of Visual Analytic Environments",
     "authors": [{ "forename": "J", "surname": "Scholtz" }],
@@ -311,6 +328,7 @@
     "citedBy": 1
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_sifer.pdf.tei.xml",
     "title": "User Interfaces for the Exploration of Hierarchical Multi-dimensional Data",
     "authors": [{ "forename": "M", "surname": "Sifer" }],
@@ -319,6 +337,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_theron.pdf.tei.xml",
     "title": "Visual Analytics of Paleoceanographic Conditions",
     "authors": [{ "forename": "R", "surname": "Theron" }],
@@ -333,6 +352,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_wang.pdf.tei.xml",
     "title": "Interactive Wormhole Detection in Large Scale Wireless Networks",
     "authors": [
@@ -348,6 +368,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_weaver.pdf.tei.xml",
     "title": "Visual Analysis of Historic Hotel Visitation Patterns",
     "authors": [
@@ -369,6 +390,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_wong.pdf.tei.xml",
     "title": "Have Green – A Visual Analytics Framework for Large Semantic Graphs",
     "authors": [
@@ -390,6 +412,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_xiao.pdf.tei.xml",
     "title": "Enhancing Visual Analysis of Network Traffic Using a Knowledge Representation",
     "authors": [
@@ -407,6 +430,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_xie.pdf.tei.xml",
     "title": "Exploratory Visualization of Multivariate Data with Variable Quality *",
     "authors": [
@@ -425,6 +449,7 @@
     "citedBy": 0
   },
   {
+    "year": "2006",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_yang.pdf.tei.xml",
     "title": "Semantic Image Browser: Bridging Information Visualization with Automated Intelligent Image Analysis",
     "authors": [
@@ -445,6 +470,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_andrienko.pdf.tei.xml",
     "title": "Visual Analytics Approach to User-Controlled Evacuation Scheduling",
     "authors": [
@@ -464,6 +490,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_bertini.pdf.tei.xml",
     "title": "SpiralView: Towards Security Policies Assessment through Visual Correlation of Network Resources with Evolution of Alarms",
     "authors": [
@@ -485,6 +512,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_brandes.pdf.tei.xml",
     "title": "Visual Analysis of Controversy in User-generated Encyclopedias *",
     "authors": [
@@ -496,6 +524,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_chang.pdf.tei.xml",
     "title": "WireVis: Visualization of Categorical, Time-Varying Data From Financial Transactions",
     "authors": [
@@ -521,6 +550,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_cuadros.pdf.tei.xml",
     "title": "Point Placement by Phylogenetic Trees and its Application to Visual Analysis of Document Collections",
     "authors": [
@@ -540,6 +570,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_eccles.pdf.tei.xml",
     "title": "Stories in GeoTime",
     "authors": [
@@ -557,6 +588,7 @@
     "citedBy": 3
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_eick.pdf.tei.xml",
     "title": "Thin Client Visualization",
     "authors": [
@@ -577,6 +609,7 @@
     "citedBy": 2
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_elmqvist.pdf.tei.xml",
     "title": "DataMeadow: A Visual Canvas for Analysis of Large-Scale Multivariate Data",
     "authors": [
@@ -597,6 +630,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_ghoniem.pdf.tei.xml",
     "title": "NewsLab: Exploratory Broadcast News Video Analysis",
     "authors": [
@@ -618,6 +652,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_hao.pdf.tei.xml",
     "title": "Intelligent Visual Analytics Queries",
     "authors": [
@@ -640,6 +675,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_heer.pdf.tei.xml",
     "title": "Design Considerations for Collaborative Visual Analytics",
     "authors": [
@@ -668,6 +704,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_janoos.pdf.tei.xml",
     "title": "Activity Analysis Using Spatio-Temporal Trajectory Volumes in Surveillance Applications",
     "authors": [
@@ -686,6 +723,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_keim.pdf.tei.xml",
     "title": "Literature Fingerprinting: A New Method for Visual Literary Analysis",
     "authors": [
@@ -705,6 +743,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_kim.pdf.tei.xml",
     "title": "Visual Analytics on Mobile Devices for Emergency Response",
     "authors": [
@@ -726,6 +765,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_lam.pdf.tei.xml",
     "title": "Session Viewer: Visual Exploratory Analysis of Web Session Logs",
     "authors": [
@@ -744,6 +784,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_luo.pdf.tei.xml",
     "title": "Analyzing Large-Scale News Video Databases to Support Knowledge Visualization and Intuitive Retrieval",
     "authors": [
@@ -766,6 +807,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_maciejewski.pdf.tei.xml",
     "title": "LAHVA: Linked Animal-Human Health Visual Analytics",
     "authors": [
@@ -785,6 +827,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_nam.pdf.tei.xml",
     "title": "ClusterSculptor: A Visual Analytics Tool for High-Dimensional Data",
     "authors": [
@@ -804,6 +847,7 @@
     "citedBy": 2
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_pan.pdf.tei.xml",
     "title": "FemaRepViz: Automatic Extraction and Geo-Temporal Visualization of FEMA National Situation Updates",
     "authors": [
@@ -820,6 +864,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_shaw.pdf.tei.xml",
     "title": "IMAS: The Interactive Multigenomic Analysis System",
     "authors": [
@@ -841,6 +886,7 @@
     "citedBy": 1
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_stasko.pdf.tei.xml",
     "title": "Jigsaw: Supporting Investigative Analysis through Interactive Visualization",
     "authors": [
@@ -859,6 +905,7 @@
     "citedBy": 3
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_suh.pdf.tei.xml",
     "title": "Us vs. Them: Understanding Social Dynamics in Wikipedia with Revert Graph Visualizations",
     "authors": [
@@ -879,6 +926,7 @@
     "citedBy": 0
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_tesone.pdf.tei.xml",
     "title": "Balancing Interactive Data Management of Massive Data with Situational Awareness through Smart Aggregation",
     "authors": [
@@ -903,6 +951,7 @@
     "citedBy": 2
   },
   {
+    "year": "2007",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_yang.pdf.tei.xml",
     "title": "Analysis Guided Visual Exploration of Multivariate Data",
     "authors": [
@@ -922,6 +971,7 @@
     "citedBy": 1
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_andrienk.pdf.tei.xml",
     "title": "Spatio-temporal Aggregation for Visual Analysis of Movements",
     "authors": [
@@ -939,6 +989,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_aragon.pdf.tei.xml",
     "title": "Using Visual Analytics to Maintain Situation Awareness in Astrophysics",
     "authors": [
@@ -1030,6 +1081,7 @@
     "citedBy": 1
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_barlowe.pdf.tei.xml",
     "title": "Multivariate Visual Explanation for High Dimensional Datasets",
     "authors": [
@@ -1052,6 +1104,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_bier.pdf.tei.xml",
     "title": "Entity-Based Collaboration Tools for Intelligence Analysis",
     "authors": [
@@ -1069,6 +1122,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_chan.pdf.tei.xml",
     "title": "Maintaining Interactivity While Exploring Massive Time Series",
     "authors": [
@@ -1086,6 +1140,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_fisher.pdf.tei.xml",
     "title": "Narratives: A Visualization to Track Narrative Events as they Develop",
     "authors": [
@@ -1104,6 +1159,7 @@
     "citedBy": 1
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_garg.pdf.tei.xml",
     "title": "Model-Driven Visual Analytics",
     "authors": [
@@ -1155,6 +1211,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_gotz.pdf.tei.xml",
     "title": "Characterizing Users&apos; Visual Analytic Activity for Insight Provenance",
     "authors": [
@@ -1171,6 +1228,7 @@
     "citedBy": 4
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_green.pdf.tei.xml",
     "title": "Visual Analytics for Complex Concepts Using a Human Cognition Model",
     "authors": [
@@ -1188,6 +1246,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_jeong.pdf.tei.xml",
     "title": "Evaluating the Relationship Between User Interaction and Financial Visual Analysis",
     "authors": [
@@ -1212,6 +1271,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_kapler.pdf.tei.xml",
     "title": "Configurable Spaces: Temporal Analysis in Diagrammatic Contexts",
     "authors": [
@@ -1233,6 +1293,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_maciejew.pdf.tei.xml",
     "title": "Understanding Syndromic Hotspots -A Visual Analytics Approach",
     "authors": [
@@ -1252,6 +1313,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_oelke.pdf.tei.xml",
     "title": "Visual Evaluation of Text Features for Document Summarization and Analysis",
     "authors": [
@@ -1270,6 +1332,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_pike.pdf.tei.xml",
     "title": "The Scalable Reasoning System: Lightweight Visualization for Distributed Analytics",
     "authors": [
@@ -1311,6 +1374,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_reddy.pdf.tei.xml",
     "title": "Generating Hypotheses of Trends in High-Dimensional Data Skeletons",
     "authors": [
@@ -1327,6 +1391,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_robinson.pdf.tei.xml",
     "title": "Collaborative Synthesis of Visual Analytic Results",
     "authors": [{ "forename": "A", "surname": "Robinson" }],
@@ -1340,6 +1405,7 @@
     "citedBy": 1
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_savikhin.pdf.tei.xml",
     "title": "Applied Visual Analytics for Economic Decision-Making",
     "authors": [
@@ -1352,6 +1418,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_schreck.pdf.tei.xml",
     "title": "Visual Cluster Analysis of Trajectory Data With Interactive Kohonen Maps",
     "authors": [
@@ -1370,6 +1437,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_valle.pdf.tei.xml",
     "title": "Crystal Structures Classifier for an Evolutionary Algorithm Structure Predictor",
     "authors": [
@@ -1385,6 +1453,7 @@
     "citedBy": 0
   },
   {
+    "year": "2008",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_weaver.pdf.tei.xml",
     "title": "Multidimensional Visual Analysis Using Cross-Filtered Views",
     "authors": [{ "forename": "C", "surname": "Weaver" }],
@@ -1397,6 +1466,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_andrienk.pdf.tei.xml",
     "title": "Interactive Visual Clustering of Large Collections of Trajectories",
     "authors": [
@@ -1418,6 +1488,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_choo.pdf.tei.xml",
     "title": "Two-stage Framework for Visualization of Clustered High Dimensional Data",
     "authors": [
@@ -1435,6 +1506,7 @@
     "citedBy": 2
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_collins.pdf.tei.xml",
     "title": "Parallel Tag Clouds to Explore and Analyze Faceted Text Corpora",
     "authors": [
@@ -1447,6 +1519,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_correa.pdf.tei.xml",
     "title": "A Framework for Uncertainty-Aware Visual Analytics",
     "authors": [
@@ -1459,6 +1532,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_crnovrsa.pdf.tei.xml",
     "title": "Proximity-based Visualization of Movement Trace Data",
     "authors": [
@@ -1476,6 +1550,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_crossno.pdf.tei.xml",
     "title": "LSAView: A Tool for Visual Exploration of Latent Semantic Modeling ing parameter choices for LSA models. We illustrate the use of LSAView&apos;s small multiple views, linked matrix-graph views, and data views to analyze parameter selection and application in the context of graph layout and clustering",
     "authors": [
@@ -1493,6 +1568,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_dietzsch.pdf.tei.xml",
     "title": "SpRay: A Visual Analytics Approach for Gene Expression Data",
     "authors": [
@@ -1512,6 +1588,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_guo.pdf.tei.xml",
     "title": "Model Space Visualization for Multivariate Linear Trend Discovery",
     "authors": [
@@ -1529,6 +1606,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_han.pdf.tei.xml",
     "title": "A Visual Analytics System for Radio Frequency Fingerprinting-based Localization",
     "authors": [
@@ -1542,6 +1620,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_kadivar.pdf.tei.xml",
     "title": "Capturing and Supporting the Analysis Process",
     "authors": [
@@ -1574,6 +1653,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_kang.pdf.tei.xml",
     "title": "Evaluating Visual Analytics Systems for Investigative Analysis: Deriving Design Principles from a Case Study",
     "authors": [
@@ -1585,6 +1665,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_kincaid.pdf.tei.xml",
     "title": "MassVis: Visual Analysis of Protein Complexes Using Mass Spectrometry",
     "authors": [
@@ -1600,6 +1681,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_koch.pdf.tei.xml",
     "title": "Iterative Integration of Visual Insights during Patent Search and Analysis",
     "authors": [
@@ -1621,6 +1703,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_nouanese.pdf.tei.xml",
     "title": "Using Projection and 2D Plots to Visually Reveal Genetic Mechanisms of Complex Human Disorders",
     "authors": [
@@ -1638,6 +1721,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_oelke.pdf.tei.xml",
     "title": "Visual Opinion Analysis of Customer Feedback Data",
     "authors": [
@@ -1659,6 +1743,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_quan.pdf.tei.xml",
     "title": "Geovisual Analytics for Self-Organizing Network Data",
     "authors": [
@@ -1678,6 +1763,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_rose.pdf.tei.xml",
     "title": "Describing Story Evolution from Dynamic Information Streams",
     "authors": [
@@ -1697,6 +1783,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_rudolph.pdf.tei.xml",
     "title": "FinVis: Applied Visual Analytics for Personal Financial Planning",
     "authors": [
@@ -1715,6 +1802,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_shriniva.pdf.tei.xml",
     "title": "Connecting the Dots in Visual Analysis",
     "authors": [
@@ -1727,6 +1815,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_steed.pdf.tei.xml",
     "title": "Guided Analysis of Hurricane Trends Using Statistical Processes Integrated with Interactive Parallel Coordinates",
     "authors": [
@@ -1744,6 +1833,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_tatu.pdf.tei.xml",
     "title": "Combining automated analysis and visualization techniques for effective exploration of high-dimensional data",
     "authors": [
@@ -1768,6 +1858,7 @@
     "citedBy": 6
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_vonlande.pdf.tei.xml",
     "title": "Visual Analysis of Graphs with Multiple Connected Components",
     "authors": [
@@ -1787,6 +1878,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_whiting.pdf.tei.xml",
     "title": "VAST Contest Dataset Use in Education",
     "authors": [
@@ -1808,6 +1900,7 @@
     "citedBy": 1
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_wong.pdf.tei.xml",
     "title": "A Multi-Level Middle-Out Cross-Zooming Approach for Large Graph Analytics",
     "authors": [
@@ -1837,6 +1930,7 @@
     "citedBy": 0
   },
   {
+    "year": "2009",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_wongsuph.pdf.tei.xml",
     "title": "Finding Comparable Temporal Categorical Records: A Similarity Measure with an Interactive Visualization",
     "authors": [
@@ -1852,6 +1946,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_albuquer.pdf.tei.xml",
     "title": "Improving the Visual Analysis of High-dimensional Datasets Using Quality Measures",
     "authors": [
@@ -1888,6 +1983,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_andrienk.pdf.tei.xml",
     "title": "Discovering Bits of Place Histories from People&apos;s Activity Traces",
     "authors": [
@@ -1908,6 +2004,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_boukheli.pdf.tei.xml",
     "title": "Real-time Aggregation of Wikipedia Data for Visual Analytics",
     "authors": [
@@ -1924,6 +2021,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_chan.pdf.tei.xml",
     "title": "Flow-based Scatterplots for Sensitivity Analysis",
     "authors": [
@@ -1936,6 +2034,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_chen.pdf.tei.xml",
     "title": "Click2Annotate: Automated Insight Externalization with Rich Semantics",
     "authors": [
@@ -1953,6 +2052,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_choo.pdf.tei.xml",
     "title": "iVisClassifier: An Interactive Visual Analytics System for Classification Based on Supervised Dimension Reduction",
     "authors": [
@@ -1966,6 +2066,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_chung.pdf.tei.xml",
     "title": "VizCept: Supporting Synchronous Collaboration for Constructing Visualizations in Intelligence Analysis",
     "authors": [
@@ -1983,6 +2084,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_diakopou.pdf.tei.xml",
     "title": "Diamonds in the Rough: Social Media Visual Analytics for Journalistic Inquiry",
     "authors": [
@@ -2028,6 +2130,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_dou.pdf.tei.xml",
     "title": "Comparing Different Levels of Interaction Constraints for Deriving Visual Problem Isomorphs",
     "authors": [
@@ -2046,6 +2149,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_ferdosi.pdf.tei.xml",
     "title": "Finding and Visualizing Relevant Subspaces for Clustering High-Dimensional Astronomical Data Using Connected Morphological Operators",
     "authors": [
@@ -2065,6 +2169,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_garg.pdf.tei.xml",
     "title": "A Visual Analytics Approach to Model Learning",
     "authors": [
@@ -2081,6 +2186,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_green.pdf.tei.xml",
     "title": "Towards the Personal Equation of Interaction: The Impact of Personality Factors on Visual Analytics Interface Interaction",
     "authors": [
@@ -2099,6 +2205,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_ingram.pdf.tei.xml",
     "title": "DimStiller: Workflows for Dimensional Analysis and Reduction",
     "authors": [
@@ -2115,6 +2222,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_isenberg.pdf.tei.xml",
     "title": "An Exploratory Study of Co-located Collaborative Visual Analytics Around a Tabletop Display",
     "authors": [
@@ -2129,6 +2237,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_jin.pdf.tei.xml",
     "title": "Interactive Querying of Temporal Data Using A Comic Strip Metaphor *",
     "authors": [
@@ -2144,6 +2253,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_liao.pdf.tei.xml",
     "title": "Anomaly Detection in GPS Data Based on Visual Analytics",
     "authors": [
@@ -2160,6 +2270,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_lipford.pdf.tei.xml",
     "title": "Helping Users Recall Their Reasoning Process",
     "authors": [
@@ -2188,6 +2299,7 @@
     "citedBy": 1
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_liu.pdf.tei.xml",
     "title": "NetClinic: Interactive Visualization to Enhance Automated Fault Diagnosis in Enterprise Networks",
     "authors": [
@@ -2206,6 +2318,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_mahyar.pdf.tei.xml",
     "title": "A Closer Look at Note Taking in the Co-located Collaborative Visual Analytics Process",
     "authors": [
@@ -2236,6 +2349,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_migut.pdf.tei.xml",
     "title": "Visual Exploration of Classification Models for Risk Assessment",
     "authors": [
@@ -2264,6 +2378,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_oelke.pdf.tei.xml",
     "title": "Visual Readability Analysis: How to Make Your Writings Easier to Read",
     "authors": [
@@ -2289,6 +2404,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_oesterli.pdf.tei.xml",
     "title": "Two-stage Framework for a Topology-Based Projection and Visualization of Classified Document Collections",
     "authors": [
@@ -2318,6 +2434,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_oesterli2.pdf.tei.xml",
     "title": "Visual Analysis of High Dimensional Point Clouds using Topological Landscapes",
     "authors": [
@@ -2336,6 +2453,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_shi.pdf.tei.xml",
     "title": "Understanding Text Corpora with Multiple Facets",
     "authors": [
@@ -2350,6 +2468,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_tomaszew.pdf.tei.xml",
     "title": "Geo-Historical Context Support for Information Foraging and Sensemaking: Conceptual Model, Implementation, and Assessment",
     "authors": [
@@ -2368,6 +2487,7 @@
     "citedBy": 0
   },
   {
+    "year": "2010",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_ziegler.pdf.tei.xml",
     "title": "Visual Market Sector Analysis for Financial Time Series Data",
     "authors": [
@@ -2385,6 +2505,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_ahmed.pdf.tei.xml",
     "title": "An Adaptive Parameter Space-Filling Algorithm for Highly Interactive Cluster Exploration",
     "authors": [
@@ -2400,6 +2521,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_alsallakh.pdf.tei.xml",
     "title": "Reinventing the Contingency Wheel: Scalable Visual Analytics of Large Categorical Data",
     "authors": [
@@ -2418,6 +2540,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_anand.pdf.tei.xml",
     "title": "Visual Pattern Discovery using Random Projections",
     "authors": [
@@ -2434,6 +2557,7 @@
     "citedBy": 1
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_andrews.pdf.tei.xml",
     "title": "Analyst&apos;s Workspace: An Embodied Sensemaking Environment For Large, High-Resolution Displays",
     "authors": [
@@ -2459,6 +2583,7 @@
     "citedBy": 1
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_andrienko.pdf.tei.xml",
     "title": "Visual Analytics Methodology for Eye Movement Studies",
     "authors": [
@@ -2472,6 +2597,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_brown.pdf.tei.xml",
     "title": "Dis-Function: Learning Distance Functions Interactively",
     "authors": [
@@ -2485,6 +2611,7 @@
     "citedBy": 1
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_butler.pdf.tei.xml",
     "title": "The Deshredder: A Visual Analytic Approach to Reconstructing Shredded Documents",
     "authors": [
@@ -2501,6 +2628,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_chae.pdf.tei.xml",
     "title": "Spatiotemporal Social Media Analytics for Abnormal Event Detection and Examination using Seasonal-Trend Decomposition",
     "authors": [
@@ -2522,6 +2650,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_cottam.pdf.tei.xml",
     "title": "Watch This: A Taxonomy for Dynamic Data Visualization",
     "authors": [
@@ -2540,6 +2669,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_crouser.pdf.tei.xml",
     "title": "An Affordance-Based Framework for Human Computation and Human-Computer Collaboration",
     "authors": [
@@ -2564,6 +2694,7 @@
     "citedBy": 1
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_dou.pdf.tei.xml",
     "title": "LeadLine: Interactive Visual Analysis of Text Data through Event Identification and Exploration",
     "authors": [
@@ -2578,6 +2709,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_endert.pdf.tei.xml",
     "title": "Semantic Interaction for Sensemaking: Inferring Analytical Reasoning for Model Steering",
     "authors": [
@@ -2604,6 +2736,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_gou.pdf.tei.xml",
     "title": "SocialNetSense: Supporting Sensemaking of Social and Structural Features in Networks with Interactive Visualization",
     "authors": [
@@ -2659,6 +2792,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_heimerl.pdf.tei.xml",
     "title": "Visual Classifier Training for Text Document Retrieval",
     "authors": [
@@ -2672,6 +2806,7 @@
     "citedBy": 2
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_hoeferlin.pdf.tei.xml",
     "title": "Inter-Active Learning of Ad-Hoc Classifiers for Video Visual Analytics",
     "authors": [
@@ -2688,6 +2823,7 @@
     "citedBy": 1
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_hossain.pdf.tei.xml",
     "title": "Scatter/Gather Clustering: Flexibly Incorporating User Feedback to Steer Clustering Results √ (a) (b) (c) (d)",
     "authors": [
@@ -2735,6 +2871,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_kandel.pdf.tei.xml",
     "title": "Enterprise Data Analysis and Visualization: An Interview Study",
     "authors": [
@@ -2748,6 +2885,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_kang.pdf.tei.xml",
     "title": "Examining the Use of a Visual Analytics System for Sensemaking Tasks: Case Studies with Domain Experts",
     "authors": [
@@ -2759,6 +2897,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_malik.pdf.tei.xml",
     "title": "A Correlative Analysis Process in a Visual Analytics Environment",
     "authors": [
@@ -2774,6 +2913,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_mistelbauer.pdf.tei.xml",
     "title": "Smart Super Views — A Knowledge-Assisted Interface for Medical Visualization",
     "authors": [
@@ -2800,6 +2940,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_piringer.pdf.tei.xml",
     "title": "AlVis: Situation Awareness in the Surveillance of Road Tunnels",
     "authors": [
@@ -2823,6 +2964,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_pohl.pdf.tei.xml",
     "title": "The User Puzzle—Explaining the Interaction with Visual Analytics Systems",
     "authors": [
@@ -2852,6 +2994,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_portesdossantosamorim.pdf.tei.xml",
     "title": "iLAMP: Exploring High-Dimensional Spacing through Backward Multidimensional Projection",
     "authors": [
@@ -2870,6 +3013,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_sips.pdf.tei.xml",
     "title": "A Visual Analytics Approach to Multiscale Exploration of Environmental Time Series",
     "authors": [
@@ -2883,6 +3027,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_tatu.pdf.tei.xml",
     "title": "Subspace Search and Visualization to Make Sense of Alternative Clusterings in High-Dimensional Data",
     "authors": [
@@ -2903,6 +3048,7 @@
     "citedBy": 1
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_vonlandesberger.pdf.tei.xml",
     "title": "Visual Analytics Methods for Categoric Spatio-Temporal Data",
     "authors": [
@@ -2917,6 +3063,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_wei.pdf.tei.xml",
     "title": "Visual Cluster Exploration of Web Clickstream Data",
     "authors": [
@@ -2930,6 +3077,7 @@
     "citedBy": 0
   },
   {
+    "year": "2012",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_zhang.pdf.tei.xml",
     "title": "Visual Analytics for the Big Data Era – A Comparative Review of State-of-the-Art Commercial Systems",
     "authors": [
@@ -2952,6 +3100,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_andrews.pdf.tei.xml",
     "title": "The Impact of Physical Navigation on Spatial Organization for Sensemaking",
     "authors": [
@@ -2969,6 +3118,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_andrienko.pdf.tei.xml",
     "title": "Space Transformation for Understanding Group Movement",
     "authors": [
@@ -2983,6 +3133,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_bernard.pdf.tei.xml",
     "title": "MotionExplorer: Exploratory Search in Human Motion Capture Data Based on Hierarchical Aggregation",
     "authors": [
@@ -3005,6 +3156,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_boegl.pdf.tei.xml",
     "title": "Visual Analytics for Model Selection in Time Series Analysis",
     "authors": [
@@ -3026,6 +3178,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_bosch.pdf.tei.xml",
     "title": "ScatterBlogs2: Real-Time Monitoring of Microblog Messages Through User-Guided Filtering",
     "authors": [
@@ -3072,6 +3225,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_broeksema.pdf.tei.xml",
     "title": "Decision Exploration Lab: A Visual Analytics Solution for Decision Management",
     "authors": [
@@ -3090,6 +3244,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_choo.pdf.tei.xml",
     "title": "UTOPIAN: User-Driven Topic Modeling Based on Interactive Nonnegative Matrix Factorization",
     "authors": [
@@ -3103,6 +3258,7 @@
     "citedBy": 1
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_duo.pdf.tei.xml",
     "title": "HierarchicalTopics: Visually Exploring Large Text Collections Using Topic Hierarchies",
     "authors": [
@@ -3117,6 +3273,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_ferreira.pdf.tei.xml",
     "title": "Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips",
     "authors": [
@@ -3132,6 +3289,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_ghani.pdf.tei.xml",
     "title": "Visual Analytics for Multimodal Social Network Analysis: A Design Study with Social Scientists",
     "authors": [
@@ -3152,6 +3310,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_gleicher.pdf.tei.xml",
     "title": "Explainers: Expert Explorations with Crafted Projections",
     "authors": [{ "forename": "M", "surname": "Gleicher" }],
@@ -3178,6 +3337,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_hadlak.pdf.tei.xml",
     "title": "Supporting the Visual Analysis of Dynamic Networks by Clustering associated Temporal Attributes",
     "authors": [
@@ -3191,6 +3351,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_hajizadeh.pdf.tei.xml",
     "title": "Supporting Awareness through Collaborative Brushing and Linking of Tabular Data",
     "authors": [
@@ -3211,6 +3372,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_hu.pdf.tei.xml",
     "title": "Semantics of Directly Manipulating Spatializations",
     "authors": [
@@ -3226,6 +3388,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_kodagoda.pdf.tei.xml",
     "title": "Using Interactive Visual Reasoning to Support Sense-Making: Implications for Design",
     "authors": [
@@ -3250,6 +3413,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_kurzhals.pdf.tei.xml",
     "title": "Space-Time Visual Analytics of Eye-Tracking Data for Dynamic Stimuli",
     "authors": [
@@ -3267,6 +3431,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_legg.pdf.tei.xml",
     "title": "Transformation of an Uncertain Video Search Pipeline to a Sketch-Based Visual Analytics Loop",
     "authors": [
@@ -3301,6 +3466,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_meghdadi.pdf.tei.xml",
     "title": "Interactive Exploration of Surveillance Video through Action Shot Summarization and Trajectory Visualization",
     "authors": [
@@ -3312,6 +3478,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_monroe.pdf.tei.xml",
     "title": "Temporal Event Sequence Simplification",
     "authors": [
@@ -3326,6 +3493,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_muehlbacher.pdf.tei.xml",
     "title": "A Partition-Based Framework for Building and Validating Regression Models",
     "authors": [{ "forename": "H", "surname": "Piringer" }],
@@ -3354,6 +3522,7 @@
     "citedBy": 1
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_packer.pdf.tei.xml",
     "title": "Visual Analytics for Spatial Clustering: Using a Heuristic Approach for Guided Exploration",
     "authors": [
@@ -3368,6 +3537,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_rind.pdf.tei.xml",
     "title": "TimeBench: A Data Model and Software Library for Visual Analytics of Time-Oriented Data",
     "authors": [
@@ -3382,6 +3552,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_schmidt.pdf.tei.xml",
     "title": "VAICo: Visual Analysis for Image Comparison",
     "authors": [
@@ -3394,6 +3565,7 @@
     "citedBy": 1
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_schultz.pdf.tei.xml",
     "title": "Open-Box Spectral Clustering: Applications to Medical Image Analysis",
     "authors": [
@@ -3417,6 +3589,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_shadoan.pdf.tei.xml",
     "title": "Visual Analysis of Higher-Order Conjunctive Relationships in Multidimensional Data Using a Hypergraph Query System",
     "authors": [
@@ -3437,6 +3610,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_walker.pdf.tei.xml",
     "title": "An Extensible Framework for Provenance in Human Terrain Visual Analytics",
     "authors": [
@@ -3474,6 +3648,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_wang1.pdf.tei.xml",
     "title": "SketchPad N-D : WYDIWYG Sculpting and Editing in Dimensional Space",
     "authors": [
@@ -3498,6 +3673,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_wang2.pdf.tei.xml",
     "title": "Visual Traffic Jam Analysis Based on Trajectory Data",
     "authors": [
@@ -3512,6 +3688,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_willett.pdf.tei.xml",
     "title": "Identifying Redundancy and Exposing Provenance in Crowdsourced Data Analysis",
     "authors": [
@@ -3526,6 +3703,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_xu.pdf.tei.xml",
     "title": "Visual Analysis of Topic Competition on Social Media Politicial figures Grassroots Media",
     "authors": [
@@ -3548,6 +3726,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_zhang.pdf.tei.xml",
     "title": "Vis4Heritage: Visual Analytics Approach on Grotto Wall Painting Degradations",
     "authors": [
@@ -3561,6 +3740,7 @@
     "citedBy": 0
   },
   {
+    "year": "2013",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_zhao.pdf.tei.xml",
     "title": "Interactive Exploration of Implicit and Explicit Relations in Faceted Datasets",
     "authors": [
@@ -3581,6 +3761,7 @@
     "citedBy": 1
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1604_20tvcg12-sacha-2346481.pdf.tei.xml",
     "title": "Knowledge Generation Model for Visual Analytics",
     "authors": [
@@ -3612,6 +3793,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1614_20tvcg12-krause-2346482.pdf.tei.xml",
     "title": "INFUSE: Interactive Feature Selection for Predictive Modeling of High Dimensional Data",
     "authors": [
@@ -3625,6 +3807,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1624_20tvcg12-dang-2346572.pdf.tei.xml",
     "title": "Transforming Scagnostics to Reveal Hidden Features",
     "authors": [
@@ -3641,6 +3824,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1633_20tvcg12-Mahyar-2346573.pdf.tei.xml",
     "title": "Supporting Communication and Coordination in Collaborative Sensemaking",
     "authors": [
@@ -3658,6 +3842,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1643_20tvcg12-muhlbacher-2346578.pdf.tei.xml",
     "title": "Opening the Black Box: Strategies for Increased User Involvement in Existing Algorithm Implementations",
     "authors": [
@@ -3714,6 +3899,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1653_20tvcg12-stolper-2346574.pdf.tei.xml",
     "title": "Progressive Visual Analytics: User-Driven Visual Exploration of In-Progress Analytics",
     "authors": [
@@ -3731,6 +3917,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1663_20tvcg12-brown-2346575.pdf.tei.xml",
     "title": "Finding Waldo: Learning about Users from their Interactions",
     "authors": [
@@ -3747,6 +3934,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1673_20tvcg12-klemm-2346591.pdf.tei.xml",
     "title": "Interactive Visual Analysis of Image-Centric Cohort Study Data",
     "authors": [
@@ -3763,6 +3951,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1683_20tvcg12-chen-2346594.pdf.tei.xml",
     "title": "Visual Abstraction and Exploration of Multi-class Scatterplots",
     "authors": [
@@ -3786,6 +3975,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1693_20tvcg12-beham-2346626.pdf.tei.xml",
     "title": "Cupid: Cluster-Based Exploration of Geometry Generators with Parallel Coordinates and Radial Trees",
     "authors": [
@@ -3805,6 +3995,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1703_20tvcg12-alsallakh-2346660.pdf.tei.xml",
     "title": "Visual Methods for Analyzing Probabilistic Classification Data",
     "authors": [
@@ -3837,6 +4028,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1713_20tvcg12-sun-2346665.pdf.tei.xml",
     "title": "A Five-Level Design Framework for Bicluster Visualizations",
     "authors": [
@@ -3873,6 +4065,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1723_20tvcg12-koch-2346677.pdf.tei.xml",
     "title": "VarifocalReader – In-Depth Visual Analysis of Large Text Documents",
     "authors": [
@@ -3905,6 +4098,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1733_20tvcg12-shi-2346912.pdf.tei.xml",
     "title": "LoyalTracker: Visualizing Loyalty Dynamics in Search Engines",
     "authors": [
@@ -3924,6 +4118,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1743_20tvcg12-xie-2346913.pdf.tei.xml",
     "title": "VAET: A Visual Analytics Approach for E-transactions Time-Series (a) (b) (c) (d) (e) (f)",
     "authors": [
@@ -3939,6 +4134,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1753_20tvcg12-sun-2346919.pdf.tei.xml",
     "title": "EvoRiver: Visual Analysis of Topic Coopetition on Social Media",
     "authors": [
@@ -3954,6 +4150,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1763_20tvcg12-wu-2346920.pdf.tei.xml",
     "title": "OpinionFlow: Visual Analysis of Opinion Diffusion on Social Media",
     "authors": [
@@ -3975,6 +4172,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1773_20tvcg12-zhao-2346922.pdf.tei.xml",
     "title": "#FluxFlow: Visual Analysis of Anomalous Information Spreading on Social Media",
     "authors": [
@@ -3997,6 +4195,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1783_20tvcg12-gotz-2346682.pdf.tei.xml",
     "title": "DecisionFlow: Visual Analytics for High-Dimensional Temporal Event Sequence Data (a) (b) (c) (d) (e) (f)",
     "authors": [
@@ -4014,6 +4213,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1793_20tvcg12-isaacs-2346743.pdf.tei.xml",
     "title": "Footprints: A Visual Search Tool that Supports Discovery and Coverage Tracking",
     "authors": [
@@ -4053,6 +4253,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1803_20tvcg12-matkovic-2346744.pdf.tei.xml",
     "title": "Visual Analytics for Complex Engineering Systems: Hybrid Visual Steering of Simulation Ensembles",
     "authors": [
@@ -4076,6 +4277,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1813_20tvcg12-wang-2346746.pdf.tei.xml",
     "title": "Visual Exploration of Sparse Traffic Trajectory Data",
     "authors": [
@@ -4092,6 +4294,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1823_20tvcg12-madhavan-2346747.pdf.tei.xml",
     "title": "DIA2: Web-based Cyberinfrastructure for Visual Analysis of Funding Portfolios",
     "authors": [
@@ -4114,6 +4317,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1833_20tvcg12-zeng-2346893.pdf.tei.xml",
     "title": "Visualizing Mobility of Public Transportation System",
     "authors": [
@@ -4128,6 +4332,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1843_20tvcg12-zhang-2346898.pdf.tei.xml",
     "title": "Visual Analysis of Public Utility Service Problems in a Metropolis",
     "authors": [
@@ -4144,6 +4349,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1853_20tvcg12-ko-2346911.pdf.tei.xml",
     "title": "VASA: Interactive Computational Steering of Large Asynchronous Simulation Pipelines for Societal Infrastructure",
     "authors": [
@@ -4171,6 +4377,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1863_20tvcg12-malik-2346926.pdf.tei.xml",
     "title": "Proactive Spatiotemporal Resource Allocation and Predictive Visual Analytics for Community Policing and Law Enforcement",
     "authors": [
@@ -4190,6 +4397,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1873_20tvcg12-konev-2346930.pdf.tei.xml",
     "title": "Run Watchers: Automatic Simulation-Based Decision Support in Flood Management",
     "authors": [
@@ -4212,6 +4420,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1883_20tvcg12-partl-2346752.pdf.tei.xml",
     "title": "ConTour: Data-Driven Exploration of Multi-Relational Datasets for Drug Discovery",
     "authors": [
@@ -4228,6 +4437,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1893_20tvcg12-kothur-2346751.pdf.tei.xml",
     "title": "Visual Analytics for Comparison of Ocean Model Output with Reference Data: Detecting and Analyzing Geophysical Processes Using Clustering Ensembles",
     "authors": [
@@ -4248,6 +4458,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1903_20tvcg12-yu-2346753.pdf.tei.xml",
     "title": "Genotet: An Interactive Web-based Visual Exploration Framework to Support Validation of Gene Regulatory Networks",
     "authors": [
@@ -4267,6 +4478,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1913_20tvcg12-ganuza-2346754.pdf.tei.xml",
     "title": "The Spinel Explorer -Interactive Visual Analysis of Spinel Group Minerals",
     "authors": [
@@ -4283,6 +4495,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1923_20tvcg12-poco-2346755.pdf.tei.xml",
     "title": "Visual Reconciliation of Alternative Similarity Spaces in Climate Modeling",
     "authors": [
@@ -4302,6 +4515,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/accorsi.pdf.tei.xml",
     "title": "HydroQual: Visual Analysis of River Water Quality",
     "authors": [
@@ -4322,6 +4536,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/alexander.pdf.tei.xml",
     "title": "Serendip: Topic Model-Driven Visual Exploration of Text Corpora",
     "authors": [
@@ -4336,6 +4551,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/behrisch.pdf.tei.xml",
     "title": "Feedback-Driven Interactive Exploration of Large Multidimensional Data Supported by Visual Classifier",
     "authors": [
@@ -4377,6 +4593,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/bradel.pdf.tei.xml",
     "title": "Multi-Model Semantic Interaction for Text Analytics",
     "authors": [
@@ -4390,6 +4607,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/dietrich.pdf.tei.xml",
     "title": "Baseball4D: A Tool for Baseball Game Reconstruction &amp; Visualization",
     "authors": [
@@ -4412,6 +4630,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/gomez.pdf.tei.xml",
     "title": "An Insight-and Task-based Methodology for Evaluating Spatiotemporal Visual Analytics",
     "authors": [
@@ -4431,6 +4650,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/janetzko.pdf.tei.xml",
     "title": "Feature-Driven Visual Analytics of Soccer Data",
     "authors": [
@@ -4446,6 +4666,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/ko.pdf.tei.xml",
     "title": "Analyzing High-dimensional Multivariate Network Links with Integrated Anomaly Detection, Highlighting and Exploration",
     "authors": [
@@ -4468,6 +4689,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/landstorfer.pdf.tei.xml",
     "title": "Weaving a Carpet from Log Entries: A Network Security Visualization Built with Co-Creation",
     "authors": [
@@ -4487,6 +4709,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/lenz.pdf.tei.xml",
     "title": "Visual Analysis of Patterns in Multiple Amino Acid Mutation Graphs",
     "authors": [
@@ -4511,6 +4734,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/liu.pdf.tei.xml",
     "title": "TopicPanorama: a Full Picture of Relevant Topics",
     "authors": [
@@ -4525,6 +4749,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/lu.pdf.tei.xml",
     "title": "Integrating Predictive Analytics and Social Media",
     "authors": [
@@ -4541,6 +4766,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/nunes.pdf.tei.xml",
     "title": "An Integrated Visual Analysis System for Fusing MR Spectroscopy and Multi-Modal Radiology Imaging",
     "authors": [
@@ -4565,6 +4791,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/schmidt.pdf.tei.xml",
     "title": "YMCA – Your Mesh Comparison Application",
     "authors": [
@@ -4595,6 +4822,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/wang.pdf.tei.xml",
     "title": "A Visual Reasoning Approach for Data-driven Transport Assessment on Urban Roads",
     "authors": [
@@ -4621,6 +4849,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/wongsuphasawat.pdf.tei.xml",
     "title": "Using Visualizations to Monitor Changes and Harvest Insights from a Global-Scale Logging Infrastructure at Twitter",
     "authors": [
@@ -4639,6 +4868,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/wu.pdf.tei.xml",
     "title": "BoundarySeer: Visual Analysis of 2D Boundary Changes",
     "authors": [
@@ -4661,6 +4891,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/zahalka.pdf.tei.xml",
     "title": "Towards Interactive, Intelligent, and Integrated Multimedia Analytics",
     "authors": [
@@ -4672,6 +4903,7 @@
     "citedBy": 0
   },
   {
+    "year": "2014",
     "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/zhao.pdf.tei.xml",
     "title": "PEARL: An Interactive Visual Analytic Tool for Understanding Personal Emotion Style Derived from Social Media",
     "authors": [

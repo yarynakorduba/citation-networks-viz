@@ -16,7 +16,7 @@ const ARROW_MARKER_ID = 'arrowhead';
 const getCiteNodeRadius = (d) => Math.sqrt((10 + 100 * d.citedBy) / Math.PI);
 const getCiteCollisionRadius = (d) => getCiteNodeRadius(d) + 5;
 
-function Graph({ data }) {
+function Graph({ data, setSelectedNode }) {
   const [links, setLinks] = useState([]);
   const [nodes, setNodes] = useState([]);
 
@@ -75,7 +75,15 @@ function Graph({ data }) {
     .attr('stroke-width', 3)
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
     .on('click', (ev, d) => {
-      console.log(d);
+      const { authors, citedBy, keywords, title, id } = d;
+      const authorNames = authors.map((author) => `${author.forename}. ${author.surname}`);
+      setSelectedNode({
+        authorNames,
+        citedBy,
+        keywords,
+        title,
+        id
+      });
     });
 
   useEffect(() => {

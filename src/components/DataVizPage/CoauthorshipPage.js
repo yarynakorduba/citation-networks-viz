@@ -40,7 +40,12 @@ function CoauthorshipPage() {
     <div className="coauthorship-graph-container">
       <div className="coauthorship-results">
         <div className="coauthorship-filter-container">
-          <Search className="coauthorship-search" value={searchInput} setValue={setSearchInput} />
+          <Search
+            placeholder="Search by author"
+            className="coauthorship-search"
+            value={searchInput}
+            setValue={setSearchInput}
+          />
         </div>
         {selectedNode ? (
           <div className="author-info">
