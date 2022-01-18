@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import CitationPage from '../DataVizPage/CitationPage';
 import CoauthorshipPage from '../DataVizPage/CoauthorshipPage';
 import Home from '../../views/Home';
@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <main className="app">
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/citation" element={<CitationPage />} />
             <Route path="/coauthorship" element={<CoauthorshipPage />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </main>
       <Navbar />
     </>
