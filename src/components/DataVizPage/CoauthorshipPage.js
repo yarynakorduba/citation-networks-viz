@@ -7,7 +7,7 @@ import CoauthorshipGraph from '../Graph/CoauthorshipGraph';
 import Search from '../Search';
 
 function CoauthorshipPage() {
-  const [data] = useLoadData('authData1.json');
+  const [data] = useLoadData('authorData.json');
 
   const [selectedNode, setSelectedNode] = useState(undefined);
 

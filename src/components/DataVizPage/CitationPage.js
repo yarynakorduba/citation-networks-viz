@@ -7,7 +7,7 @@ import Search from '../Search';
 import { useLoadData, useSearchWithNodeHighlighting } from '../../hooks/graph';
 
 function CitationPage() {
-  const [data] = useLoadData('citeData1.json');
+  const [data] = useLoadData('citeData.json');
 
   const [formattedData, setFormattedData] = useState('');
   useEffect(() => {

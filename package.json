@@ -2,6 +2,7 @@
   "name": "citation-networks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://gitname.github.io/citation-networks-viz",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -23,7 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "extract:xml:data": "AS_CMD=1 node scripts/extractDataFromXml.js"
+    "extract:xml:data": "AS_CMD=1 node scripts/extractDataFromXml.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0"

@@ -1,25 +1,26 @@
 [
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_bethel.pdf.tei.xml",
     "title": "Accelerating Network Traffic Analytics Using Query-Driven Visualization",
     "authors": [
-      { "forename": "E", "surname": "" },
-      { "forename": "Wes", "surname": "Bethel" },
-      { "forename": "Scott", "surname": "Campbell" },
-      { "forename": "Eli", "surname": "Dart" },
-      { "forename": "Kurt", "surname": "Stockinger" },
-      { "forename": "Kesheng", "surname": "Wu" }
+      { "forename": "E", "surname": "Bethel" },
+      { "forename": "S", "surname": "Campbell" },
+      { "forename": "E", "surname": "Dart" },
+      { "forename": "K", "surname": "Stockinger" },
+      { "forename": "K", "surname": "Wu" }
     ],
     "keywords": ["query-driven visualization", "network security", "data mining", "visual analytics"],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_bilgic.pdf.tei.xml",
     "title": "D-Dupe: An Interactive Tool for Entity Resolution in Social Networks",
     "authors": [
-      { "forename": "Mustafa", "surname": "Bilgic" },
-      { "forename": "Louis", "surname": "Licamele" },
-      { "forename": "Lise", "surname": "Getoor" },
-      { "forename": "Ben", "surname": "Shneiderman" }
+      { "forename": "M", "surname": "Bilgic" },
+      { "forename": "L", "surname": "Licamele" },
+      { "forename": "L", "surname": "Getoor" },
+      { "forename": "B", "surname": "Shneiderman" }
     ],
     "keywords": [
       "Data cleaning and integration, user interfaces, visual",
@@ -33,28 +34,28 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_brennan.pdf.tei.xml",
     "title": "Toward a Multi-Analyst, Collaborative Framework for Visual Analytics",
     "authors": [
-      { "forename": "Susan", "surname": "Brennan" },
-      { "forename": "Klaus", "surname": "Mueller" },
-      { "forename": "Greg", "surname": "Zelinsky" },
-      { "forename": "Ramakrishnan", "surname": "" },
-      { "forename": "David", "surname": "Warren" },
-      { "forename": "+", "surname": "" },
-      { "forename": "Arie", "surname": "Kaufman" }
+      { "forename": "S", "surname": "Brennan" },
+      { "forename": "K", "surname": "Mueller" },
+      { "forename": "G", "surname": "Zelinsky" },
+      { "forename": "D", "surname": "Warren" },
+      { "forename": "A", "surname": "Kaufman" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_card.pdf.tei.xml",
     "title": "TimeTree: Exploring Time Changing Hierarchies",
     "authors": [
-      { "forename": "Stuart", "surname": "Card" },
-      { "forename": "Bongwon", "surname": "Suh" },
-      { "forename": "Bryan", "surname": "Pendleton" },
-      { "forename": "Jeffrey", "surname": "Heer" },
-      { "forename": "John", "surname": "Bodnar" }
+      { "forename": "S", "surname": "Card" },
+      { "forename": "B", "surname": "Suh" },
+      { "forename": "B", "surname": "Pendleton" },
+      { "forename": "J", "surname": "Heer" },
+      { "forename": "J", "surname": "Bodnar" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H52 [Information",
@@ -67,12 +68,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_chen.pdf.tei.xml",
     "title": "Visual Analysis of Conflicting Opinions",
     "authors": [
-      { "forename": "Chaomei", "surname": "Chen" },
-      { "forename": "Fidelia", "surname": "Ibekwe-Sanjuan" },
-      { "forename": "Eric", "surname": "Sanjuan" },
-      { "forename": "Chris", "surname": "Weaver" }
+      { "forename": "C", "surname": "Chen" },
+      { "forename": "F", "surname": "Ibekwe-Sanjuan" },
+      { "forename": "E", "surname": "Sanjuan" },
+      { "forename": "C", "surname": "Weaver" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H31 [Information",
@@ -86,13 +88,13 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_chi.pdf.tei.xml",
     "title": "ScentIndex: Conceptually Reorganizing Subject Indexes for Reading",
     "authors": [
-      { "forename": "Ed", "surname": "Chi" },
-      { "forename": "Lichan", "surname": "Hong" },
-      { "forename": "Julie", "surname": "Heiser" },
-      { "forename": "+", "surname": "" },
-      { "forename": "Stuart", "surname": "Card" }
+      { "forename": "E", "surname": "Chi" },
+      { "forename": "L", "surname": "Hong" },
+      { "forename": "J", "surname": "Heiser" },
+      { "forename": "S", "surname": "Card" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H52 [Information Interfaces and Presentation]: User Interfaces— Graphical User Interfaces",
@@ -103,11 +105,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_eick.pdf.tei.xml",
     "title": "Visualizing the Performance of Computational Linguistics Algorithms",
     "authors": [
-      { "forename": "Stephen", "surname": "Eick" },
-      { "forename": "Justin", "surname": "Mauger" },
-      { "forename": "Alan", "surname": "Ratner" }
+      { "forename": "S", "surname": "Eick" },
+      { "forename": "J", "surname": "Mauger" },
+      { "forename": "A", "surname": "Ratner" }
     ],
     "keywords": [
       "CR Categories: H52 [Information Interfaces and Presentation]: User Interfaces—Screen Design",
@@ -119,12 +122,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_fails.pdf.tei.xml",
     "title": "A Visual Interface for Multivariate Temporal Data: Finding Patterns of Events across Multiple Histories",
     "authors": [
-      { "forename": "Jerry", "surname": "Fails" },
-      { "forename": "Amy", "surname": "Karlson" },
-      { "forename": "Layla", "surname": "Shahamat" },
-      { "forename": "Ben", "surname": "Shneiderman" }
+      { "forename": "J", "surname": "Fails" },
+      { "forename": "A", "surname": "Karlson" },
+      { "forename": "L", "surname": "Shahamat" },
+      { "forename": "B", "surname": "Shneiderman" }
     ],
     "keywords": [
       "CR Categories: H52 [Information Interfaces and Presentation]:",
@@ -136,11 +140,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_gotz.pdf.tei.xml",
     "title": "Interactive Visual Synthesis of Analytic Knowledge",
     "authors": [
-      { "forename": "David", "surname": "Gotz" },
-      { "forename": "Michelle", "surname": "Zhou" },
-      { "forename": "Vikram", "surname": "Aggarwal" }
+      { "forename": "D", "surname": "Gotz" },
+      { "forename": "M", "surname": "Zhou" },
+      { "forename": "V", "surname": "Aggarwal" }
     ],
     "keywords": [
       "Visual Analytics, Intelligence analysis, Problem-",
@@ -153,13 +158,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_kang.pdf.tei.xml",
     "title": "NetLens: Iterative Exploration of Content-Actor Network Data",
     "authors": [
-      { "forename": "Hyunmo", "surname": "Kang" },
-      { "forename": "Catherine", "surname": "Plaisant" },
-      { "forename": "Bongshin", "surname": "Lee" },
-      { "forename": "Benjamin", "surname": "Bederson" },
-      { "forename": "", "surname": "" }
+      { "forename": "H", "surname": "Kang" },
+      { "forename": "C", "surname": "Plaisant" },
+      { "forename": "B", "surname": "Lee" },
+      { "forename": "B", "surname": "Bederson" }
     ],
     "keywords": [
       "CR categories: H52 [Information Interfaces and Presentations]:",
@@ -177,23 +182,13 @@
     "citedBy": 3
   },
   {
-    "title": "",
-    "authors": [{ "forename": "", "surname": "" }],
-    "keywords": [
-      "Visual analytics, Spatial information organization, In- direct human computer interaction, Indirect collaboration, Agents, Sense-making Index Terms: H33 [Information Search and Retrieval]: Information fi ltering, Relevance feedback, Selection process",
-      "H41 [Offi ce Au- tomation]: Groupware",
-      "H53 [Group and Organization Interfaces]: Collaborative computing, Computer-supported cooperative work"
-    ],
-    "citations": [],
-    "citedBy": 0
-  },
-  {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_keim.pdf.tei.xml",
     "title": "Monitoring Network Traffic with Radial Traffic Analyzer",
     "authors": [
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "Florian", "surname": "Mansmann" },
-      { "forename": "Jörn", "surname": "Schneidewind" },
-      { "forename": "Tobias", "surname": "Schreck" }
+      { "forename": "D", "surname": "Keim" },
+      { "forename": "F", "surname": "Mansmann" },
+      { "forename": "J", "surname": "Schneidewind" },
+      { "forename": "T", "surname": "Schreck" }
     ],
     "keywords": [
       "CR Categories: C23 [Computer-Communication Networks]: Network Operations—Network Monitoring",
@@ -204,12 +199,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_luo.pdf.tei.xml",
     "title": "Exploring Large-Scale Video News via Interactive Visualization",
     "authors": [
-      { "forename": "Hangzai", "surname": "Luo" },
-      { "forename": "Jianping", "surname": "Fan" },
-      { "forename": "Jing", "surname": "Yang" },
-      { "forename": "William", "surname": "Ribarsky" },
+      { "forename": "H", "surname": "Luo" },
+      { "forename": "J", "surname": "Fan" },
+      { "forename": "J", "surname": "Yang" },
+      { "forename": "W", "surname": "Ribarsky" },
       { "forename": "", "surname": "Shin &apos;ichi Satoh" }
     ],
     "keywords": [
@@ -224,11 +220,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_mehta.pdf.tei.xml",
     "title": "Visual Exploration of Spatio-temporal Relationships for Scientific Data",
     "authors": [
-      { "forename": "Sameep", "surname": "Mehta" },
-      { "forename": "Srinivasan", "surname": "Parthasarathy" },
-      { "forename": "Raghu", "surname": "Machiraju" }
+      { "forename": "S", "surname": "Mehta" },
+      { "forename": "S", "surname": "Parthasarathy" },
+      { "forename": "R", "surname": "Machiraju" }
     ],
     "keywords": [
       "Knowledge Discovery, Scientific Analytics, Trajec- tory Analysis, Feature Extraction, Spatio-temporal Predicates, Vi- sual Analytics Index Terms: D22 [Design Tools and Techniques]: User Interfaces",
@@ -239,15 +236,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_pattath.pdf.tei.xml",
     "title": "Interactive Visualization and Analysis of Network and Sensor Data on Mobile Devices",
     "authors": [
-      { "forename": "Avin", "surname": "Pattath" },
-      { "forename": "Brian", "surname": "Bue" },
-      { "forename": "Yun", "surname": "Jang" },
-      { "forename": "David", "surname": "Ebert" },
-      { "forename": "Xuan", "surname": "Zhong" },
-      { "forename": "Aaron", "surname": "Ault" },
-      { "forename": "Edward", "surname": "Coyle" }
+      { "forename": "A", "surname": "Pattath" },
+      { "forename": "B", "surname": "Bue" },
+      { "forename": "Y", "surname": "Jang" },
+      { "forename": "D", "surname": "Ebert" },
+      { "forename": "X", "surname": "Zhong" },
+      { "forename": "A", "surname": "Ault" },
+      { "forename": "E", "surname": "Coyle" }
     ],
     "keywords": [
       "mobile visualization, network visualization, visual an-",
@@ -260,14 +258,15 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_proulx.pdf.tei.xml",
     "title": "Avian Flu Case Study with nSpace and GeoTime",
     "authors": [
-      { "forename": "Pascale", "surname": "Proulx" },
-      { "forename": "Sumeet", "surname": "Tandon" },
-      { "forename": "Adam", "surname": "Bodnar" },
-      { "forename": "David", "surname": "Schroh" },
-      { "forename": "Robert", "surname": "Harper" },
-      { "forename": "William", "surname": "Wright" }
+      { "forename": "P", "surname": "Proulx" },
+      { "forename": "S", "surname": "Tandon" },
+      { "forename": "A", "surname": "Bodnar" },
+      { "forename": "D", "surname": "Schroh" },
+      { "forename": "R", "surname": "Harper" },
+      { "forename": "W", "surname": "Wright" }
     ],
     "keywords": [
       "CR Categories: H52 [Information Interfaces &amp; Presentations]:",
@@ -281,11 +280,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_schneidewind.pdf.tei.xml",
     "title": "Pixnostics: Towards Measuring the Value of Visualization",
     "authors": [
-      { "forename": "Jörn", "surname": "Schneidewind" },
-      { "forename": "Mike", "surname": "Sips" },
-      { "forename": "Daniel", "surname": "Keim" }
+      { "forename": "J", "surname": "Schneidewind" },
+      { "forename": "M", "surname": "Sips" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Visual Data Exploration, Visualization tech-",
@@ -298,8 +298,9 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_scholtz.pdf.tei.xml",
     "title": "Beyond Usability: Evaluation Aspects of Visual Analytic Environments",
-    "authors": [{ "forename": "Jean", "surname": "Scholtz" }],
+    "authors": [{ "forename": "J", "surname": "Scholtz" }],
     "keywords": [
       "CR Categories and Subject Descriptors: H51 [Information Interfaces and Presentation] : Evaluation/ methodology",
       "H53 [Information Interfaces and Presentation]: Group and Organization Interfaces Additional Keywords: visualization",
@@ -310,15 +311,17 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_sifer.pdf.tei.xml",
     "title": "User Interfaces for the Exploration of Hierarchical Multi-dimensional Data",
-    "authors": [{ "forename": "Mark", "surname": "Sifer" }],
+    "authors": [{ "forename": "M", "surname": "Sifer" }],
     "keywords": ["Data exploration", "OLAP", "visualization", "parallel coordinates"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_theron.pdf.tei.xml",
     "title": "Visual Analytics of Paleoceanographic Conditions",
-    "authors": [{ "forename": "Roberto", "surname": "Theron" }],
+    "authors": [{ "forename": "R", "surname": "Theron" }],
     "keywords": [
       "Infovis, parallel coordinates, multiple linked views,",
       "exploratory analysis",
@@ -330,10 +333,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_wang.pdf.tei.xml",
     "title": "Interactive Wormhole Detection in Large Scale Wireless Networks",
     "authors": [
-      { "forename": "Weichao", "surname": "Wang" },
-      { "forename": "Aidong", "surname": "Lu" }
+      { "forename": "W", "surname": "Wang" },
+      { "forename": "A", "surname": "Lu" }
     ],
     "keywords": [
       "Interactive Detection, Wormhole Attacks, Visualiza- tion on Network Security, Wireless Networks, Topology Visualiza- tion Index Terms: C20 [Computer-Communication Networks]: General—Security and protection",
@@ -344,14 +348,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_weaver.pdf.tei.xml",
     "title": "Visual Analysis of Historic Hotel Visitation Patterns",
     "authors": [
-      { "forename": "Chris", "surname": "Weaver" },
-      { "forename": "David", "surname": "Fyfe" },
-      { "forename": "Anthony", "surname": "Robinson" },
-      { "forename": "Deryck", "surname": "Holdsworth" },
-      { "forename": "Donna", "surname": "Peuquet" },
-      { "forename": "Alan", "surname": "Maceachren" }
+      { "forename": "C", "surname": "Weaver" },
+      { "forename": "D", "surname": "Fyfe" },
+      { "forename": "A", "surname": "Robinson" },
+      { "forename": "D", "surname": "Holdsworth" },
+      { "forename": "D", "surname": "Peuquet" },
+      { "forename": "A", "surname": "Maceachren" }
     ],
     "keywords": [
       "Geovisualization, exploratory visualization, historical",
@@ -364,13 +369,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_wong.pdf.tei.xml",
     "title": "Have Green – A Visual Analytics Framework for Large Semantic Graphs",
     "authors": [
-      { "forename": "Chung", "surname": "Pak" },
-      { "forename": "George", "surname": "Wong" },
-      { "forename": "Harlan", "surname": "Chin" },
-      { "forename": "Patrick", "surname": "Foote" },
-      { "forename": "Jim", "surname": "Mackey" },
+      { "forename": "C", "surname": "Pak" },
+      { "forename": "G", "surname": "Wong" },
+      { "forename": "H", "surname": "Chin" },
+      { "forename": "P", "surname": "Foote" },
+      { "forename": "J", "surname": "Mackey" },
       { "forename": "", "surname": "Thomas" }
     ],
     "keywords": [
@@ -384,11 +390,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_xiao.pdf.tei.xml",
     "title": "Enhancing Visual Analysis of Network Traffic Using a Knowledge Representation",
     "authors": [
-      { "forename": "Ling", "surname": "Xiao" },
-      { "forename": "John", "surname": "Gerth" },
-      { "forename": "Pat", "surname": "Hanrahan" }
+      { "forename": "L", "surname": "Xiao" },
+      { "forename": "J", "surname": "Gerth" },
+      { "forename": "P", "surname": "Hanrahan" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: I69 [Visualization]",
@@ -400,12 +407,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_xie.pdf.tei.xml",
     "title": "Exploratory Visualization of Multivariate Data with Variable Quality *",
     "authors": [
-      { "forename": "Zaixian", "surname": "Xie" },
-      { "forename": "Shiping", "surname": "Huang" },
-      { "forename": "Matthew", "surname": "Ward" },
-      { "forename": "Elke", "surname": "Rundensteiner" }
+      { "forename": "Z", "surname": "Xie" },
+      { "forename": "S", "surname": "Huang" },
+      { "forename": "M", "surname": "Ward" },
+      { "forename": "E", "surname": "Rundensteiner" }
     ],
     "keywords": [
       "Uncertainty visualization, multivariate visualization,",
@@ -417,15 +425,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2006/06_vast_yang.pdf.tei.xml",
     "title": "Semantic Image Browser: Bridging Information Visualization with Automated Intelligent Image Analysis",
     "authors": [
-      { "forename": "Jing", "surname": "Yang" },
-      { "forename": "Jianping", "surname": "Fan" },
-      { "forename": "Daniel", "surname": "Hubball" },
-      { "forename": "Yuli", "surname": "Gao" },
-      { "forename": "Hangzai", "surname": "Luo" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "Matthew", "surname": "Ward" }
+      { "forename": "J", "surname": "Yang" },
+      { "forename": "J", "surname": "Fan" },
+      { "forename": "D", "surname": "Hubball" },
+      { "forename": "Y", "surname": "Gao" },
+      { "forename": "H", "surname": "Luo" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "M", "surname": "Ward" }
     ],
     "keywords": [
       "Image retrieval, image layout, semantic image classi- fication, multi-dimensional visualization, visual analytics Index Terms: I48 [Image Processing and Computer Vision]: Scene Analysis—Object recognition",
@@ -436,11 +445,12 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_andrienko.pdf.tei.xml",
     "title": "Visual Analytics Approach to User-Controlled Evacuation Scheduling",
     "authors": [
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "Natalia", "surname": "Andrienko" },
-      { "forename": "Ulrich", "surname": "Bartling" }
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "N", "surname": "Andrienko" },
+      { "forename": "U", "surname": "Bartling" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H12",
@@ -454,10 +464,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_bertini.pdf.tei.xml",
     "title": "SpiralView: Towards Security Policies Assessment through Visual Correlation of Network Resources with Evolution of Alarms",
     "authors": [
-      { "forename": "Enrico", "surname": "Bertini" },
-      { "forename": "Patrick", "surname": "Hertzog" },
+      { "forename": "E", "surname": "Bertini" },
+      { "forename": "P", "surname": "Hertzog" },
       { "forename": "S", "surname": "Nexthink" },
       { "forename": "", "surname": "Lalanne" }
     ],
@@ -474,9 +485,10 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_brandes.pdf.tei.xml",
     "title": "Visual Analysis of Controversy in User-generated Encyclopedias *",
     "authors": [
-      { "forename": "Ulrik", "surname": "Brandes" },
+      { "forename": "U", "surname": "Brandes" },
       { "forename": "J", "surname": "Urgen Lerner" }
     ],
     "keywords": ["Wikipedia", "social network analysis", "controversy"],
@@ -484,19 +496,19 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_chang.pdf.tei.xml",
     "title": "WireVis: Visualization of Categorical, Time-Varying Data From Financial Transactions",
     "authors": [
-      { "forename": "Remco", "surname": "Chang" },
-      { "forename": "Mohammad", "surname": "Ghoniem" },
-      { "forename": "Robert", "surname": "Kosara" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "Unc", "surname": "Charlotte" },
-      { "forename": "Jing", "surname": "Yang" },
-      { "forename": "Evan", "surname": "Suma" },
-      { "forename": "Caroline", "surname": "Ziemkiewicz" },
-      { "forename": "Daniel", "surname": "Kern" },
-      { "forename": "†", "surname": "Bank" },
-      { "forename": "America", "surname": "Sudjianto" }
+      { "forename": "R", "surname": "Chang" },
+      { "forename": "M", "surname": "Ghoniem" },
+      { "forename": "R", "surname": "Kosara" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "U", "surname": "Charlotte" },
+      { "forename": "J", "surname": "Yang" },
+      { "forename": "E", "surname": "Suma" },
+      { "forename": "C", "surname": "Ziemkiewicz" },
+      { "forename": "D", "surname": "Kern" },
+      { "forename": "A", "surname": "Sudjianto" }
     ],
     "keywords": [
       "Fraud detection, financial data visualization, catego-",
@@ -509,12 +521,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_cuadros.pdf.tei.xml",
     "title": "Point Placement by Phylogenetic Trees and its Application to Visual Analysis of Document Collections",
     "authors": [
-      { "forename": "Ana", "surname": "Cuadros" },
-      { "forename": "Fernando", "surname": "Paulovich" },
-      { "forename": "Rosane", "surname": "Minghim" },
-      { "forename": "Guilherme", "surname": "Telles" }
+      { "forename": "A", "surname": "Cuadros" },
+      { "forename": "F", "surname": "Paulovich" },
+      { "forename": "R", "surname": "Minghim" },
+      { "forename": "G", "surname": "Telles" }
     ],
     "keywords": [
       "Document Visualization, Multidimensional Visualiza-",
@@ -527,12 +540,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_eccles.pdf.tei.xml",
     "title": "Stories in GeoTime",
     "authors": [
-      { "forename": "Ryan", "surname": "Eccles" },
-      { "forename": "Thomas", "surname": "Kapler" },
-      { "forename": "Robert", "surname": "Harper" },
-      { "forename": "William", "surname": "Wright" }
+      { "forename": "R", "surname": "Eccles" },
+      { "forename": "T", "surname": "Kapler" },
+      { "forename": "R", "surname": "Harper" },
+      { "forename": "W", "surname": "Wright" }
     ],
     "keywords": [
       "CR Categories: H12 [User/Machine Systems]: Human Information Processing – Visual Analytics",
@@ -543,14 +557,15 @@
     "citedBy": 3
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_eick.pdf.tei.xml",
     "title": "Thin Client Visualization",
     "authors": [
-      { "forename": "Stephen", "surname": "Eick" },
+      { "forename": "S", "surname": "Eick" },
       { "forename": "M", "surname": "Eick" },
-      { "forename": "Jesse", "surname": "Fugitt" },
-      { "forename": "Brian", "surname": "Horst" },
-      { "forename": "Maxim", "surname": "Khailo" },
-      { "forename": "Russell", "surname": "Lankenau" }
+      { "forename": "J", "surname": "Fugitt" },
+      { "forename": "B", "surname": "Horst" },
+      { "forename": "M", "surname": "Khailo" },
+      { "forename": "R", "surname": "Lankenau" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: I33 [Computer",
@@ -562,11 +577,12 @@
     "citedBy": 2
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_elmqvist.pdf.tei.xml",
     "title": "DataMeadow: A Visual Canvas for Analysis of Large-Scale Multivariate Data",
     "authors": [
-      { "forename": "Niklas", "surname": "Elmqvist" },
-      { "forename": "John", "surname": "Stasko" },
-      { "forename": "Philippas", "surname": "Tsigas" }
+      { "forename": "N", "surname": "Elmqvist" },
+      { "forename": "J", "surname": "Stasko" },
+      { "forename": "P", "surname": "Tsigas" }
     ],
     "keywords": [
       "Multivariate data",
@@ -581,13 +597,14 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_ghoniem.pdf.tei.xml",
     "title": "NewsLab: Exploratory Broadcast News Video Analysis",
     "authors": [
-      { "forename": "Mohammad", "surname": "Ghoniem" },
-      { "forename": "Dongning", "surname": "Luo" },
-      { "forename": "Unc", "surname": "Charlotte" },
-      { "forename": "Jing", "surname": "Yang" },
-      { "forename": "William", "surname": "Ribarsky" }
+      { "forename": "M", "surname": "Ghoniem" },
+      { "forename": "D", "surname": "Luo" },
+      { "forename": "U", "surname": "Charlotte" },
+      { "forename": "J", "surname": "Yang" },
+      { "forename": "W", "surname": "Ribarsky" }
     ],
     "keywords": [
       "Large data exploration",
@@ -601,14 +618,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_hao.pdf.tei.xml",
     "title": "Intelligent Visual Analytics Queries",
     "authors": [
-      { "forename": "Ming", "surname": "Hao" },
-      { "forename": "Umeshwar", "surname": "Dayal" },
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "Dominik", "surname": "Morent" },
-      { "forename": "Joern", "surname": "Schneidewind" },
-      { "forename": "Hewlett", "surname": "Packard" }
+      { "forename": "M", "surname": "Hao" },
+      { "forename": "U", "surname": "Dayal" },
+      { "forename": "D", "surname": "Keim" },
+      { "forename": "D", "surname": "Morent" },
+      { "forename": "J", "surname": "Schneidewind" },
+      { "forename": "H", "surname": "Packard" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: I33 [Computer",
@@ -622,10 +640,11 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_heer.pdf.tei.xml",
     "title": "Design Considerations for Collaborative Visual Analytics",
     "authors": [
-      { "forename": "Jeffrey", "surname": "Heer" },
-      { "forename": "Maneesh", "surname": "Agrawala" }
+      { "forename": "J", "surname": "Heer" },
+      { "forename": "M", "surname": "Agrawala" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H52 User Interfaces,",
@@ -649,13 +668,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_janoos.pdf.tei.xml",
     "title": "Activity Analysis Using Spatio-Temporal Trajectory Volumes in Surveillance Applications",
     "authors": [
-      { "forename": "Firdaus", "surname": "Janoos" },
-      { "forename": "Shantanu", "surname": "Singh" },
-      { "forename": "Okan", "surname": "Irfanoglu" },
-      { "forename": "Raghu", "surname": "Machiraju" },
-      { "forename": "Richard", "surname": "Parent" }
+      { "forename": "F", "surname": "Janoos" },
+      { "forename": "S", "surname": "Singh" },
+      { "forename": "O", "surname": "Irfanoglu" },
+      { "forename": "R", "surname": "Machiraju" },
+      { "forename": "R", "surname": "Parent" }
     ],
     "keywords": [
       "wavelets, HOSVD, surveillance, anomaly detection, trajectory Index Terms: I47 [Computing Methodologies]: Image Proc and Comp Vision—Feature Measurement",
@@ -666,10 +686,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_keim.pdf.tei.xml",
     "title": "Literature Fingerprinting: A New Method for Visual Literary Analysis",
     "authors": [
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "Daniela", "surname": "Oelke" }
+      { "forename": "D", "surname": "Keim" },
+      { "forename": "D", "surname": "Oelke" }
     ],
     "keywords": [
       "Visual literature analysis, visual analytics, literature",
@@ -684,13 +705,14 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_kim.pdf.tei.xml",
     "title": "Visual Analytics on Mobile Devices for Emergency Response",
     "authors": [
-      { "forename": "Sungye", "surname": "Kim" },
-      { "forename": "Yun", "surname": "Jang" },
-      { "forename": "Angela", "surname": "Mellema" },
-      { "forename": "David", "surname": "Ebert" },
-      { "forename": "Timothy", "surname": "Collins" }
+      { "forename": "S", "surname": "Kim" },
+      { "forename": "Y", "surname": "Jang" },
+      { "forename": "A", "surname": "Mellema" },
+      { "forename": "D", "surname": "Ebert" },
+      { "forename": "T", "surname": "Collins" }
     ],
     "keywords": [
       "mobile visualization, visual analytics, emergency re-",
@@ -704,12 +726,13 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_lam.pdf.tei.xml",
     "title": "Session Viewer: Visual Exploratory Analysis of Web Session Logs",
     "authors": [
-      { "forename": "Heidi", "surname": "Lam" },
-      { "forename": "Daniel", "surname": "Russell" },
-      { "forename": "Diane", "surname": "Tang" },
-      { "forename": "Tamara", "surname": "Munzner" }
+      { "forename": "H", "surname": "Lam" },
+      { "forename": "D", "surname": "Russell" },
+      { "forename": "D", "surname": "Tang" },
+      { "forename": "T", "surname": "Munzner" }
     ],
     "keywords": [
       "Web session log analysis, visual exploratory data anal-",
@@ -721,12 +744,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_luo.pdf.tei.xml",
     "title": "Analyzing Large-Scale News Video Databases to Support Knowledge Visualization and Intuitive Retrieval",
     "authors": [
-      { "forename": "Hangzai", "surname": "Luo" },
-      { "forename": "Jianping", "surname": "Fan" },
-      { "forename": "Jing", "surname": "Yang" },
-      { "forename": "William", "surname": "Ribarsky" },
+      { "forename": "H", "surname": "Luo" },
+      { "forename": "J", "surname": "Fan" },
+      { "forename": "J", "surname": "Yang" },
+      { "forename": "W", "surname": "Ribarsky" },
       { "forename": "", "surname": "Shin &apos;ichi Satoh" }
     ],
     "keywords": [
@@ -742,32 +766,33 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_maciejewski.pdf.tei.xml",
     "title": "LAHVA: Linked Animal-Human Health Visual Analytics",
     "authors": [
-      { "forename": "Ross", "surname": "Maciejewski" },
-      { "forename": "Benjamin", "surname": "Tyner" },
-      { "forename": "Yun", "surname": "Jang" },
-      { "forename": "Cheng", "surname": "Zheng" },
-      { "forename": "Rimma", "surname": "Nehme" },
-      { "forename": "David", "surname": "Ebert" },
-      { "forename": "William", "surname": "Cleveland" },
-      { "forename": "Mourad", "surname": "Ouzzani" },
-      { "forename": "Shaun", "surname": "Grannis" },
-      { "forename": "Lawrence", "surname": "Glickman" },
-      { "forename": "", "surname": "" }
+      { "forename": "R", "surname": "Maciejewski" },
+      { "forename": "B", "surname": "Tyner" },
+      { "forename": "Y", "surname": "Jang" },
+      { "forename": "C", "surname": "Zheng" },
+      { "forename": "R", "surname": "Nehme" },
+      { "forename": "D", "surname": "Ebert" },
+      { "forename": "W", "surname": "Cleveland" },
+      { "forename": "M", "surname": "Ouzzani" },
+      { "forename": "S", "surname": "Grannis" },
+      { "forename": "L", "surname": "Glickman" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_nam.pdf.tei.xml",
     "title": "ClusterSculptor: A Visual Analytics Tool for High-Dimensional Data",
     "authors": [
-      { "forename": "Eun", "surname": "Nam" },
-      { "forename": "Yiping", "surname": "Han" },
-      { "forename": "Klaus", "surname": "Mueller" },
-      { "forename": "Alla", "surname": "Zelenyuk" },
-      { "forename": "Dan", "surname": "Imre" }
+      { "forename": "E", "surname": "Nam" },
+      { "forename": "Y", "surname": "Han" },
+      { "forename": "K", "surname": "Mueller" },
+      { "forename": "A", "surname": "Zelenyuk" },
+      { "forename": "D", "surname": "Imre" }
     ],
     "keywords": [
       "Visual Analytics, High-Dimensional Data, Visual",
@@ -779,10 +804,11 @@
     "citedBy": 2
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_pan.pdf.tei.xml",
     "title": "FemaRepViz: Automatic Extraction and Geo-Temporal Visualization of FEMA National Situation Updates",
     "authors": [
-      { "forename": "Chi-Chun", "surname": "Pan" },
-      { "forename": "Prasenjit", "surname": "Mitrat" }
+      { "forename": "C", "surname": "Pan" },
+      { "forename": "P", "surname": "Mitrat" }
     ],
     "keywords": [
       "visual analytics, geo-temporal visualization, text pro-",
@@ -794,15 +820,14 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_shaw.pdf.tei.xml",
     "title": "IMAS: The Interactive Multigenomic Analysis System",
     "authors": [
-      { "forename": "Christopher", "surname": "Shaw" },
-      { "forename": "Gregory", "surname": "Dasch" },
-      { "forename": "Rickettsial", "surname": "Branch" },
-      { "forename": "Marina", "surname": "Eremeeva" },
-      { "forename": "Rickettsial", "surname": "Branch" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "C", "surname": "Shaw" },
+      { "forename": "G", "surname": "Dasch" },
+      { "forename": "R", "surname": "Branch" },
+      { "forename": "M", "surname": "Eremeeva" },
+      { "forename": "R", "surname": "Branch" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: J3 [Life and",
@@ -816,12 +841,13 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_stasko.pdf.tei.xml",
     "title": "Jigsaw: Supporting Investigative Analysis through Interactive Visualization",
     "authors": [
-      { "forename": "John", "surname": "Stasko" },
-      { "forename": "Carsten", "surname": "Org" },
-      { "forename": "Zhicheng", "surname": "Liu" },
-      { "forename": "Kanupriya", "surname": "Singhal" }
+      { "forename": "J", "surname": "Stasko" },
+      { "forename": "C", "surname": "Org" },
+      { "forename": "Z", "surname": "Liu" },
+      { "forename": "K", "surname": "Singhal" }
     ],
     "keywords": [
       "Visual analytics, investigative analysis, intelligence",
@@ -833,12 +859,13 @@
     "citedBy": 3
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_suh.pdf.tei.xml",
     "title": "Us vs. Them: Understanding Social Dynamics in Wikipedia with Revert Graph Visualizations",
     "authors": [
-      { "forename": "Bongwon", "surname": "Suh" },
-      { "forename": "Ed", "surname": "Chi" },
-      { "forename": "Bryan", "surname": "Pendleton" },
-      { "forename": "Aniket", "surname": "Kittur" }
+      { "forename": "B", "surname": "Suh" },
+      { "forename": "E", "surname": "Chi" },
+      { "forename": "B", "surname": "Pendleton" },
+      { "forename": "A", "surname": "Kittur" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H53 [Information",
@@ -852,10 +879,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_tesone.pdf.tei.xml",
     "title": "Balancing Interactive Data Management of Massive Data with Situational Awareness through Smart Aggregation",
     "authors": [
-      { "forename": "Daniel", "surname": "Tesone" },
-      { "forename": "John", "surname": "Goodall" }
+      { "forename": "D", "surname": "Tesone" },
+      { "forename": "J", "surname": "Goodall" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H12 [Models and",
@@ -875,11 +903,12 @@
     "citedBy": 2
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2007/07_vast_yang.pdf.tei.xml",
     "title": "Analysis Guided Visual Exploration of Multivariate Data",
     "authors": [
-      { "forename": "Di", "surname": "Yang" },
-      { "forename": "Elke", "surname": "Rundensteiner" },
-      { "forename": "Matthew", "surname": "Ward" }
+      { "forename": "D", "surname": "Yang" },
+      { "forename": "E", "surname": "Rundensteiner" },
+      { "forename": "M", "surname": "Ward" }
     ],
     "keywords": [
       "Visual Analytics, Visual Knowledge Discovery, Dis-",
@@ -893,10 +922,11 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_andrienk.pdf.tei.xml",
     "title": "Spatio-temporal Aggregation for Visual Analysis of Movements",
     "authors": [
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "Natalia", "surname": "Andrienko" }
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "N", "surname": "Andrienko" }
     ],
     "keywords": [
       "CR Categories and Subject Descriptors: H12 [User/Machine",
@@ -909,13 +939,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_aragon.pdf.tei.xml",
     "title": "Using Visual Analytics to Maintain Situation Awareness in Astrophysics",
     "authors": [
-      { "forename": "Cecilia", "surname": "Aragon" },
-      { "forename": "Sarah", "surname": "Poon" },
-      { "forename": "Gregory", "surname": "Aldering" },
-      { "forename": "Rollin", "surname": "Thomas" },
-      { "forename": "Robert", "surname": "Quimby" }
+      { "forename": "C", "surname": "Aragon" },
+      { "forename": "S", "surname": "Poon" },
+      { "forename": "G", "surname": "Aldering" },
+      { "forename": "R", "surname": "Thomas" },
+      { "forename": "R", "surname": "Quimby" }
     ],
     "keywords": [
       "CR CATEGORIES: I36 [Computer Graphics]: Methodology",
@@ -999,13 +1030,14 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_barlowe.pdf.tei.xml",
     "title": "Multivariate Visual Explanation for High Dimensional Datasets",
     "authors": [
-      { "forename": "Scott", "surname": "Barlowe" },
-      { "forename": "Tianyi", "surname": "Zhang" },
-      { "forename": "Yujie", "surname": "Liu" },
-      { "forename": "Jing", "surname": "Yang" },
-      { "forename": "Donald", "surname": "Jacobs" }
+      { "forename": "S", "surname": "Barlowe" },
+      { "forename": "T", "surname": "Zhang" },
+      { "forename": "Y", "surname": "Liu" },
+      { "forename": "J", "surname": "Yang" },
+      { "forename": "D", "surname": "Jacobs" }
     ],
     "keywords": [
       "visual analysis, multivariate analysis, dimension re-",
@@ -1020,11 +1052,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_bier.pdf.tei.xml",
     "title": "Entity-Based Collaboration Tools for Intelligence Analysis",
     "authors": [
-      { "forename": "Eric", "surname": "Bier" },
-      { "forename": "Stuart", "surname": "Card" },
-      { "forename": "John", "surname": "Bodnar" }
+      { "forename": "E", "surname": "Bier" },
+      { "forename": "S", "surname": "Card" },
+      { "forename": "J", "surname": "Bodnar" }
     ],
     "keywords": [
       "sensemaking, information foraging, collective intel- ligence, exploratory search, information workspace, entity-based, collaboration, intelligence analysis, visualization, semantic note- book, argumentation marshalling, visual analytics INDEX TERMS: H52 [User Interfaces]: Graphical user interfaces (GUI)",
@@ -1036,12 +1069,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_chan.pdf.tei.xml",
     "title": "Maintaining Interactivity While Exploring Massive Time Series",
     "authors": [
-      { "forename": "Sye-Min", "surname": "Chan" },
-      { "forename": "Ling", "surname": "Xiao" },
-      { "forename": "John", "surname": "Gerth" },
-      { "forename": "Pat", "surname": "Hanrahan" }
+      { "forename": "S", "surname": "Chan" },
+      { "forename": "L", "surname": "Xiao" },
+      { "forename": "J", "surname": "Gerth" },
+      { "forename": "P", "surname": "Hanrahan" }
     ],
     "keywords": [
       "Index Terms: D211 [Software Engineering]: Software Architectures—Domain-specific architectures",
@@ -1052,12 +1086,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_fisher.pdf.tei.xml",
     "title": "Narratives: A Visualization to Track Narrative Events as they Develop",
     "authors": [
-      { "forename": "Danyel", "surname": "Fisher" },
-      { "forename": "Aaron", "surname": "Hoff" },
-      { "forename": "George", "surname": "Robertson" },
-      { "forename": "Matthew", "surname": "Hurst" }
+      { "forename": "D", "surname": "Fisher" },
+      { "forename": "A", "surname": "Hoff" },
+      { "forename": "G", "surname": "Robertson" },
+      { "forename": "M", "surname": "Hurst" }
     ],
     "keywords": [
       "blogs, events, trends, time series, topic detection and",
@@ -1069,12 +1104,13 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_garg.pdf.tei.xml",
     "title": "Model-Driven Visual Analytics",
     "authors": [
-      { "forename": "Supriya", "surname": "Garg" },
-      { "forename": "Julia", "surname": "Eunju" },
-      { "forename": "Nam", "surname": "Ramakrishnan" },
-      { "forename": "Klaus", "surname": "Mueller" }
+      { "forename": "S", "surname": "Garg" },
+      { "forename": "J", "surname": "Eunju" },
+      { "forename": "N", "surname": "Ramakrishnan" },
+      { "forename": "K", "surname": "Mueller" }
     ],
     "keywords": [
       "Visual Analytics, Knowledge Discovery, Visual Clustering, Machine Learning, Grand Tour, High-dimensional Data, Network Security INDEX TERMS: H52 [Information Interfaces and Presentation]: User Interfaces—Graphical user interfaces",
@@ -1093,10 +1129,7 @@
       },
       {
         "title": "Balancing Interactive Data Management of Massive Data with Situational Awareness through Smart Aggregation",
-        "authors": [
-          { "forename": "D", "surname": "Tesone" },
-          { "forename": "J", "surname": "" }
-        ]
+        "authors": [{ "forename": "D", "surname": "Tesone" }]
       },
       {
         "title": "Semantic Image Browser: Bridging Information Visualization with Automated Intelligent Image Analysis",
@@ -1122,10 +1155,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_gotz.pdf.tei.xml",
     "title": "Characterizing Users&apos; Visual Analytic Activity for Insight Provenance",
     "authors": [
-      { "forename": "David", "surname": "Gotz" },
-      { "forename": "Michelle", "surname": "Zhou" }
+      { "forename": "D", "surname": "Gotz" },
+      { "forename": "M", "surname": "Zhou" }
     ],
     "keywords": [
       "Taxonomy, Information Visualization, Analytic Ac-",
@@ -1137,11 +1171,12 @@
     "citedBy": 4
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_green.pdf.tei.xml",
     "title": "Visual Analytics for Complex Concepts Using a Human Cognition Model",
     "authors": [
-      { "forename": "Tera", "surname": "Green" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "Brian", "surname": "Fisher" }
+      { "forename": "T", "surname": "Green" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "B", "surname": "Fisher" }
     ],
     "keywords": [
       "visual analytics, cognition and perception theory,",
@@ -1153,18 +1188,18 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_jeong.pdf.tei.xml",
     "title": "Evaluating the Relationship Between User Interaction and Financial Visual Analysis",
     "authors": [
-      { "forename": "Dong", "surname": "Jeong" },
-      { "forename": "Wenwen", "surname": "Dou" },
-      { "forename": "†", "surname": "Unc" },
-      { "forename": "Charlotte", "surname": "Viscenter" },
-      { "forename": "Felesia", "surname": "Stukes" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "Charlotte", "surname": "Unc" },
-      { "forename": "Heather", "surname": "Viscenter" },
+      { "forename": "D", "surname": "Jeong" },
+      { "forename": "W", "surname": "Dou" },
+      { "forename": "C", "surname": "Viscenter" },
+      { "forename": "F", "surname": "Stukes" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "C", "surname": "Unc" },
+      { "forename": "H", "surname": "Viscenter" },
       { "forename": "", "surname": "Lipford" },
-      { "forename": "Remco", "surname": "Chang" }
+      { "forename": "R", "surname": "Chang" }
     ],
     "keywords": [
       "Index Terms:",
@@ -1177,12 +1212,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_kapler.pdf.tei.xml",
     "title": "Configurable Spaces: Temporal Analysis in Diagrammatic Contexts",
     "authors": [
-      { "forename": "Thomas", "surname": "Kapler" },
-      { "forename": "Ryan", "surname": "Eccles" },
-      { "forename": "Robert", "surname": "Harper" },
-      { "forename": "William", "surname": "Wright" }
+      { "forename": "T", "surname": "Kapler" },
+      { "forename": "R", "surname": "Eccles" },
+      { "forename": "R", "surname": "Harper" },
+      { "forename": "W", "surname": "Wright" }
     ],
     "keywords": [
       "CR Categories:",
@@ -1197,31 +1233,33 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_maciejew.pdf.tei.xml",
     "title": "Understanding Syndromic Hotspots -A Visual Analytics Approach",
     "authors": [
-      { "forename": "Ross", "surname": "Maciejewski" },
-      { "forename": "Stephen", "surname": "Rudolph" },
-      { "forename": "Ryan", "surname": "Hafen" },
-      { "forename": "Ahmad", "surname": "Abusalah" },
-      { "forename": "Mohamed", "surname": "Yakout" },
-      { "forename": "Mourad", "surname": "Ouzzani" },
-      { "forename": "William", "surname": "Cleveland" },
-      { "forename": "Shaun", "surname": "Grannis" },
-      { "forename": "Michael", "surname": "Wade" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "R", "surname": "Maciejewski" },
+      { "forename": "S", "surname": "Rudolph" },
+      { "forename": "R", "surname": "Hafen" },
+      { "forename": "A", "surname": "Abusalah" },
+      { "forename": "M", "surname": "Yakout" },
+      { "forename": "M", "surname": "Ouzzani" },
+      { "forename": "W", "surname": "Cleveland" },
+      { "forename": "S", "surname": "Grannis" },
+      { "forename": "M", "surname": "Wade" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_oelke.pdf.tei.xml",
     "title": "Visual Evaluation of Text Features for Document Summarization and Analysis",
     "authors": [
-      { "forename": "Daniela", "surname": "Oelke" },
-      { "forename": "Peter", "surname": "Bak" },
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "Mark", "surname": "Last" },
-      { "forename": "Guy", "surname": "Danon" }
+      { "forename": "D", "surname": "Oelke" },
+      { "forename": "P", "surname": "Bak" },
+      { "forename": "D", "surname": "Keim" },
+      { "forename": "M", "surname": "Last" },
+      { "forename": "G", "surname": "Danon" }
     ],
     "keywords": [
       "Index Terms: I75 [Document and Text Processing]: Document",
@@ -1232,17 +1270,18 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_pike.pdf.tei.xml",
     "title": "The Scalable Reasoning System: Lightweight Visualization for Distributed Analytics",
     "authors": [
-      { "forename": "William", "surname": "Pike" },
-      { "forename": "Joe", "surname": "Bruce" },
-      { "forename": "Bob", "surname": "Baddeley" },
-      { "forename": "Daniel", "surname": "Best" },
-      { "forename": "Lyndsey", "surname": "Franklin" },
-      { "forename": "Richard", "surname": "May" },
-      { "forename": "Douglas", "surname": "Rice" },
-      { "forename": "Rick", "surname": "Riensche" },
-      { "forename": "Katarina", "surname": "Younkin" }
+      { "forename": "W", "surname": "Pike" },
+      { "forename": "J", "surname": "Bruce" },
+      { "forename": "B", "surname": "Baddeley" },
+      { "forename": "D", "surname": "Best" },
+      { "forename": "L", "surname": "Franklin" },
+      { "forename": "R", "surname": "May" },
+      { "forename": "D", "surname": "Rice" },
+      { "forename": "R", "surname": "Riensche" },
+      { "forename": "K", "surname": "Younkin" }
     ],
     "keywords": [
       "Web visualization, mobile visualization, analytic",
@@ -1272,11 +1311,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_reddy.pdf.tei.xml",
     "title": "Generating Hypotheses of Trends in High-Dimensional Data Skeletons",
     "authors": [
-      { "forename": "Chandan", "surname": "Reddy" },
-      { "forename": "Snehal", "surname": "Pokharkar" },
-      { "forename": "Kam", "surname": "Ho" }
+      { "forename": "C", "surname": "Reddy" },
+      { "forename": "S", "surname": "Pokharkar" },
+      { "forename": "K", "surname": "Ho" }
     ],
     "keywords": [
       "Index Terms: G41 [Mathematics of Computing]: Mathemat-",
@@ -1287,8 +1327,9 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_robinson.pdf.tei.xml",
     "title": "Collaborative Synthesis of Visual Analytic Results",
-    "authors": [{ "forename": "Anthony", "surname": "Robinson" }],
+    "authors": [{ "forename": "A", "surname": "Robinson" }],
     "keywords": [
       "Synthesis, collaboration, visual analytics, user-",
       "centered design",
@@ -1299,26 +1340,25 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_savikhin.pdf.tei.xml",
     "title": "Applied Visual Analytics for Economic Decision-Making",
     "authors": [
-      { "forename": "Anya", "surname": "Savikhin" },
-      { "forename": "Ross", "surname": "Maciejewski" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "A", "surname": "Savikhin" },
+      { "forename": "R", "surname": "Maciejewski" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_schreck.pdf.tei.xml",
     "title": "Visual Cluster Analysis of Trajectory Data With Interactive Kohonen Maps",
     "authors": [
-      { "forename": "Tobias", "surname": "Schreck" },
+      { "forename": "T", "surname": "Schreck" },
       { "forename": "J", "surname": "Urgen Bernard" },
-      { "forename": "Tatiana", "surname": "Tekušovtekušov´tekušová" },
-      { "forename": "J", "surname": "Orn Kohlhammer" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "T", "surname": "Tekušovtekušov´tekušová" },
+      { "forename": "J", "surname": "Orn Kohlhammer" }
     ],
     "keywords": [
       "Index Terms:",
@@ -1330,10 +1370,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_valle.pdf.tei.xml",
     "title": "Crystal Structures Classifier for an Evolutionary Algorithm Structure Predictor",
     "authors": [
-      { "forename": "Mario", "surname": "Valle" },
-      { "forename": "Artem", "surname": "Oganov" }
+      { "forename": "M", "surname": "Valle" },
+      { "forename": "A", "surname": "Oganov" }
     ],
     "keywords": [
       "Index Terms: J2 [Physical Sciences and Engineering]: Chem-",
@@ -1344,8 +1385,9 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2008/08_vast_weaver.pdf.tei.xml",
     "title": "Multidimensional Visual Analysis Using Cross-Filtered Views",
-    "authors": [{ "forename": "Chris", "surname": "Weaver" }],
+    "authors": [{ "forename": "C", "surname": "Weaver" }],
     "keywords": [
       "Index Terms: D22 [Software Engineering]: Design Tools and Techniques—[User Interfaces]",
       "H23 [Information Systems]: Database Management—[Languages]",
@@ -1355,14 +1397,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_andrienk.pdf.tei.xml",
     "title": "Interactive Visual Clustering of Large Collections of Trajectories",
     "authors": [
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "Natalia", "surname": "Andrienko" },
-      { "forename": "Salvatore", "surname": "Rinzivillo" },
-      { "forename": "Mirco", "surname": "Nanni" },
-      { "forename": "Dino", "surname": "Pedreschi" },
-      { "forename": "Fosca", "surname": "Giannotti" }
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "N", "surname": "Andrienko" },
+      { "forename": "S", "surname": "Rinzivillo" },
+      { "forename": "M", "surname": "Nanni" },
+      { "forename": "D", "surname": "Pedreschi" },
+      { "forename": "F", "surname": "Giannotti" }
     ],
     "keywords": [
       "Spatio-temporal data, movement data, trajectories,",
@@ -1375,11 +1418,12 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_choo.pdf.tei.xml",
     "title": "Two-stage Framework for Visualization of Clustered High Dimensional Data",
     "authors": [
-      { "forename": "Jaegul", "surname": "Choo" },
-      { "forename": "Shawn", "surname": "Bohn" },
-      { "forename": "Haesun", "surname": "Park" }
+      { "forename": "J", "surname": "Choo" },
+      { "forename": "S", "surname": "Bohn" },
+      { "forename": "H", "surname": "Park" }
     ],
     "keywords": [
       "dimension reduction, linear discriminant analysis,",
@@ -1391,36 +1435,37 @@
     "citedBy": 2
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_collins.pdf.tei.xml",
     "title": "Parallel Tag Clouds to Explore and Analyze Faceted Text Corpora",
     "authors": [
-      { "forename": "Christopher", "surname": "Collins" },
-      { "forename": "Fernanda", "surname": "Ví" },
-      { "forename": "Martin", "surname": "Wattenberg" }
+      { "forename": "C", "surname": "Collins" },
+      { "forename": "F", "surname": "Ví" },
+      { "forename": "M", "surname": "Wattenberg" }
     ],
     "keywords": ["Text visualization", "corpus visualization", "information re- trieval", "text mining", "tag clouds"],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_correa.pdf.tei.xml",
     "title": "A Framework for Uncertainty-Aware Visual Analytics",
     "authors": [
-      { "forename": "Carlos", "surname": "Correa" },
-      { "forename": "Yu-Hsuan", "surname": "Chan" },
-      { "forename": "Kwan-Liu", "surname": "Ma" }
+      { "forename": "C", "surname": "Correa" },
+      { "forename": "Y", "surname": "Chan" },
+      { "forename": "K", "surname": "Ma" }
     ],
     "keywords": ["Uncertainty", "Data Transformations", "Principal Compo- nent Analysis", "Model Fitting"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_crnovrsa.pdf.tei.xml",
     "title": "Proximity-based Visualization of Movement Trace Data",
     "authors": [
-      { "forename": "Tarik", "surname": "Crnovrsanin" },
-      { "forename": "Chris", "surname": "Muelder" },
-      { "forename": "Carlos", "surname": "Correa" },
-      { "forename": "Kwan-Liu", "surname": "Ma" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "T", "surname": "Crnovrsanin" },
+      { "forename": "C", "surname": "Muelder" },
+      { "forename": "C", "surname": "Correa" },
+      { "forename": "K", "surname": "Ma" }
     ],
     "keywords": [
       "Spatio-temporal visualization, proximity, linked",
@@ -1431,11 +1476,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_crossno.pdf.tei.xml",
     "title": "LSAView: A Tool for Visual Exploration of Latent Semantic Modeling ing parameter choices for LSA models. We illustrate the use of LSAView&apos;s small multiple views, linked matrix-graph views, and data views to analyze parameter selection and application in the context of graph layout and clustering",
     "authors": [
-      { "forename": "Patricia", "surname": "Crossno" },
-      { "forename": "Daniel", "surname": "Dunlavy" },
-      { "forename": "Timothy", "surname": "Shead" }
+      { "forename": "P", "surname": "Crossno" },
+      { "forename": "D", "surname": "Dunlavy" },
+      { "forename": "T", "surname": "Shead" }
     ],
     "keywords": [
       "Index Terms:",
@@ -1447,12 +1493,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_dietzsch.pdf.tei.xml",
     "title": "SpRay: A Visual Analytics Approach for Gene Expression Data",
     "authors": [
-      { "forename": "Janko", "surname": "Dietzsch" },
-      { "forename": "Julian", "surname": "Heinrich" },
-      { "forename": "Kay", "surname": "Nieselt" },
-      { "forename": "Dirk", "surname": "Bartz" }
+      { "forename": "J", "surname": "Dietzsch" },
+      { "forename": "J", "surname": "Heinrich" },
+      { "forename": "K", "surname": "Nieselt" },
+      { "forename": "D", "surname": "Bartz" }
     ],
     "keywords": [
       "Visual analytics, bioinformatics, gene expression ex-",
@@ -1465,11 +1512,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_guo.pdf.tei.xml",
     "title": "Model Space Visualization for Multivariate Linear Trend Discovery",
     "authors": [
-      { "forename": "Zhenyu", "surname": "Guo" },
-      { "forename": "Matthew", "surname": "Ward" },
-      { "forename": "Elke", "surname": "Rundensteiner" }
+      { "forename": "Z", "surname": "Guo" },
+      { "forename": "M", "surname": "Ward" },
+      { "forename": "E", "surname": "Rundensteiner" }
     ],
     "keywords": [
       "Knowledge Discovery, visual analysis, multivariate",
@@ -1481,28 +1529,30 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_han.pdf.tei.xml",
     "title": "A Visual Analytics System for Radio Frequency Fingerprinting-based Localization",
     "authors": [
-      { "forename": "Yi", "surname": "Han" },
-      { "forename": "Erich", "surname": "Stuntebeck" },
-      { "forename": "John", "surname": "Stasko" },
-      { "forename": "Gregory", "surname": "Abowd" }
+      { "forename": "Y", "surname": "Han" },
+      { "forename": "E", "surname": "Stuntebeck" },
+      { "forename": "J", "surname": "Stasko" },
+      { "forename": "G", "surname": "Abowd" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_kadivar.pdf.tei.xml",
     "title": "Capturing and Supporting the Analysis Process",
     "authors": [
-      { "forename": "Nazanin", "surname": "Kadivar" },
-      { "forename": "Victor", "surname": "Chen" },
-      { "forename": "Dustin", "surname": "Dunsmuir" },
-      { "forename": "Eric", "surname": "Lee" },
-      { "forename": "Cheryl", "surname": "Qian" },
-      { "forename": "John", "surname": "Dill" },
-      { "forename": "Christopher", "surname": "Shaw" },
-      { "forename": "Robert", "surname": "Woodbury" }
+      { "forename": "N", "surname": "Kadivar" },
+      { "forename": "V", "surname": "Chen" },
+      { "forename": "D", "surname": "Dunsmuir" },
+      { "forename": "E", "surname": "Lee" },
+      { "forename": "C", "surname": "Qian" },
+      { "forename": "J", "surname": "Dill" },
+      { "forename": "C", "surname": "Shaw" },
+      { "forename": "R", "surname": "Woodbury" }
     ],
     "keywords": [
       "INDEX TERMS: I38 [Computer Graphics]: Applications-Visual",
@@ -1524,21 +1574,22 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_kang.pdf.tei.xml",
     "title": "Evaluating Visual Analytics Systems for Investigative Analysis: Deriving Design Principles from a Case Study",
     "authors": [
-      { "forename": "Youn-Ah", "surname": "Kang" },
-      { "forename": "Carsten", "surname": "" },
-      { "forename": "John", "surname": "Stasko" }
+      { "forename": "Y", "surname": "Kang" },
+      { "forename": "J", "surname": "Stasko" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_kincaid.pdf.tei.xml",
     "title": "MassVis: Visual Analysis of Protein Complexes Using Mass Spectrometry",
     "authors": [
-      { "forename": "Robert", "surname": "Kincaid" },
-      { "forename": "Kurt", "surname": "Dejgaard" }
+      { "forename": "R", "surname": "Kincaid" },
+      { "forename": "K", "surname": "Dejgaard" }
     ],
     "keywords": [
       "information visualization, visual analysis, correlation analysis, mass spectrometry, proteomics, interactome INDEX TERMS: H12 [User/Machine Systems]: Human information processing – Visual Analytics",
@@ -1549,14 +1600,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_koch.pdf.tei.xml",
     "title": "Iterative Integration of Visual Insights during Patent Search and Analysis",
     "authors": [
-      { "forename": "Steffen", "surname": "Koch" },
-      { "forename": "Harald", "surname": "Bosch" },
-      { "forename": "Mark", "surname": "Giereth" },
-      { "forename": "Thomas", "surname": "Ertl" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "S", "surname": "Koch" },
+      { "forename": "H", "surname": "Bosch" },
+      { "forename": "M", "surname": "Giereth" },
+      { "forename": "T", "surname": "Ertl" }
     ],
     "keywords": [
       "Patent retrieval, information visualization, visual ana-",
@@ -1571,12 +1621,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_nouanese.pdf.tei.xml",
     "title": "Using Projection and 2D Plots to Visually Reveal Genetic Mechanisms of Complex Human Disorders",
     "authors": [
-      { "forename": "Boonthanome", "surname": "Nouanesengsy" },
-      { "forename": "Sang-Cheol", "surname": "Seok" },
-      { "forename": "Han-Wei", "surname": "Shen" },
-      { "forename": "Veronica", "surname": "Vieland" }
+      { "forename": "B", "surname": "Nouanesengsy" },
+      { "forename": "S", "surname": "Seok" },
+      { "forename": "H", "surname": "Shen" },
+      { "forename": "V", "surname": "Vieland" }
     ],
     "keywords": [
       "Visualization, Multidimensional data, Linkage Anal-",
@@ -1587,15 +1638,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_oelke.pdf.tei.xml",
     "title": "Visual Opinion Analysis of Customer Feedback Data",
     "authors": [
-      { "forename": "Daniela", "surname": "Oelke²" },
-      { "forename": "Ming", "surname": "Hao" },
-      { "forename": "Christian", "surname": "Rohrdantz²" },
-      { "forename": "Daniel", "surname": "Keim²" },
-      { "forename": "Umeshwar", "surname": "Dayal" },
-      { "forename": "Lars-Erik", "surname": "Haug" },
-      { "forename": "Halldór", "surname": "Janetzko²" }
+      { "forename": "D", "surname": "Oelke²" },
+      { "forename": "M", "surname": "Hao" },
+      { "forename": "C", "surname": "Rohrdantz²" },
+      { "forename": "D", "surname": "Keim²" },
+      { "forename": "U", "surname": "Dayal" },
+      { "forename": "L", "surname": "Haug" },
+      { "forename": "H", "surname": "Janetzko²" }
     ],
     "keywords": [
       "Visual Opinion Analysis",
@@ -1607,11 +1659,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_quan.pdf.tei.xml",
     "title": "Geovisual Analytics for Self-Organizing Network Data",
     "authors": [
-      { "forename": "Ho", "surname": "Quan" },
-      { "forename": "Tobias", "surname": "Åström" },
-      { "forename": "Mikael", "surname": "Jern" }
+      { "forename": "H", "surname": "Quan" },
+      { "forename": "T", "surname": "Åström" },
+      { "forename": "M", "surname": "Jern" }
     ],
     "keywords": [
       "Geovisual analytics, visualization, self-organizing",
@@ -1625,13 +1678,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_rose.pdf.tei.xml",
     "title": "Describing Story Evolution from Dynamic Information Streams",
     "authors": [
-      { "forename": "Stuart", "surname": "Rose" },
-      { "forename": "Scott", "surname": "Butner" },
-      { "forename": "Wendy", "surname": "Cowley" },
-      { "forename": "Michelle", "surname": "Gregory" },
-      { "forename": "Julia", "surname": "Walker" }
+      { "forename": "S", "surname": "Rose" },
+      { "forename": "S", "surname": "Butner" },
+      { "forename": "W", "surname": "Cowley" },
+      { "forename": "M", "surname": "Gregory" },
+      { "forename": "J", "surname": "Walker" }
     ],
     "keywords": [
       "Index Terms: H31 [Content Analysis and Indexing]: Abstracting methods—",
@@ -1643,11 +1697,12 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_rudolph.pdf.tei.xml",
     "title": "FinVis: Applied Visual Analytics for Personal Financial Planning",
     "authors": [
-      { "forename": "Stephen", "surname": "Rudolph" },
-      { "forename": "Anya", "surname": "Savikhin" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "S", "surname": "Rudolph" },
+      { "forename": "A", "surname": "Savikhin" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [
       "Casual Information Visualization",
@@ -1660,24 +1715,25 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_shriniva.pdf.tei.xml",
     "title": "Connecting the Dots in Visual Analysis",
     "authors": [
-      { "forename": "Yedendra", "surname": "Shrinivasan" },
-      { "forename": "David", "surname": "Gotz" },
-      { "forename": "Jie", "surname": "Lu" }
+      { "forename": "Y", "surname": "Shrinivasan" },
+      { "forename": "D", "surname": "Gotz" },
+      { "forename": "J", "surname": "Lu" }
     ],
     "keywords": ["Index Terms:", "H33 [Information Search and Retrieval]—", "Retrieval models"],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_steed.pdf.tei.xml",
     "title": "Guided Analysis of Hurricane Trends Using Statistical Processes Integrated with Interactive Parallel Coordinates",
     "authors": [
-      { "forename": "Chad", "surname": "Steed" },
+      { "forename": "C", "surname": "Steed" },
       { "forename": "J", "surname": "Swan" },
-      { "forename": "Ii", "surname": "" },
       { "forename": "T", "surname": "Jankun-Kelly" },
-      { "forename": "Patrick", "surname": "Fitzpatrick" }
+      { "forename": "P", "surname": "Fitzpatrick" }
     ],
     "keywords": [
       "Climate study, multivariate data, correlation, regres- sion, interaction, statistical analysis, visual analytics Index Terms: I36 [Computing Methodologies]: Computer Graphics—Methodologies and Techniques",
@@ -1688,23 +1744,20 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_tatu.pdf.tei.xml",
     "title": "Combining automated analysis and visualization techniques for effective exploration of high-dimensional data",
     "authors": [
-      { "forename": "Andrada", "surname": "Tatu" },
-      { "forename": "Georgia", "surname": "Albuquerque" },
-      { "forename": "†", "surname": "Tu" },
-      { "forename": "Braunschweig", "surname": "Germany" },
-      { "forename": "Martin", "surname": "Eisemann" },
+      { "forename": "A", "surname": "Tatu" },
+      { "forename": "G", "surname": "Albuquerque" },
+      { "forename": "B", "surname": "Germany" },
+      { "forename": "M", "surname": "Eisemann" },
       { "forename": "‡", "surname": "Tu" },
-      { "forename": "Braunschweig", "surname": "Germany" },
+      { "forename": "B", "surname": "Germany" },
       { "forename": "J", "surname": "Orn Schneidewind" },
-      { "forename": "Holger", "surname": "Theisel" },
-      { "forename": "Marcus", "surname": "Tu" },
-      { "forename": "Braunschweig", "surname": "Germany" },
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "H", "surname": "Theisel" },
+      { "forename": "M", "surname": "Tu" },
+      { "forename": "B", "surname": "Germany" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Index Terms: H33 [Information Storage and Retrieval]: In-",
@@ -1715,15 +1768,14 @@
     "citedBy": 6
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_vonlande.pdf.tei.xml",
     "title": "Visual Analysis of Graphs with Multiple Connected Components",
     "authors": [
-      { "forename": "Tatiana", "surname": "Von Landesberger" },
-      { "forename": "Fraunhofer", "surname": "Igd" },
-      { "forename": "Germany", "surname": "Melanie" },
+      { "forename": "T", "surname": "Von Landesberger" },
+      { "forename": "F", "surname": "Igd" },
+      { "forename": "G", "surname": "Melanie" },
       { "forename": "G", "surname": "Orner" },
-      { "forename": "Tobias", "surname": "Schreck" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "T", "surname": "Schreck" }
     ],
     "keywords": [
       "Index Terms: E1 [Data Structures]: Graphs and Networks—",
@@ -1735,27 +1787,16 @@
     "citedBy": 0
   },
   {
-    "title": "",
-    "authors": [
-      { "forename": "Romain", "surname": "Vuillemot" },
-      { "forename": "Tanya", "surname": "Clement" },
-      { "forename": "Catherine", "surname": "Plaisant" },
-      { "forename": "Amit", "surname": "Kumar" }
-    ],
-    "keywords": ["Visual Analytics", "Design", "Experimentation", "Human Factors"],
-    "citations": [],
-    "citedBy": 0
-  },
-  {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_whiting.pdf.tei.xml",
     "title": "VAST Contest Dataset Use in Education",
     "authors": [
-      { "forename": "Mark", "surname": "Whiting" },
-      { "forename": "Chris", "surname": "North" },
-      { "forename": "Alex", "surname": "Endert" },
-      { "forename": "Jean", "surname": "Scholtz" },
-      { "forename": "Jereme", "surname": "Haack" },
-      { "forename": "Carrie", "surname": "Varley" },
-      { "forename": "Jim", "surname": "Thomas" }
+      { "forename": "M", "surname": "Whiting" },
+      { "forename": "C", "surname": "North" },
+      { "forename": "A", "surname": "Endert" },
+      { "forename": "J", "surname": "Scholtz" },
+      { "forename": "J", "surname": "Haack" },
+      { "forename": "C", "surname": "Varley" },
+      { "forename": "J", "surname": "Thomas" }
     ],
     "keywords": [
       "education, evaluation, synthetic data",
@@ -1767,15 +1808,15 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_wong.pdf.tei.xml",
     "title": "A Multi-Level Middle-Out Cross-Zooming Approach for Large Graph Analytics",
     "authors": [
-      { "forename": "Pak", "surname": "Wong" },
-      { "forename": "Patrick", "surname": "Mackey" },
-      { "forename": "Kristin", "surname": "Cook" },
-      { "forename": "Randall", "surname": "Rohrer" },
-      { "forename": "Harlan", "surname": "Foote" },
-      { "forename": "Mark", "surname": "Whiting" },
-      { "forename": "Pacific", "surname": "" }
+      { "forename": "P", "surname": "Wong" },
+      { "forename": "P", "surname": "Mackey" },
+      { "forename": "K", "surname": "Cook" },
+      { "forename": "R", "surname": "Rohrer" },
+      { "forename": "H", "surname": "Foote" },
+      { "forename": "M", "surname": "Whiting" }
     ],
     "keywords": [
       "Graph analytics, information visualization",
@@ -1787,19 +1828,20 @@
       {
         "title": "Jigsaw: Supporting Investigative Analysis through Interactive Visualization",
         "authors": [
-          { "forename": "John", "surname": "Stasko" },
-          { "forename": "Carsten", "surname": "Görg" },
-          { "forename": "Zhicheng", "surname": "Liu" }
+          { "forename": "J", "surname": "Stasko" },
+          { "forename": "C", "surname": "Görg" },
+          { "forename": "Z", "surname": "Liu" }
         ]
       }
     ],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2009/09_vast_wongsuph.pdf.tei.xml",
     "title": "Finding Comparable Temporal Categorical Records: A Similarity Measure with an Interactive Visualization",
     "authors": [
-      { "forename": "Krist", "surname": "Wongsuphasawat" },
-      { "forename": "Ben", "surname": "Shneiderman" }
+      { "forename": "K", "surname": "Wongsuphasawat" },
+      { "forename": "B", "surname": "Shneiderman" }
     ],
     "keywords": [
       "Similan, M&amp;M Measure, Similarity Search, Temporal Categorical Records Index Terms: H52 [Information Interfaces and Presentation]: User Interfaces—Graphical user interfaces (GUI)",
@@ -1810,21 +1852,19 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_albuquer.pdf.tei.xml",
     "title": "Improving the Visual Analysis of High-dimensional Datasets Using Quality Measures",
     "authors": [
-      { "forename": "Georgia", "surname": "Albuquerque" },
-      { "forename": "Braunschweig", "surname": "Tu" },
-      { "forename": "Martin", "surname": "Germany" },
-      { "forename": "†", "surname": "Eisemann" },
-      { "forename": "Braunschweig", "surname": "Tu" },
-      { "forename": "Dirk", "surname": "Germany" },
+      { "forename": "G", "surname": "Albuquerque" },
+      { "forename": "B", "surname": "Tu" },
+      { "forename": "M", "surname": "Germany" },
+      { "forename": "B", "surname": "Tu" },
+      { "forename": "D", "surname": "Germany" },
       { "forename": "", "surname": "Lehmann" },
-      { "forename": "Holger", "surname": "Theisel" },
-      { "forename": "Marcus", "surname": "Magnor" },
+      { "forename": "H", "surname": "Theisel" },
+      { "forename": "M", "surname": "Magnor" },
       { "forename": "¶", "surname": "Tu" },
-      { "forename": "Braunschweig", "surname": "Germany" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "B", "surname": "Germany" }
     ],
     "keywords": [
       "Index Terms: H33 [Information Storage and Retrieval]: Infor-",
@@ -1848,13 +1888,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_andrienk.pdf.tei.xml",
     "title": "Discovering Bits of Place Histories from People&apos;s Activity Traces",
     "authors": [
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "Natalia", "surname": "Andrienko" },
-      { "forename": "Martin", "surname": "Mladenov" },
-      { "forename": "Michael", "surname": "Mock" },
-      { "forename": "Christian", "surname": "Pölitz" }
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "N", "surname": "Andrienko" },
+      { "forename": "M", "surname": "Mladenov" },
+      { "forename": "M", "surname": "Mock" },
+      { "forename": "C", "surname": "Pölitz" }
     ],
     "keywords": [
       "event detection",
@@ -1867,11 +1908,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_boukheli.pdf.tei.xml",
     "title": "Real-time Aggregation of Wikipedia Data for Visual Analytics",
     "authors": [
-      { "forename": "Nadia", "surname": "Boukhelifa" },
-      { "forename": "Fanny", "surname": "Chevalier" },
-      { "forename": "Jean-Daniel", "surname": "Fekete" }
+      { "forename": "N", "surname": "Boukhelifa" },
+      { "forename": "F", "surname": "Chevalier" },
+      { "forename": "J", "surname": "Fekete" }
     ],
     "keywords": [
       "Index Terms: Information Storage and Retrieval [H35]: Online Information Services—Web-based services",
@@ -1882,22 +1924,24 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_chan.pdf.tei.xml",
     "title": "Flow-based Scatterplots for Sensitivity Analysis",
     "authors": [
-      { "forename": "Yu-Hsuan", "surname": "Chan" },
-      { "forename": "Carlos", "surname": "Correa" },
-      { "forename": "Kwan-Liu", "surname": "Ma" }
+      { "forename": "Y", "surname": "Chan" },
+      { "forename": "C", "surname": "Correa" },
+      { "forename": "K", "surname": "Ma" }
     ],
     "keywords": ["Uncertainty", "Data Transformations", "Principal Compo- nent Analysis", "Model Fitting"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_chen.pdf.tei.xml",
     "title": "Click2Annotate: Automated Insight Externalization with Rich Semantics",
     "authors": [
-      { "forename": "Yang", "surname": "Chen" },
-      { "forename": "Scott", "surname": "Barlowe" },
-      { "forename": "Jing", "surname": "Yang" }
+      { "forename": "Y", "surname": "Chen" },
+      { "forename": "S", "surname": "Barlowe" },
+      { "forename": "J", "surname": "Yang" }
     ],
     "keywords": [
       "Visual Analytics, Decision Making, Annotation, In-",
@@ -1909,42 +1953,42 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_choo.pdf.tei.xml",
     "title": "iVisClassifier: An Interactive Visual Analytics System for Classification Based on Supervised Dimension Reduction",
     "authors": [
-      { "forename": "Jaegul", "surname": "Choo" },
-      { "forename": "Hanseung", "surname": "Lee" },
-      { "forename": "Jaeyeon", "surname": "Kihm" },
-      { "forename": "Haesun", "surname": "Park" }
+      { "forename": "J", "surname": "Choo" },
+      { "forename": "H", "surname": "Lee" },
+      { "forename": "J", "surname": "Kihm" },
+      { "forename": "H", "surname": "Park" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_chung.pdf.tei.xml",
     "title": "VizCept: Supporting Synchronous Collaboration for Constructing Visualizations in Intelligence Analysis",
     "authors": [
-      { "forename": "Haeyong", "surname": "Chung" },
-      { "forename": "Seungwon", "surname": "Yang" },
-      { "forename": "Naveed", "surname": "Massjouni" },
-      { "forename": "Christopher", "surname": "Andrews" },
-      { "forename": "Rahul", "surname": "Kanna" },
-      { "forename": "Chris", "surname": "North" }
+      { "forename": "H", "surname": "Chung" },
+      { "forename": "S", "surname": "Yang" },
+      { "forename": "N", "surname": "Massjouni" },
+      { "forename": "C", "surname": "Andrews" },
+      { "forename": "R", "surname": "Kanna" },
+      { "forename": "C", "surname": "North" }
     ],
     "keywords": [],
     "citations": [
-      {
-        "title": "VAST Contest Dataset Use in Education",
-        "authors": [{ "forename": "M", "surname": "Whiting" }]
-      }
+      { "title": "VAST Contest Dataset Use in Education", "authors": [{ "forename": "M", "surname": "Whiting" }] }
     ],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_diakopou.pdf.tei.xml",
     "title": "Diamonds in the Rough: Social Media Visual Analytics for Journalistic Inquiry",
     "authors": [
-      { "forename": "Nicholas", "surname": "Diakopoulos" },
-      { "forename": "Mor", "surname": "Naaman" },
-      { "forename": "Funda", "surname": "Kivran-Swaine" }
+      { "forename": "N", "surname": "Diakopoulos" },
+      { "forename": "M", "surname": "Naaman" },
+      { "forename": "F", "surname": "Kivran-Swaine" }
     ],
     "keywords": [
       "Computational Journalism, Computer Assisted",
@@ -1984,33 +2028,33 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_dou.pdf.tei.xml",
     "title": "Comparing Different Levels of Interaction Constraints for Deriving Visual Problem Isomorphs",
     "authors": [
-      { "forename": "Wenwen", "surname": "Dou" },
-      { "forename": "Caroline", "surname": "Ziemkiewicz" },
-      { "forename": "Lane", "surname": "Harrison" },
-      { "forename": "Hyun", "surname": "Dong" },
+      { "forename": "W", "surname": "Dou" },
+      { "forename": "C", "surname": "Ziemkiewicz" },
+      { "forename": "L", "surname": "Harrison" },
+      { "forename": "H", "surname": "Dong" },
       { "forename": "", "surname": "Jeong" },
-      { "forename": "Roxanne", "surname": "Ryan" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "Xiaoyu", "surname": "Wang" },
-      { "forename": "Remco", "surname": "Chang" }
+      { "forename": "R", "surname": "Ryan" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "X", "surname": "Wang" },
+      { "forename": "R", "surname": "Chang" }
     ],
     "keywords": ["Interaction", "Visual Isomorph", "Problem Solving"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_ferdosi.pdf.tei.xml",
     "title": "Finding and Visualizing Relevant Subspaces for Clustering High-Dimensional Astronomical Data Using Connected Morphological Operators",
     "authors": [
-      { "forename": "Bilkis", "surname": "Ferdosi" },
-      { "forename": "Hugo", "surname": "Buddelmeijer" },
-      { "forename": "†", "surname": "Scott Trager" },
+      { "forename": "B", "surname": "Ferdosi" },
+      { "forename": "H", "surname": "Buddelmeijer" },
       { "forename": "‡", "surname": "Michael" },
       { "forename": "H", "surname": "Wilkinson" },
       { "forename": "§", "surname": "Jos" },
-      { "forename": "B", "surname": "Roerdink" },
-      { "forename": "¶", "surname": "" }
+      { "forename": "B", "surname": "Roerdink" }
     ],
     "keywords": [
       "Subspace finding, clustering high-dimensional data, connected morphological operators, visual exploration, astronomi- cal data Index Terms: H33 [Information Search and Retrieval]: Clus- tering",
@@ -2021,11 +2065,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_garg.pdf.tei.xml",
     "title": "A Visual Analytics Approach to Model Learning",
     "authors": [
-      { "forename": "Supriya", "surname": "Garg" },
+      { "forename": "S", "surname": "Garg" },
       { "forename": "I", "surname": "Ramakrishnan" },
-      { "forename": "Klaus", "surname": "Mueller" }
+      { "forename": "K", "surname": "Mueller" }
     ],
     "keywords": [
       "Visual Knowledge Discovery, Visual Knowledge Representation, Data Clustering, Human-Computer Interaction INDEX TERMS: H52 [Information Interfaces and Presentation]: User Interfaces—Graphical user interfaces",
@@ -2036,10 +2081,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_green.pdf.tei.xml",
     "title": "Towards the Personal Equation of Interaction: The Impact of Personality Factors on Visual Analytics Interface Interaction",
     "authors": [
-      { "forename": "Tera", "surname": "Green" },
-      { "forename": "Brian", "surname": "Fisher" }
+      { "forename": "T", "surname": "Green" },
+      { "forename": "B", "surname": "Fisher" }
     ],
     "keywords": [
       "visual analytics, cognition and perception theory,",
@@ -2053,13 +2099,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_ingram.pdf.tei.xml",
     "title": "DimStiller: Workflows for Dimensional Analysis and Reduction",
     "authors": [
-      { "forename": "Stephen", "surname": "Ingram" },
-      { "forename": "Tamara", "surname": "Munzner" },
-      { "forename": "Veronika", "surname": "Irvine" },
-      { "forename": "Melanie", "surname": "Tory" },
-      { "forename": "Steven", "surname": "Bergner" },
+      { "forename": "S", "surname": "Ingram" },
+      { "forename": "T", "surname": "Munzner" },
+      { "forename": "V", "surname": "Irvine" },
+      { "forename": "M", "surname": "Tory" },
+      { "forename": "S", "surname": "Bergner" },
       { "forename": "M", "surname": "Torsten" },
       { "forename": "", "surname": "Oller" }
     ],
@@ -2068,23 +2115,25 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_isenberg.pdf.tei.xml",
     "title": "An Exploratory Study of Co-located Collaborative Visual Analytics Around a Tabletop Display",
     "authors": [
-      { "forename": "Petra", "surname": "Isenberg" },
-      { "forename": "Danyel", "surname": "Fisher" },
-      { "forename": "Meredith", "surname": "Ringel" },
-      { "forename": "Morris", "surname": "Kori Inkpen" },
-      { "forename": "Mary", "surname": "Czerwinski" }
+      { "forename": "P", "surname": "Isenberg" },
+      { "forename": "D", "surname": "Fisher" },
+      { "forename": "M", "surname": "Ringel" },
+      { "forename": "M", "surname": "Kori Inkpen" },
+      { "forename": "M", "surname": "Czerwinski" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_jin.pdf.tei.xml",
     "title": "Interactive Querying of Temporal Data Using A Comic Strip Metaphor *",
     "authors": [
-      { "forename": "Jing", "surname": "Jin" },
-      { "forename": "Pedro", "surname": "Szekely" }
+      { "forename": "J", "surname": "Jin" },
+      { "forename": "P", "surname": "Szekely" }
     ],
     "keywords": [
       "Index Terms: H52 [Information Interfaces and Presentation]:",
@@ -2095,11 +2144,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_liao.pdf.tei.xml",
     "title": "Anomaly Detection in GPS Data Based on Visual Analytics",
     "authors": [
-      { "forename": "Zicheng", "surname": "Liao" },
-      { "forename": "Yizhou", "surname": "Yu" },
-      { "forename": "Baoquan", "surname": "Chen" }
+      { "forename": "Z", "surname": "Liao" },
+      { "forename": "Y", "surname": "Yu" },
+      { "forename": "B", "surname": "Chen" }
     ],
     "keywords": [
       "Index Terms: H12 [Models and Principles]: User/Machine Systems—Human information processing",
@@ -2110,13 +2160,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_lipford.pdf.tei.xml",
     "title": "Helping Users Recall Their Reasoning Process",
     "authors": [
-      { "forename": "Heather", "surname": "Lipford" },
-      { "forename": "Felesia", "surname": "Stukes" },
-      { "forename": "Wenwen", "surname": "Dou" },
-      { "forename": "Matthew", "surname": "Hawkins" },
-      { "forename": "Remco", "surname": "Chang" }
+      { "forename": "H", "surname": "Lipford" },
+      { "forename": "F", "surname": "Stukes" },
+      { "forename": "W", "surname": "Dou" },
+      { "forename": "M", "surname": "Hawkins" },
+      { "forename": "R", "surname": "Chang" }
     ],
     "keywords": [
       "Visual analytics, visualization, reasoning process",
@@ -2137,12 +2188,13 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_liu.pdf.tei.xml",
     "title": "NetClinic: Interactive Visualization to Enhance Automated Fault Diagnosis in Enterprise Networks",
     "authors": [
-      { "forename": "Zhicheng", "surname": "Liu" },
-      { "forename": "Bongshin", "surname": "Lee" },
-      { "forename": "Srikanth", "surname": "Kandula" },
-      { "forename": "Ratul", "surname": "Mahajan" }
+      { "forename": "Z", "surname": "Liu" },
+      { "forename": "B", "surname": "Lee" },
+      { "forename": "S", "surname": "Kandula" },
+      { "forename": "R", "surname": "Mahajan" }
     ],
     "keywords": [
       "Sensemaking, Semantic Graph Layout, Visual Ana-",
@@ -2154,11 +2206,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_mahyar.pdf.tei.xml",
     "title": "A Closer Look at Note Taking in the Co-located Collaborative Visual Analytics Process",
     "authors": [
-      { "forename": "Narges", "surname": "Mahyar" },
-      { "forename": "Ali", "surname": "Sarvghad" },
-      { "forename": "Melanie", "surname": "Tory" }
+      { "forename": "N", "surname": "Mahyar" },
+      { "forename": "A", "surname": "Sarvghad" },
+      { "forename": "M", "surname": "Tory" }
     ],
     "keywords": [
       "note taking, recording, collaboration, tabletop, wall",
@@ -2183,10 +2236,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_migut.pdf.tei.xml",
     "title": "Visual Exploration of Classification Models for Risk Assessment",
     "authors": [
-      { "forename": "Malgorzata", "surname": "Migut" },
-      { "forename": "Marcel", "surname": "Worring" }
+      { "forename": "M", "surname": "Migut" },
+      { "forename": "M", "surname": "Worring" }
     ],
     "keywords": [
       "Visual Analytics, Interactive Visual Exploration, De-",
@@ -2210,12 +2264,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_oelke.pdf.tei.xml",
     "title": "Visual Readability Analysis: How to Make Your Writings Easier to Read",
     "authors": [
-      { "forename": "Daniela", "surname": "Oelke" },
-      { "forename": "David", "surname": "Spretke" },
-      { "forename": "Andreas", "surname": "Stoffel" },
-      { "forename": "Daniel", "surname": "Keim" }
+      { "forename": "D", "surname": "Oelke" },
+      { "forename": "D", "surname": "Spretke" },
+      { "forename": "A", "surname": "Stoffel" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Index Terms: I75 [Document and Text Processing]: Document",
@@ -2234,15 +2289,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_oesterli.pdf.tei.xml",
     "title": "Two-stage Framework for a Topology-Based Projection and Visualization of Classified Document Collections",
     "authors": [
-      { "forename": "Patrick", "surname": "Oesterling" },
-      { "forename": "Gerik", "surname": "Scheuermann" },
-      { "forename": "Sven", "surname": "Teresniak" },
-      { "forename": "Gerhard", "surname": "Heyer" },
-      { "forename": "Steffen", "surname": "Koch" },
-      { "forename": "Thomas", "surname": "Ertl" },
-      { "forename": "Gunther", "surname": "Weber" }
+      { "forename": "P", "surname": "Oesterling" },
+      { "forename": "G", "surname": "Scheuermann" },
+      { "forename": "S", "surname": "Teresniak" },
+      { "forename": "G", "surname": "Heyer" },
+      { "forename": "S", "surname": "Koch" },
+      { "forename": "T", "surname": "Ertl" },
+      { "forename": "G", "surname": "Weber" }
     ],
     "keywords": [
       "Index Terms: H52 [INFORMATION INTERFACES AND PRE-",
@@ -2262,12 +2318,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_oesterli2.pdf.tei.xml",
     "title": "Visual Analysis of High Dimensional Point Clouds using Topological Landscapes",
     "authors": [
-      { "forename": "Patrick", "surname": "Oesterling" },
-      { "forename": "Christian", "surname": "Heine" },
-      { "forename": "Heike", "surname": "Anicke" },
-      { "forename": "Gerik", "surname": "Scheuermann" }
+      { "forename": "P", "surname": "Oesterling" },
+      { "forename": "C", "surname": "Heine" },
+      { "forename": "H", "surname": "Anicke" },
+      { "forename": "G", "surname": "Scheuermann" }
     ],
     "keywords": [
       "Index Terms: I53 [Pattern Recognition]: Clustering— Algorithms",
@@ -2279,27 +2336,25 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_shi.pdf.tei.xml",
     "title": "Understanding Text Corpora with Multiple Facets",
     "authors": [
-      { "forename": "Lei", "surname": "Furu" },
-      { "forename": "Wei", "surname": "Shixia" },
-      { "forename": "Liu", "surname": "Li" },
-      { "forename": "Tan", "surname": "Lian" },
-      { "forename": "Michelle", "surname": "Zhou" }
+      { "forename": "L", "surname": "Furu" },
+      { "forename": "W", "surname": "Shixia" },
+      { "forename": "L", "surname": "Li" },
+      { "forename": "T", "surname": "Lian" },
+      { "forename": "M", "surname": "Zhou" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_tomaszew.pdf.tei.xml",
     "title": "Geo-Historical Context Support for Information Foraging and Sensemaking: Conceptual Model, Implementation, and Assessment",
     "authors": [
-      { "forename": "Brian", "surname": "Tomaszewski" },
-      { "forename": "Alan", "surname": "Maceachren" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "B", "surname": "Tomaszewski" },
+      { "forename": "A", "surname": "Maceachren" }
     ],
     "keywords": [
       "context, foraging, sensemaking, mapping, text anal-",
@@ -2313,12 +2368,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2010/10_vast_ziegler.pdf.tei.xml",
     "title": "Visual Market Sector Analysis for Financial Time Series Data",
     "authors": [
-      { "forename": "Hartmut", "surname": "Ziegler" },
-      { "forename": "Marco", "surname": "Jenny" },
-      { "forename": "Tino", "surname": "Gruse" },
-      { "forename": "Daniel", "surname": "Keim" }
+      { "forename": "H", "surname": "Ziegler" },
+      { "forename": "M", "surname": "Jenny" },
+      { "forename": "T", "surname": "Gruse" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Visual Analytics, Financial Information Visualization, Time Series Data, Time Series Clustering, Explorative Analysis Index Terms: H4 [Information Systems]: Information Systems Applications—",
@@ -2329,10 +2385,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_ahmed.pdf.tei.xml",
     "title": "An Adaptive Parameter Space-Filling Algorithm for Highly Interactive Cluster Exploration",
     "authors": [
-      { "forename": "Zafar", "surname": "Ahmed" },
-      { "forename": "Chris", "surname": "Weaver" }
+      { "forename": "Z", "surname": "Ahmed" },
+      { "forename": "C", "surname": "Weaver" }
     ],
     "keywords": [
       "Index Terms: D22 [Software Engineering]: Design Tools and Techniques—[User Interfaces]",
@@ -2343,11 +2400,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_alsallakh.pdf.tei.xml",
     "title": "Reinventing the Contingency Wheel: Scalable Visual Analytics of Large Categorical Data",
     "authors": [
-      { "forename": "Bilal", "surname": "Alsallakh" },
-      { "forename": "Wolfgang", "surname": "Aigner" },
-      { "forename": "Silvia", "surname": "Miksch" },
+      { "forename": "B", "surname": "Alsallakh" },
+      { "forename": "W", "surname": "Aigner" },
+      { "forename": "S", "surname": "Miksch" },
       { "forename": "M", "surname": "Gröllergr¨gröller" }
     ],
     "keywords": [
@@ -2360,12 +2418,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_anand.pdf.tei.xml",
     "title": "Visual Pattern Discovery using Random Projections",
     "authors": [
-      { "forename": "Anushka", "surname": "Anand" },
-      { "forename": "Leland", "surname": "Wilkinson" },
-      { "forename": "†", "surname": "Tuan" },
-      { "forename": "Nhon", "surname": "Dang" }
+      { "forename": "A", "surname": "Anand" },
+      { "forename": "L", "surname": "Wilkinson" },
+      { "forename": "N", "surname": "Dang" }
     ],
     "keywords": [
       "Random Projections, High-dimensional Data",
@@ -2376,10 +2434,11 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_andrews.pdf.tei.xml",
     "title": "Analyst&apos;s Workspace: An Embodied Sensemaking Environment For Large, High-Resolution Displays",
     "authors": [
-      { "forename": "Christopher", "surname": "Andrews" },
-      { "forename": "Chris", "surname": "North" }
+      { "forename": "C", "surname": "Andrews" },
+      { "forename": "C", "surname": "North" }
     ],
     "keywords": [
       "Embodiment, distributed cognition, large, high-",
@@ -2393,44 +2452,45 @@
         "authors": [
           { "forename": "R", "surname": "Eccles" },
           { "forename": "T", "surname": "Kapler" },
-          { "forename": "R", "surname": "Harper" },
-          { "forename": "Wright", "surname": "" },
-          { "forename": "W", "surname": "" }
+          { "forename": "R", "surname": "Harper" }
         ]
       }
     ],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_andrienko.pdf.tei.xml",
     "title": "Visual Analytics Methodology for Eye Movement Studies",
     "authors": [
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "Natalia", "surname": "Andrienko" },
-      { "forename": "Michael", "surname": "Burch" },
-      { "forename": "Daniel", "surname": "Weiskopf" }
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "N", "surname": "Andrienko" },
+      { "forename": "M", "surname": "Burch" },
+      { "forename": "D", "surname": "Weiskopf" }
     ],
     "keywords": ["Index Terms—Visual analytics", "eye tracking", "movement data", "trajectory analysis"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_brown.pdf.tei.xml",
     "title": "Dis-Function: Learning Distance Functions Interactively",
     "authors": [
-      { "forename": "Eli", "surname": "Brown" },
-      { "forename": "Jingjing", "surname": "Liu" },
-      { "forename": "Carla", "surname": "Brodley" },
-      { "forename": "Remco", "surname": "Chang" }
+      { "forename": "E", "surname": "Brown" },
+      { "forename": "J", "surname": "Liu" },
+      { "forename": "C", "surname": "Brodley" },
+      { "forename": "R", "surname": "Chang" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_butler.pdf.tei.xml",
     "title": "The Deshredder: A Visual Analytic Approach to Reconstructing Shredded Documents",
     "authors": [
-      { "forename": "Patrick", "surname": "Butler" },
-      { "forename": "Prithwish", "surname": "Chakraborty" },
-      { "forename": "Naren", "surname": "Ramakrishan" }
+      { "forename": "P", "surname": "Butler" },
+      { "forename": "P", "surname": "Chakraborty" },
+      { "forename": "N", "surname": "Ramakrishan" }
     ],
     "keywords": [
       "Index Terms: I75 [Document and Text Processing]: Document Capture—Graphics recognition and interpretation",
@@ -2441,15 +2501,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_chae.pdf.tei.xml",
     "title": "Spatiotemporal Social Media Analytics for Abnormal Event Detection and Examination using Seasonal-Trend Decomposition",
     "authors": [
-      { "forename": "Junghoon", "surname": "Chae" },
-      { "forename": "Dennis", "surname": "Thom" },
-      { "forename": "Harald", "surname": "Bosch" },
-      { "forename": "Yun", "surname": "Jang" },
-      { "forename": "Ross", "surname": "Maciejewski" },
-      { "forename": "David", "surname": "Ebert" },
-      { "forename": "Thomas", "surname": "Ertl" }
+      { "forename": "J", "surname": "Chae" },
+      { "forename": "D", "surname": "Thom" },
+      { "forename": "H", "surname": "Bosch" },
+      { "forename": "Y", "surname": "Jang" },
+      { "forename": "R", "surname": "Maciejewski" },
+      { "forename": "D", "surname": "Ebert" },
+      { "forename": "T", "surname": "Ertl" }
     ],
     "keywords": [
       "Index Terms: H52 [Information Interfaces and Presenta-",
@@ -2461,11 +2522,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_cottam.pdf.tei.xml",
     "title": "Watch This: A Taxonomy for Dynamic Data Visualization",
     "authors": [
-      { "forename": "Joseph", "surname": "Cottam" },
-      { "forename": "Andrew", "surname": "Lumsdaine" },
-      { "forename": "Chris", "surname": "Weaver" }
+      { "forename": "J", "surname": "Cottam" },
+      { "forename": "A", "surname": "Lumsdaine" },
+      { "forename": "C", "surname": "Weaver" }
     ],
     "keywords": [
       "Dynamic Data, Interpretation",
@@ -2478,10 +2540,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_crouser.pdf.tei.xml",
     "title": "An Affordance-Based Framework for Human Computation and Human-Computer Collaboration",
     "authors": [
       { "forename": "R", "surname": "Crouser" },
-      { "forename": "Remco", "surname": "Chang" }
+      { "forename": "R", "surname": "Chang" }
     ],
     "keywords": ["Index Terms—Human computation", "human complexity", "theory", "framework"],
     "citations": [
@@ -2501,24 +2564,26 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_dou.pdf.tei.xml",
     "title": "LeadLine: Interactive Visual Analysis of Text Data through Event Identification and Exploration",
     "authors": [
-      { "forename": "Wenwen", "surname": "Dou" },
-      { "forename": "Xiaoyu", "surname": "Wang" },
-      { "forename": "Drew", "surname": "Skau" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "Michelle", "surname": "Zhou" }
+      { "forename": "W", "surname": "Dou" },
+      { "forename": "X", "surname": "Wang" },
+      { "forename": "D", "surname": "Skau" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "M", "surname": "Zhou" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_endert.pdf.tei.xml",
     "title": "Semantic Interaction for Sensemaking: Inferring Analytical Reasoning for Model Steering",
     "authors": [
-      { "forename": "Alex", "surname": "Endert" },
-      { "forename": "Patrick", "surname": "Fiaux" },
-      { "forename": "Chris", "surname": "North" }
+      { "forename": "A", "surname": "Endert" },
+      { "forename": "P", "surname": "Fiaux" },
+      { "forename": "C", "surname": "North" }
     ],
     "keywords": [
       "Index Terms—User Interaction",
@@ -2539,12 +2604,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_gou.pdf.tei.xml",
     "title": "SocialNetSense: Supporting Sensemaking of Social and Structural Features in Networks with Interactive Visualization",
     "authors": [
-      { "forename": "Liang", "surname": "Gou" },
-      { "forename": "Luke", "surname": "Zhang" },
-      { "forename": "Airong", "surname": "Luo" },
-      { "forename": "Patricia", "surname": "Anderson" }
+      { "forename": "L", "surname": "Gou" },
+      { "forename": "L", "surname": "Zhang" },
+      { "forename": "A", "surname": "Luo" },
+      { "forename": "P", "surname": "Anderson" }
     ],
     "keywords": [
       "Social network, visualization, sensemaking, visual",
@@ -2593,25 +2659,25 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_heimerl.pdf.tei.xml",
     "title": "Visual Classifier Training for Text Document Retrieval",
     "authors": [
-      { "forename": "Florian", "surname": "Heimerl" },
-      { "forename": "Steffen", "surname": "Koch" },
-      { "forename": "Harald", "surname": "Bosch" },
-      { "forename": "Thomas", "surname": "Ertl" }
+      { "forename": "F", "surname": "Heimerl" },
+      { "forename": "S", "surname": "Koch" },
+      { "forename": "H", "surname": "Bosch" },
+      { "forename": "T", "surname": "Ertl" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 2
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_hoeferlin.pdf.tei.xml",
     "title": "Inter-Active Learning of Ad-Hoc Classifiers for Video Visual Analytics",
     "authors": [
-      { "forename": "Benjamin", "surname": "" },
-      { "forename": "Rudolf", "surname": "Netzel" },
-      { "forename": "Markus", "surname": "" },
-      { "forename": "Daniel", "surname": "Weiskopf" },
-      { "forename": "Gunther", "surname": "Heidemann" }
+      { "forename": "R", "surname": "Netzel" },
+      { "forename": "D", "surname": "Weiskopf" },
+      { "forename": "G", "surname": "Heidemann" }
     ],
     "keywords": [
       "Index Terms: H33 [Information Systems]: Information Storage",
@@ -2622,17 +2688,17 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_hossain.pdf.tei.xml",
     "title": "Scatter/Gather Clustering: Flexibly Incorporating User Feedback to Steer Clustering Results √ (a) (b) (c) (d)",
     "authors": [
       { "forename": "M", "surname": "Hossain" },
-      { "forename": "Praveen", "surname": "Kumar" },
-      { "forename": "Reddy", "surname": "Ojili" },
-      { "forename": "Cindy", "surname": "Grimm" },
-      { "forename": "Rolf", "surname": "Uller" },
-      { "forename": "Layne", "surname": "Watson" },
-      { "forename": "Naren", "surname": "Ramakrishnan" },
-      { "forename": "Light", "surname": "Blue" },
-      { "forename": "Red", "surname": "" }
+      { "forename": "P", "surname": "Kumar" },
+      { "forename": "R", "surname": "Ojili" },
+      { "forename": "C", "surname": "Grimm" },
+      { "forename": "R", "surname": "Uller" },
+      { "forename": "L", "surname": "Watson" },
+      { "forename": "N", "surname": "Ramakrishnan" },
+      { "forename": "L", "surname": "Blue" }
     ],
     "keywords": ["Index Terms—Scatter/gather clustering", "alternative clustering", "constrained clustering"],
     "citations": [
@@ -2669,61 +2735,61 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_kandel.pdf.tei.xml",
     "title": "Enterprise Data Analysis and Visualization: An Interview Study",
     "authors": [
-      { "forename": "Sean", "surname": "Kandel" },
-      { "forename": "Andreas", "surname": "Paepcke" },
-      { "forename": "Joseph", "surname": "Hellerstein" },
-      { "forename": "Jeffrey", "surname": "Heer" }
+      { "forename": "S", "surname": "Kandel" },
+      { "forename": "A", "surname": "Paepcke" },
+      { "forename": "J", "surname": "Hellerstein" },
+      { "forename": "J", "surname": "Heer" }
     ],
     "keywords": ["Index Terms—Data", "analysis", "visualization", "enterprise"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_kang.pdf.tei.xml",
     "title": "Examining the Use of a Visual Analytics System for Sensemaking Tasks: Case Studies with Domain Experts",
     "authors": [
-      { "forename": "Youn-Ah", "surname": "Kang" },
-      { "forename": "John", "surname": "Stasko" }
+      { "forename": "Y", "surname": "Kang" },
+      { "forename": "J", "surname": "Stasko" }
     ],
     "keywords": ["Index Terms—Visual analytics", "case study", "qualitative evaluation"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_malik.pdf.tei.xml",
     "title": "A Correlative Analysis Process in a Visual Analytics Environment",
     "authors": [
-      { "forename": "Abish", "surname": "Malik" },
-      { "forename": "Ross", "surname": "Maciejewski" },
-      { "forename": "Yun", "surname": "Jang" },
-      { "forename": "Whitney", "surname": "Huang" },
-      { "forename": "Niklas", "surname": "Elmqvist" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "A", "surname": "Malik" },
+      { "forename": "R", "surname": "Maciejewski" },
+      { "forename": "Y", "surname": "Jang" },
+      { "forename": "W", "surname": "Huang" },
+      { "forename": "N", "surname": "Elmqvist" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_mistelbauer.pdf.tei.xml",
     "title": "Smart Super Views — A Knowledge-Assisted Interface for Medical Visualization",
     "authors": [
-      { "forename": "Gabriel", "surname": "Mistelbauer" },
-      { "forename": "Hamed", "surname": "Bouzari" },
+      { "forename": "G", "surname": "Mistelbauer" },
+      { "forename": "H", "surname": "Bouzari" },
       { "forename": "R", "surname": "Udiger Schernthaner" },
-      { "forename": "Ivan", "surname": "Baclija" },
-      { "forename": "Kaiser-Franz-Josef", "surname": "Hospital Vienna" },
-      { "forename": "Austria", "surname": "Arnold" },
+      { "forename": "I", "surname": "Baclija" },
+      { "forename": "K", "surname": "Hospital Vienna" },
+      { "forename": "A", "surname": "Arnold" },
       { "forename": "K", "surname": "Ochl" },
       { "forename": "¶", "surname": "Kaiser-Franz-Josef" },
-      { "forename": "Hospital", "surname": "Vienna" },
-      { "forename": "Stefan", "surname": "Austria" },
+      { "forename": "H", "surname": "Vienna" },
+      { "forename": "S", "surname": "Austria" },
       { "forename": "", "surname": "Bruckner" },
-      { "forename": "Milos", "surname": "Sramek" },
-      { "forename": "Meister", "surname": "Gröllergr¨gröller" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "M", "surname": "Sramek" },
+      { "forename": "M", "surname": "Gröllergr¨gröller" }
     ],
     "keywords": [
       "Visualization, Fuzzy Logic, Interaction Index Terms: H52 [Information Interfaces and Presentation]: User Interfaces—Interaction styles",
@@ -2734,11 +2800,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_piringer.pdf.tei.xml",
     "title": "AlVis: Situation Awareness in the Surveillance of Road Tunnels",
     "authors": [
-      { "forename": "Harald", "surname": "Piringer" },
-      { "forename": "Matthias", "surname": "Buchetics" },
-      { "forename": "Rudolf", "surname": "Benedik" }
+      { "forename": "H", "surname": "Piringer" },
+      { "forename": "M", "surname": "Buchetics" },
+      { "forename": "R", "surname": "Benedik" }
     ],
     "keywords": [],
     "citations": [
@@ -2756,11 +2823,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_pohl.pdf.tei.xml",
     "title": "The User Puzzle—Explaining the Interaction with Visual Analytics Systems",
     "authors": [
-      { "forename": "Margit", "surname": "Pohl" },
-      { "forename": "Michael", "surname": "Smuc" },
-      { "forename": "Eva", "surname": "Mayr" }
+      { "forename": "M", "surname": "Pohl" },
+      { "forename": "M", "surname": "Smuc" },
+      { "forename": "E", "surname": "Mayr" }
     ],
     "keywords": [
       "Index Terms—Cognitive theory",
@@ -2784,46 +2852,47 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_portesdossantosamorim.pdf.tei.xml",
     "title": "iLAMP: Exploring High-Dimensional Spacing through Backward Multidimensional Projection",
     "authors": [
-      { "forename": "Elisa", "surname": "Portes" },
-      { "forename": "Santos", "surname": "Amorim" },
-      { "forename": "Emilio", "surname": "Vital Brazil" },
-      { "forename": "Joel", "surname": "Daniels" },
-      { "forename": "Ii", "surname": "" },
-      { "forename": "Paulo", "surname": "Joia" },
+      { "forename": "E", "surname": "Portes" },
+      { "forename": "S", "surname": "Amorim" },
+      { "forename": "E", "surname": "Vital Brazil" },
+      { "forename": "J", "surname": "Daniels" },
+      { "forename": "P", "surname": "Joia" },
       { "forename": "‡", "surname": "Luis" },
-      { "forename": "Gustavo", "surname": "Nonato" },
+      { "forename": "G", "surname": "Nonato" },
       { "forename": "‡", "surname": "Mario" },
-      { "forename": "Costa", "surname": "Sousa" }
+      { "forename": "C", "surname": "Sousa" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_sips.pdf.tei.xml",
     "title": "A Visual Analytics Approach to Multiscale Exploration of Environmental Time Series",
     "authors": [
-      { "forename": "Mike", "surname": "Sips" },
-      { "forename": "Patrick", "surname": "" },
-      { "forename": "Andrea", "surname": "Unger" },
-      { "forename": "Hans-Christian", "surname": "Hege" },
-      { "forename": "Doris", "surname": "Dransch" }
+      { "forename": "M", "surname": "Sips" },
+      { "forename": "A", "surname": "Unger" },
+      { "forename": "H", "surname": "Hege" },
+      { "forename": "D", "surname": "Dransch" }
     ],
     "keywords": ["Index Terms—Time series analysis", "multiscale visualization", "visual analytics"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_tatu.pdf.tei.xml",
     "title": "Subspace Search and Visualization to Make Sense of Alternative Clusterings in High-Dimensional Data",
     "authors": [
-      { "forename": "Andrada", "surname": "Tatu" },
-      { "forename": "Fabian", "surname": "Maaß" },
-      { "forename": "Ines", "surname": "Arber" },
-      { "forename": "Enrico", "surname": "Bertini" },
-      { "forename": "Tobias", "surname": "Schreck" },
-      { "forename": "Thomas", "surname": "Seidl" },
-      { "forename": "Daniel", "surname": "Keim" }
+      { "forename": "A", "surname": "Tatu" },
+      { "forename": "F", "surname": "Maaß" },
+      { "forename": "I", "surname": "Arber" },
+      { "forename": "E", "surname": "Bertini" },
+      { "forename": "T", "surname": "Schreck" },
+      { "forename": "T", "surname": "Seidl" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Index Terms: H28 [Database Applications]: Data mining",
@@ -2834,57 +2903,45 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_vonlandesberger.pdf.tei.xml",
     "title": "Visual Analytics Methods for Categoric Spatio-Temporal Data",
     "authors": [
       { "forename": "T", "surname": "Von Landesberger" },
-      { "forename": "Sebastian", "surname": "Bremm" },
-      { "forename": "Natalia", "surname": "Andrienko" },
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "M", "surname": "Aria Tekušovtekušov´tekušová" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "S", "surname": "Bremm" },
+      { "forename": "N", "surname": "Andrienko" },
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "M", "surname": "Aria Tekušovtekušov´tekušová" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_wei.pdf.tei.xml",
     "title": "Visual Cluster Exploration of Web Clickstream Data",
     "authors": [
-      { "forename": "Jishang", "surname": "Wei" },
-      { "forename": "Zeqian", "surname": "Shen" },
-      { "forename": "Neel", "surname": "Sundaresan" },
-      { "forename": "Kwan-Liu", "surname": "Ma" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "J", "surname": "Wei" },
+      { "forename": "Z", "surname": "Shen" },
+      { "forename": "N", "surname": "Sundaresan" },
+      { "forename": "K", "surname": "Ma" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2012/12_vast_zhang.pdf.tei.xml",
     "title": "Visual Analytics for the Big Data Era – A Comparative Review of State-of-the-Art Commercial Systems",
     "authors": [
-      { "forename": "Leishi", "surname": "Zhang" },
-      { "forename": "Andreas", "surname": "Stoffel" },
-      { "forename": "Michael", "surname": "Behrisch" },
-      {
-        "forename": "Sebastian",
-        "surname": "Mittelstädtmittelst¨mittelstädt"
-      },
-      { "forename": "Tobias", "surname": "Schreck" },
-      { "forename": "Renéren´rené", "surname": "Pompl" },
-      { "forename": "Stefan", "surname": "Weber" },
-      { "forename": "Holger", "surname": "Last" },
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "L", "surname": "Zhang" },
+      { "forename": "A", "surname": "Stoffel" },
+      { "forename": "M", "surname": "Behrisch" },
+      { "forename": "S", "surname": "Mittelstädtmittelst¨mittelstädt" },
+      { "forename": "T", "surname": "Schreck" },
+      { "forename": "R", "surname": "Pompl" },
+      { "forename": "S", "surname": "Weber" },
+      { "forename": "H", "surname": "Last" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Index Terms: H4 [Information Systems]: INFORMATION SYS-",
@@ -2895,10 +2952,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_andrews.pdf.tei.xml",
     "title": "The Impact of Physical Navigation on Spatial Organization for Sensemaking",
     "authors": [
-      { "forename": "Christopher", "surname": "Andrews" },
-      { "forename": "Chris", "surname": "North" }
+      { "forename": "C", "surname": "Andrews" },
+      { "forename": "C", "surname": "North" }
     ],
     "keywords": [
       "Index Terms—Sensemaking",
@@ -2911,26 +2969,28 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_andrienko.pdf.tei.xml",
     "title": "Space Transformation for Understanding Group Movement",
     "authors": [
-      { "forename": "Natalia", "surname": "Andrienko" },
-      { "forename": "Gennady", "surname": "Andrienko" },
-      { "forename": "Louise", "surname": "Barrett" },
-      { "forename": "Marcus", "surname": "Dostie" },
-      { "forename": "Peter", "surname": "Henzi" }
+      { "forename": "N", "surname": "Andrienko" },
+      { "forename": "G", "surname": "Andrienko" },
+      { "forename": "L", "surname": "Barrett" },
+      { "forename": "M", "surname": "Dostie" },
+      { "forename": "P", "surname": "Henzi" }
     ],
     "keywords": ["Index Terms—Visual analytics", "movement data", "collective movement"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_bernard.pdf.tei.xml",
     "title": "MotionExplorer: Exploratory Search in Human Motion Capture Data Based on Hierarchical Aggregation",
     "authors": [
       { "forename": "J", "surname": "Urgen Bernard" },
-      { "forename": "Nils", "surname": "Wilhelm" },
-      { "forename": "Björnbj¨björn", "surname": "Krügerkr¨krüger" },
-      { "forename": "Thorsten", "surname": "May" },
-      { "forename": "Tobias", "surname": "Schreck" },
+      { "forename": "N", "surname": "Wilhelm" },
+      { "forename": "B", "surname": "Krügerkr¨krüger" },
+      { "forename": "T", "surname": "May" },
+      { "forename": "T", "surname": "Schreck" },
       { "forename": "J", "surname": "Orn Kohlhammer" }
     ],
     "keywords": [
@@ -2945,14 +3005,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_boegl.pdf.tei.xml",
     "title": "Visual Analytics for Model Selection in Time Series Analysis",
     "authors": [
-      { "forename": "Markus", "surname": "Ogl" },
-      { "forename": "Wolfgang", "surname": "Aigner" },
-      { "forename": "Peter", "surname": "Filzmoser" },
-      { "forename": "Tim", "surname": "Lammarsch" },
-      { "forename": "Silvia", "surname": "Miksch" },
-      { "forename": "Alexander", "surname": "Rind" }
+      { "forename": "M", "surname": "Ogl" },
+      { "forename": "W", "surname": "Aigner" },
+      { "forename": "P", "surname": "Filzmoser" },
+      { "forename": "T", "surname": "Lammarsch" },
+      { "forename": "S", "surname": "Miksch" },
+      { "forename": "A", "surname": "Rind" }
     ],
     "keywords": [
       "Index Terms—Visual analytics",
@@ -2965,16 +3026,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_bosch.pdf.tei.xml",
     "title": "ScatterBlogs2: Real-Time Monitoring of Microblog Messages Through User-Guided Filtering",
     "authors": [
-      { "forename": "Harald", "surname": "Bosch" },
-      { "forename": "Dennis", "surname": "Thom" },
-      { "forename": "Florian", "surname": "Heimerl" },
-      { "forename": "Edwin", "surname": "Uttmann" },
-      { "forename": "Steffen", "surname": "Koch" },
-      { "forename": "Robert", "surname": "Krügerkr¨krüger" },
-      { "forename": "Michael", "surname": "" },
-      { "forename": "Thomas", "surname": "Ertl" }
+      { "forename": "H", "surname": "Bosch" },
+      { "forename": "D", "surname": "Thom" },
+      { "forename": "F", "surname": "Heimerl" },
+      { "forename": "E", "surname": "Uttmann" },
+      { "forename": "S", "surname": "Koch" },
+      { "forename": "R", "surname": "Krügerkr¨krüger" },
+      { "forename": "T", "surname": "Ertl" }
     ],
     "keywords": [
       "Index Terms—Microblog analysis",
@@ -3011,12 +3072,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_broeksema.pdf.tei.xml",
     "title": "Decision Exploration Lab: A Visual Analytics Solution for Decision Management",
     "authors": [
-      { "forename": "Bertjan", "surname": "Broeksema" },
-      { "forename": "Thomas", "surname": "Baudel" },
-      { "forename": "Alex", "surname": "Telea" },
-      { "forename": "Paolo", "surname": "Crisafulli" }
+      { "forename": "B", "surname": "Broeksema" },
+      { "forename": "T", "surname": "Baudel" },
+      { "forename": "A", "surname": "Telea" },
+      { "forename": "P", "surname": "Crisafulli" }
     ],
     "keywords": [
       "Index Terms—Decision support systems",
@@ -3028,39 +3090,41 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_choo.pdf.tei.xml",
     "title": "UTOPIAN: User-Driven Topic Modeling Based on Interactive Nonnegative Matrix Factorization",
     "authors": [
-      { "forename": "Jaegul", "surname": "Choo" },
-      { "forename": "Changhyun", "surname": "Lee" },
-      { "forename": "Chandan", "surname": "Reddy" },
-      { "forename": "Haesun", "surname": "Park" },
-      { "forename": "", "surname": "" }
+      { "forename": "J", "surname": "Choo" },
+      { "forename": "C", "surname": "Lee" },
+      { "forename": "C", "surname": "Reddy" },
+      { "forename": "H", "surname": "Park" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_duo.pdf.tei.xml",
     "title": "HierarchicalTopics: Visually Exploring Large Text Collections Using Topic Hierarchies",
     "authors": [
-      { "forename": "Wenwen", "surname": "Dou" },
-      { "forename": "Li", "surname": "Yu" },
-      { "forename": "Xiaoyu", "surname": "Wang" },
-      { "forename": "Zhiqiang", "surname": "Ma" },
-      { "forename": "William", "surname": "Ribarsky" }
+      { "forename": "W", "surname": "Dou" },
+      { "forename": "L", "surname": "Yu" },
+      { "forename": "X", "surname": "Wang" },
+      { "forename": "Z", "surname": "Ma" },
+      { "forename": "W", "surname": "Ribarsky" }
     ],
     "keywords": ["Index Terms—Hierarchical topic representation", "topic modeling", "visual analytics", "rose tree"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_ferreira.pdf.tei.xml",
     "title": "Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips",
     "authors": [
-      { "forename": "Nivan", "surname": "Ferreira" },
-      { "forename": "Jorge", "surname": "Poco" },
-      { "forename": "Huy", "surname": "Vo" },
-      { "forename": "Juliana", "surname": "Freire" },
-      { "forename": "Cí", "surname": "Audio" },
+      { "forename": "N", "surname": "Ferreira" },
+      { "forename": "J", "surname": "Poco" },
+      { "forename": "H", "surname": "Vo" },
+      { "forename": "J", "surname": "Freire" },
+      { "forename": "C", "surname": "Audio" },
       { "forename": "T", "surname": "Silva" }
     ],
     "keywords": ["Index Terms—Spatio-temporal queries", "urban data", "taxi movement data", "visual exploration"],
@@ -3068,13 +3132,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_ghani.pdf.tei.xml",
     "title": "Visual Analytics for Multimodal Social Network Analysis: A Design Study with Social Scientists",
     "authors": [
-      { "forename": "Sohaib", "surname": "Ghani" },
-      { "forename": "Bum", "surname": "Chul Kwon" },
-      { "forename": "Seungyoon", "surname": "Lee" },
-      { "forename": "Ji", "surname": "Yi" },
-      { "forename": "Niklas", "surname": "" }
+      { "forename": "S", "surname": "Ghani" },
+      { "forename": "B", "surname": "Chul Kwon" },
+      { "forename": "S", "surname": "Lee" },
+      { "forename": "J", "surname": "Yi" }
     ],
     "keywords": [
       "Index Terms—Design study",
@@ -3088,8 +3152,9 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_gleicher.pdf.tei.xml",
     "title": "Explainers: Expert Explorations with Crafted Projections",
-    "authors": [{ "forename": "Michael", "surname": "Gleicher" }],
+    "authors": [{ "forename": "M", "surname": "Gleicher" }],
     "keywords": ["Index Terms—High-dimensional spaces", "exploration", "support vector machines"],
     "citations": [
       {
@@ -3113,23 +3178,25 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_hadlak.pdf.tei.xml",
     "title": "Supporting the Visual Analysis of Dynamic Networks by Clustering associated Temporal Attributes",
     "authors": [
-      { "forename": "Steffen", "surname": "Hadlak" },
-      { "forename": "Heidrun", "surname": "Schumann" },
-      { "forename": "Clemens", "surname": "Cap" },
-      { "forename": "Till", "surname": "Wollenberg" }
+      { "forename": "S", "surname": "Hadlak" },
+      { "forename": "H", "surname": "Schumann" },
+      { "forename": "C", "surname": "Cap" },
+      { "forename": "T", "surname": "Wollenberg" }
     ],
     "keywords": ["Index Terms—Dynamic networks", "visualization", "supergraph clustering"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_hajizadeh.pdf.tei.xml",
     "title": "Supporting Awareness through Collaborative Brushing and Linking of Tabular Data",
     "authors": [
-      { "forename": "Hossein", "surname": "Amir" },
-      { "forename": "Melanie", "surname": "Hajizadeh" },
-      { "forename": "Rock", "surname": "Tory" },
+      { "forename": "H", "surname": "Amir" },
+      { "forename": "M", "surname": "Hajizadeh" },
+      { "forename": "R", "surname": "Tory" },
       { "forename": "", "surname": "Leung" }
     ],
     "keywords": [
@@ -3144,27 +3211,29 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_hu.pdf.tei.xml",
     "title": "Semantics of Directly Manipulating Spatializations",
     "authors": [
-      { "forename": "Xinran", "surname": "Hu" },
-      { "forename": "Lauren", "surname": "Bradel" },
-      { "forename": "Dipayan", "surname": "Maiti" },
-      { "forename": "Leanna", "surname": "House" },
-      { "forename": "Chris", "surname": "North" },
-      { "forename": "Scotland", "surname": "Leman" }
+      { "forename": "X", "surname": "Hu" },
+      { "forename": "L", "surname": "Bradel" },
+      { "forename": "D", "surname": "Maiti" },
+      { "forename": "L", "surname": "House" },
+      { "forename": "C", "surname": "North" },
+      { "forename": "S", "surname": "Leman" }
     ],
     "keywords": ["Index Terms—Visual to parametric interaction", "visual analytics", "statistical models"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_kodagoda.pdf.tei.xml",
     "title": "Using Interactive Visual Reasoning to Support Sense-Making: Implications for Design",
     "authors": [
-      { "forename": "Neesha", "surname": "Kodagoda" },
-      { "forename": "Simon", "surname": "Attfield" },
+      { "forename": "N", "surname": "Kodagoda" },
+      { "forename": "S", "surname": "Attfield" },
       { "forename": "B", "surname": "Wong" },
-      { "forename": "Chris", "surname": "Rooney" },
-      { "forename": "Sharmin", "surname": "Tinni" },
+      { "forename": "C", "surname": "Rooney" },
+      { "forename": "S", "surname": "Tinni" },
       { "forename": "", "surname": "Choudhury" }
     ],
     "keywords": [
@@ -3181,10 +3250,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_kurzhals.pdf.tei.xml",
     "title": "Space-Time Visual Analytics of Eye-Tracking Data for Dynamic Stimuli",
     "authors": [
-      { "forename": "Kuno", "surname": "Kurzhals" },
-      { "forename": "Daniel", "surname": "Weiskopf" }
+      { "forename": "K", "surname": "Kurzhals" },
+      { "forename": "D", "surname": "Weiskopf" }
     ],
     "keywords": [
       "Index Terms—Eye-tracking",
@@ -3197,15 +3267,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_legg.pdf.tei.xml",
     "title": "Transformation of an Uncertain Video Search Pipeline to a Sketch-Based Visual Analytics Loop",
     "authors": [
-      { "forename": "Philip", "surname": "Legg" },
-      { "forename": "David", "surname": "Chung" },
-      { "forename": "Matthew", "surname": "Parry" },
-      { "forename": "Rhodri", "surname": "Bown" },
-      { "forename": "Mark", "surname": "Jones" },
-      { "forename": "Iwan", "surname": "Griffiths" },
-      { "forename": "Min", "surname": "Chen" }
+      { "forename": "P", "surname": "Legg" },
+      { "forename": "D", "surname": "Chung" },
+      { "forename": "M", "surname": "Parry" },
+      { "forename": "R", "surname": "Bown" },
+      { "forename": "M", "surname": "Jones" },
+      { "forename": "I", "surname": "Griffiths" },
+      { "forename": "M", "surname": "Chen" }
     ],
     "keywords": [
       "Index Terms—Visual knowledge discovery",
@@ -3230,34 +3301,34 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_meghdadi.pdf.tei.xml",
     "title": "Interactive Exploration of Surveillance Video through Action Shot Summarization and Trajectory Visualization",
     "authors": [
-      { "forename": "Amir", "surname": "Meghdadi" },
-      { "forename": "Pourang", "surname": "Irani" }
+      { "forename": "A", "surname": "Meghdadi" },
+      { "forename": "P", "surname": "Irani" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_monroe.pdf.tei.xml",
     "title": "Temporal Event Sequence Simplification",
     "authors": [
-      { "forename": "Megan", "surname": "Monroe" },
-      { "forename": "Rongjian", "surname": "Lan" },
-      { "forename": "Hanseung", "surname": "Lee" },
-      { "forename": "Catherine", "surname": "Plaisant" },
-      { "forename": "Ben", "surname": "Shneiderman" }
+      { "forename": "M", "surname": "Monroe" },
+      { "forename": "R", "surname": "Lan" },
+      { "forename": "H", "surname": "Lee" },
+      { "forename": "C", "surname": "Plaisant" },
+      { "forename": "B", "surname": "Shneiderman" }
     ],
     "keywords": ["Index Terms—Event sequences", "simplification", "electronic heath records", "temporal query"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_muehlbacher.pdf.tei.xml",
     "title": "A Partition-Based Framework for Building and Validating Regression Models",
-    "authors": [
-      { "forename": "Thomas", "surname": "" },
-      { "forename": "Harald", "surname": "Piringer" }
-    ],
+    "authors": [{ "forename": "H", "surname": "Piringer" }],
     "keywords": [
       "Index Terms—Regression",
       "model building",
@@ -3283,47 +3354,51 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_packer.pdf.tei.xml",
     "title": "Visual Analytics for Spatial Clustering: Using a Heuristic Approach for Guided Exploration",
     "authors": [
-      { "forename": "Eli", "surname": "Packer" },
-      { "forename": "Peter", "surname": "Bak" },
-      { "forename": "Mikko", "surname": "Nikkiï" },
-      { "forename": "Valentin", "surname": "Polishchuk" },
-      { "forename": "Harold", "surname": "Ship" }
+      { "forename": "E", "surname": "Packer" },
+      { "forename": "P", "surname": "Bak" },
+      { "forename": "M", "surname": "Nikkiï" },
+      { "forename": "V", "surname": "Polishchuk" },
+      { "forename": "H", "surname": "Ship" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_rind.pdf.tei.xml",
     "title": "TimeBench: A Data Model and Software Library for Visual Analytics of Time-Oriented Data",
     "authors": [
-      { "forename": "Alexander", "surname": "Rind" },
-      { "forename": "Tim", "surname": "Lammarsch" },
-      { "forename": "Wolfgang", "surname": "Aigner" },
-      { "forename": "Bilal", "surname": "Alsallakh" },
-      { "forename": "Silvia", "surname": "Miksch" }
+      { "forename": "A", "surname": "Rind" },
+      { "forename": "T", "surname": "Lammarsch" },
+      { "forename": "W", "surname": "Aigner" },
+      { "forename": "B", "surname": "Alsallakh" },
+      { "forename": "S", "surname": "Miksch" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_schmidt.pdf.tei.xml",
     "title": "VAICo: Visual Analysis for Image Comparison",
     "authors": [
-      { "forename": "Johanna", "surname": "Schmidt" },
+      { "forename": "J", "surname": "Schmidt" },
       { "forename": "M", "surname": "Gröllergr¨gröller" },
-      { "forename": "Stefan", "surname": "Bruckner" }
+      { "forename": "S", "surname": "Bruckner" }
     ],
     "keywords": ["Index Terms—Comparative visualization", "focus+context visualization", "image set comparison"],
     "citations": [],
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_schultz.pdf.tei.xml",
     "title": "Open-Box Spectral Clustering: Applications to Medical Image Analysis",
     "authors": [
-      { "forename": "Thomas", "surname": "Schultz" },
-      { "forename": "Gordon", "surname": "Kindlmann" }
+      { "forename": "T", "surname": "Schultz" },
+      { "forename": "G", "surname": "Kindlmann" }
     ],
     "keywords": [
       "Subject A",
@@ -3342,10 +3417,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_shadoan.pdf.tei.xml",
     "title": "Visual Analysis of Higher-Order Conjunctive Relationships in Multidimensional Data Using a Hypergraph Query System",
     "authors": [
-      { "forename": "Rachel", "surname": "Shadoan" },
-      { "forename": "Chris", "surname": "Weaver" }
+      { "forename": "R", "surname": "Shadoan" },
+      { "forename": "C", "surname": "Weaver" }
     ],
     "keywords": [
       "Index Terms—Graph search",
@@ -3361,17 +3437,18 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_walker.pdf.tei.xml",
     "title": "An Extensible Framework for Provenance in Human Terrain Visual Analytics",
     "authors": [
-      { "forename": "Rick", "surname": "Walker" },
-      { "forename": "Aidan", "surname": "Slingsby" },
-      { "forename": "Jason", "surname": "Dykes" },
-      { "forename": "Kai", "surname": "Xu" },
-      { "forename": "Jo", "surname": "Wood" },
-      { "forename": "Phong", "surname": "Nguyen" },
-      { "forename": "Derek", "surname": "Stephens" },
+      { "forename": "R", "surname": "Walker" },
+      { "forename": "A", "surname": "Slingsby" },
+      { "forename": "J", "surname": "Dykes" },
+      { "forename": "K", "surname": "Xu" },
+      { "forename": "J", "surname": "Wood" },
+      { "forename": "P", "surname": "Nguyen" },
+      { "forename": "D", "surname": "Stephens" },
       { "forename": "B", "surname": "Wong" },
-      { "forename": "Yongjun", "surname": "Zheng" }
+      { "forename": "Y", "surname": "Zheng" }
     ],
     "keywords": ["Index Terms—Human terrain analysis", "provenance", "framework", "bookmarks", "narratives"],
     "citations": [
@@ -3397,11 +3474,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_wang1.pdf.tei.xml",
     "title": "SketchPad N-D : WYDIWYG Sculpting and Editing in Dimensional Space",
     "authors": [
-      { "forename": "Bing", "surname": "Wang" },
-      { "forename": "Puripant", "surname": "Ruchikachorn" },
-      { "forename": "Klaus", "surname": "Mueller" }
+      { "forename": "B", "surname": "Wang" },
+      { "forename": "P", "surname": "Ruchikachorn" },
+      { "forename": "K", "surname": "Mueller" }
     ],
     "keywords": [
       "Index Terms—Synthetic data generation",
@@ -3420,41 +3498,44 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_wang2.pdf.tei.xml",
     "title": "Visual Traffic Jam Analysis Based on Trajectory Data",
     "authors": [
-      { "forename": "Zuchao", "surname": "Wang" },
-      { "forename": "Min", "surname": "Lu" },
-      { "forename": "Xiaoru", "surname": "Yuan" },
-      { "forename": "Junping", "surname": "Zhang" },
-      { "forename": "Huub", "surname": "Van De Wetering" }
+      { "forename": "Z", "surname": "Wang" },
+      { "forename": "M", "surname": "Lu" },
+      { "forename": "X", "surname": "Yuan" },
+      { "forename": "J", "surname": "Zhang" },
+      { "forename": "H", "surname": "Van De Wetering" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_willett.pdf.tei.xml",
     "title": "Identifying Redundancy and Exposing Provenance in Crowdsourced Data Analysis",
     "authors": [
-      { "forename": "Wesley", "surname": "Willett" },
-      { "forename": "Shiry", "surname": "Ginosar" },
-      { "forename": "Avital", "surname": "Steinitz" },
-      { "forename": "Björnbj¨björn", "surname": "Hartmann" },
-      { "forename": "Maneesh", "surname": "Agrawala" }
+      { "forename": "W", "surname": "Willett" },
+      { "forename": "S", "surname": "Ginosar" },
+      { "forename": "A", "surname": "Steinitz" },
+      { "forename": "B", "surname": "Hartmann" },
+      { "forename": "M", "surname": "Agrawala" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_xu.pdf.tei.xml",
     "title": "Visual Analysis of Topic Competition on Social Media Politicial figures Grassroots Media",
     "authors": [
-      { "forename": "Panpan", "surname": "Xu" },
-      { "forename": "Yingcai", "surname": "Wu" },
-      { "forename": "Enxun", "surname": "Wei" },
-      { "forename": "Tai-Quan", "surname": "Peng" },
-      { "forename": "Shixia", "surname": "Liu" },
-      { "forename": "Jonathan", "surname": "Zhu" },
-      { "forename": "Huamin", "surname": "Qu" }
+      { "forename": "P", "surname": "Xu" },
+      { "forename": "Y", "surname": "Wu" },
+      { "forename": "E", "surname": "Wei" },
+      { "forename": "T", "surname": "Peng" },
+      { "forename": "S", "surname": "Liu" },
+      { "forename": "J", "surname": "Zhu" },
+      { "forename": "H", "surname": "Qu" }
     ],
     "keywords": [
       "Index Terms—Social media visuaization",
@@ -3467,25 +3548,26 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_zhang.pdf.tei.xml",
     "title": "Vis4Heritage: Visual Analytics Approach on Grotto Wall Painting Degradations",
     "authors": [
-      { "forename": "Jiawan", "surname": "Zhang" },
-      { "forename": "Kai", "surname": "Kang" },
-      { "forename": "Dajian", "surname": "Liu" },
-      { "forename": "Ye", "surname": "Yuan" },
-      { "forename": "Yanli", "surname": "" }
+      { "forename": "J", "surname": "Zhang" },
+      { "forename": "K", "surname": "Kang" },
+      { "forename": "D", "surname": "Liu" },
+      { "forename": "Y", "surname": "Yuan" }
     ],
     "keywords": ["Index Terms—Cultural heritage", "wall paintings", "degradation", "visual analytics"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2013/13_vast_zhao.pdf.tei.xml",
     "title": "Interactive Exploration of Implicit and Explicit Relations in Faceted Datasets",
     "authors": [
-      { "forename": "Jian", "surname": "Zhao" },
-      { "forename": "Christopher", "surname": "Collins" },
-      { "forename": "Fanny", "surname": "Chevalier" },
-      { "forename": "Ravin", "surname": "Balakrishnan" }
+      { "forename": "J", "surname": "Zhao" },
+      { "forename": "C", "surname": "Collins" },
+      { "forename": "F", "surname": "Chevalier" },
+      { "forename": "R", "surname": "Balakrishnan" }
     ],
     "keywords": [
       "Index Terms—Faceted browsing",
@@ -3499,14 +3581,15 @@
     "citedBy": 1
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1604_20tvcg12-sacha-2346481.pdf.tei.xml",
     "title": "Knowledge Generation Model for Visual Analytics",
     "authors": [
-      { "forename": "Dominik", "surname": "Sacha" },
-      { "forename": "Andreas", "surname": "Stoffel" },
-      { "forename": "Florian", "surname": "Stoffel" },
-      { "forename": "Chul", "surname": "Kwon" },
-      { "forename": "Geoffrey", "surname": "Ellis" },
-      { "forename": "Daniel", "surname": "Keim" }
+      { "forename": "D", "surname": "Sacha" },
+      { "forename": "A", "surname": "Stoffel" },
+      { "forename": "F", "surname": "Stoffel" },
+      { "forename": "C", "surname": "Kwon" },
+      { "forename": "G", "surname": "Ellis" },
+      { "forename": "D", "surname": "Keim" }
     ],
     "keywords": [
       "Index Terms—Visual Analytics",
@@ -3529,22 +3612,24 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1614_20tvcg12-krause-2346482.pdf.tei.xml",
     "title": "INFUSE: Interactive Feature Selection for Predictive Modeling of High Dimensional Data",
     "authors": [
-      { "forename": "Josua", "surname": "Krause" },
-      { "forename": "Adam", "surname": "Perer" },
-      { "forename": "Enrico", "surname": "Bertini" },
-      { "forename": "Josua", "surname": "Krause" }
+      { "forename": "J", "surname": "Krause" },
+      { "forename": "A", "surname": "Perer" },
+      { "forename": "E", "surname": "Bertini" },
+      { "forename": "J", "surname": "Krause" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1624_20tvcg12-dang-2346572.pdf.tei.xml",
     "title": "Transforming Scagnostics to Reveal Hidden Features",
     "authors": [
-      { "forename": "Tuan", "surname": "Dang" },
-      { "forename": "Leland", "surname": "Wilkinson" }
+      { "forename": "T", "surname": "Dang" },
+      { "forename": "L", "surname": "Wilkinson" }
     ],
     "keywords": [
       "Index Terms—Scagnostics",
@@ -3556,10 +3641,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1633_20tvcg12-Mahyar-2346573.pdf.tei.xml",
     "title": "Supporting Communication and Coordination in Collaborative Sensemaking",
     "authors": [
-      { "forename": "Narges", "surname": "Mahyar" },
-      { "forename": "Melanie", "surname": "Tory" }
+      { "forename": "N", "surname": "Mahyar" },
+      { "forename": "M", "surname": "Tory" }
     ],
     "keywords": [
       "Index Terms—Sensemaking",
@@ -3572,13 +3658,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1643_20tvcg12-muhlbacher-2346578.pdf.tei.xml",
     "title": "Opening the Black Box: Strategies for Increased User Involvement in Existing Algorithm Implementations",
     "authors": [
-      { "forename": "Thomas", "surname": "" },
-      { "forename": "Harald", "surname": "Piringer" },
-      { "forename": "Samuel", "surname": "Gratzl" },
-      { "forename": "Michael", "surname": "Sedlmair" },
-      { "forename": "Marc", "surname": "Streit" }
+      { "forename": "H", "surname": "Piringer" },
+      { "forename": "S", "surname": "Gratzl" },
+      { "forename": "M", "surname": "Sedlmair" },
+      { "forename": "M", "surname": "Streit" }
     ],
     "keywords": [],
     "citations": [
@@ -3628,11 +3714,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1653_20tvcg12-stolper-2346574.pdf.tei.xml",
     "title": "Progressive Visual Analytics: User-Driven Visual Exploration of In-Progress Analytics",
     "authors": [
-      { "forename": "Charles", "surname": "Stolper" },
-      { "forename": "Adam", "surname": "Perer" },
-      { "forename": "David", "surname": "Gotz" }
+      { "forename": "C", "surname": "Stolper" },
+      { "forename": "A", "surname": "Perer" },
+      { "forename": "D", "surname": "Gotz" }
     ],
     "keywords": [
       "Index Terms—Progressive visual analytics",
@@ -3644,29 +3731,31 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1663_20tvcg12-brown-2346575.pdf.tei.xml",
     "title": "Finding Waldo: Learning about Users from their Interactions",
     "authors": [
-      { "forename": "Eli", "surname": "Brown" },
-      { "forename": "Alvitta", "surname": "Ottley" },
-      { "forename": "Helen", "surname": "Zhao" },
-      { "forename": "Quan", "surname": "Lin" },
-      { "forename": "Richard", "surname": "Souvenir" },
-      { "forename": "Alex", "surname": "Endert" },
-      { "forename": "Remco", "surname": "Chang" }
+      { "forename": "E", "surname": "Brown" },
+      { "forename": "A", "surname": "Ottley" },
+      { "forename": "H", "surname": "Zhao" },
+      { "forename": "Q", "surname": "Lin" },
+      { "forename": "R", "surname": "Souvenir" },
+      { "forename": "A", "surname": "Endert" },
+      { "forename": "R", "surname": "Chang" }
     ],
     "keywords": ["Index Terms— User Interactions", "Analytic Provenance", "Visualization", "Applied Machine Learning"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1673_20tvcg12-klemm-2346591.pdf.tei.xml",
     "title": "Interactive Visual Analysis of Image-Centric Cohort Study Data",
     "authors": [
-      { "forename": "Paul", "surname": "Klemm" },
-      { "forename": "Steffen", "surname": "Oeltze-Jafra" },
-      { "forename": "Kai", "surname": "Lawonn" },
-      { "forename": "Katrin", "surname": "Hegenscheid" },
+      { "forename": "P", "surname": "Klemm" },
+      { "forename": "S", "surname": "Oeltze-Jafra" },
+      { "forename": "K", "surname": "Lawonn" },
+      { "forename": "K", "surname": "Hegenscheid" },
       { "forename": "V", "surname": "Henry" },
-      { "forename": "Bernhard", "surname": "Olzke" },
+      { "forename": "B", "surname": "Olzke" },
       { "forename": "", "surname": "Preim" }
     ],
     "keywords": ["Index Terms—Interactive Visual Analysis", "Epidemiology", "Spine"],
@@ -3674,21 +3763,22 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1683_20tvcg12-chen-2346594.pdf.tei.xml",
     "title": "Visual Abstraction and Exploration of Multi-class Scatterplots",
     "authors": [
-      { "forename": "Haidong", "surname": "Chen" },
-      { "forename": "Wei", "surname": "Chen" },
-      { "forename": "Honghui", "surname": "Mei" },
-      { "forename": "Zhiqi", "surname": "Liu" },
-      { "forename": "Kun", "surname": "Zhou" },
-      { "forename": "Weifeng", "surname": "Chen" },
-      { "forename": "Wentao", "surname": "Gu" },
-      { "forename": "Kwan-Liu", "surname": "Ma" },
-      { "forename": "Haidong", "surname": "@bullet" },
-      { "forename": "Wei", "surname": "Chen" },
-      { "forename": "Kun", "surname": "Chen" },
-      { "forename": "Honghui", "surname": "Zhou" },
-      { "forename": "Zhiqi", "surname": "Mei" },
+      { "forename": "H", "surname": "Chen" },
+      { "forename": "W", "surname": "Chen" },
+      { "forename": "H", "surname": "Mei" },
+      { "forename": "Z", "surname": "Liu" },
+      { "forename": "K", "surname": "Zhou" },
+      { "forename": "W", "surname": "Chen" },
+      { "forename": "W", "surname": "Gu" },
+      { "forename": "K", "surname": "Ma" },
+      { "forename": "H", "surname": "@bullet" },
+      { "forename": "W", "surname": "Chen" },
+      { "forename": "K", "surname": "Chen" },
+      { "forename": "H", "surname": "Zhou" },
+      { "forename": "Z", "surname": "Mei" },
       { "forename": "", "surname": "Liu" }
     ],
     "keywords": ["Index Terms—Scatterplot", "overdraw reduction", "sampling", "visual abstraction"],
@@ -3696,12 +3786,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1693_20tvcg12-beham-2346626.pdf.tei.xml",
     "title": "Cupid: Cluster-Based Exploration of Geometry Generators with Parallel Coordinates and Radial Trees",
     "authors": [
-      { "forename": "Michael", "surname": "Beham" },
-      { "forename": "Wolfgang", "surname": "Herzner" },
+      { "forename": "M", "surname": "Beham" },
+      { "forename": "W", "surname": "Herzner" },
       { "forename": "M", "surname": "Gröllergr¨gröller" },
-      { "forename": "Johannes", "surname": "Kehrer" }
+      { "forename": "J", "surname": "Kehrer" }
     ],
     "keywords": [
       "Index Terms—Composite visualization",
@@ -3714,13 +3805,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1703_20tvcg12-alsallakh-2346660.pdf.tei.xml",
     "title": "Visual Methods for Analyzing Probabilistic Classification Data",
     "authors": [
-      { "forename": "Bilal", "surname": "Alsallakh" },
-      { "forename": "Allan", "surname": "Hanbury" },
-      { "forename": "Helwig", "surname": "Hauser" },
-      { "forename": "Silvia", "surname": "Miksch" },
-      { "forename": "Andreas", "surname": "Rauber" }
+      { "forename": "B", "surname": "Alsallakh" },
+      { "forename": "A", "surname": "Hanbury" },
+      { "forename": "H", "surname": "Hauser" },
+      { "forename": "S", "surname": "Miksch" },
+      { "forename": "A", "surname": "Rauber" }
     ],
     "keywords": [
       "Index Terms—Probabilistic classification",
@@ -3745,11 +3837,12 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1713_20tvcg12-sun-2346665.pdf.tei.xml",
     "title": "A Five-Level Design Framework for Bicluster Visualizations",
     "authors": [
-      { "forename": "Maoyuan", "surname": "Sun" },
-      { "forename": "Chris", "surname": "North" },
-      { "forename": "Naren", "surname": "Ramakrishnan" }
+      { "forename": "M", "surname": "Sun" },
+      { "forename": "C", "surname": "North" },
+      { "forename": "N", "surname": "Ramakrishnan" }
     ],
     "keywords": [
       "Index Terms—Biclusters",
@@ -3780,13 +3873,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1723_20tvcg12-koch-2346677.pdf.tei.xml",
     "title": "VarifocalReader – In-Depth Visual Analysis of Large Text Documents",
     "authors": [
-      { "forename": "Steffen", "surname": "Koch" },
-      { "forename": "Markus", "surname": "John" },
-      { "forename": "Michael", "surname": "Orner" },
-      { "forename": "Andreas", "surname": "Uller" },
-      { "forename": "Thomas", "surname": "Ertl" }
+      { "forename": "S", "surname": "Koch" },
+      { "forename": "M", "surname": "John" },
+      { "forename": "M", "surname": "Orner" },
+      { "forename": "A", "surname": "Uller" },
+      { "forename": "T", "surname": "Ertl" }
     ],
     "keywords": [
       "Index Terms—visual analytics",
@@ -3811,13 +3905,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1733_20tvcg12-shi-2346912.pdf.tei.xml",
     "title": "LoyalTracker: Visualizing Loyalty Dynamics in Search Engines",
     "authors": [
-      { "forename": "Conglei", "surname": "Shi" },
-      { "forename": "Yingcai", "surname": "Wu" },
-      { "forename": "Shixia", "surname": "Liu" },
-      { "forename": "Hong", "surname": "Zhou" },
-      { "forename": "Huamin", "surname": "Qu" }
+      { "forename": "C", "surname": "Shi" },
+      { "forename": "Y", "surname": "Wu" },
+      { "forename": "S", "surname": "Liu" },
+      { "forename": "H", "surname": "Zhou" },
+      { "forename": "H", "surname": "Qu" }
     ],
     "keywords": [
       "Index Terms—Time-series visualization",
@@ -3829,41 +3924,44 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1743_20tvcg12-xie-2346913.pdf.tei.xml",
     "title": "VAET: A Visual Analytics Approach for E-transactions Time-Series (a) (b) (c) (d) (e) (f)",
     "authors": [
-      { "forename": "Cong", "surname": "Xie" },
-      { "forename": "Wei", "surname": "Chen" },
-      { "forename": "Xinxin", "surname": "Huang" },
-      { "forename": "Yueqi", "surname": "Hu" },
-      { "forename": "Scott", "surname": "Barlowe" },
-      { "forename": "Jing", "surname": "Yang" }
+      { "forename": "C", "surname": "Xie" },
+      { "forename": "W", "surname": "Chen" },
+      { "forename": "X", "surname": "Huang" },
+      { "forename": "Y", "surname": "Hu" },
+      { "forename": "S", "surname": "Barlowe" },
+      { "forename": "J", "surname": "Yang" }
     ],
     "keywords": ["Index Terms—Time-Series", "Visual Analytics", "E-transaction"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1753_20tvcg12-sun-2346919.pdf.tei.xml",
     "title": "EvoRiver: Visual Analysis of Topic Coopetition on Social Media",
     "authors": [
-      { "forename": "Guodao", "surname": "Sun" },
-      { "forename": "Yingcai", "surname": "Wu" },
-      { "forename": "Shixia", "surname": "Liu" },
-      { "forename": "Tai-Quan", "surname": "Peng" },
-      { "forename": "Jonathan", "surname": "Zhu" },
-      { "forename": "Ronghua", "surname": "Liang" }
+      { "forename": "G", "surname": "Sun" },
+      { "forename": "Y", "surname": "Wu" },
+      { "forename": "S", "surname": "Liu" },
+      { "forename": "T", "surname": "Peng" },
+      { "forename": "J", "surname": "Zhu" },
+      { "forename": "R", "surname": "Liang" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1763_20tvcg12-wu-2346920.pdf.tei.xml",
     "title": "OpinionFlow: Visual Analysis of Opinion Diffusion on Social Media",
     "authors": [
-      { "forename": "Yingcai", "surname": "Wu" },
-      { "forename": "Shixia", "surname": "Liu" },
-      { "forename": "Kai", "surname": "Yan" },
-      { "forename": "Mengchen", "surname": "Liu" },
-      { "forename": "Fangzhao", "surname": "Wu" }
+      { "forename": "Y", "surname": "Wu" },
+      { "forename": "S", "surname": "Liu" },
+      { "forename": "K", "surname": "Yan" },
+      { "forename": "M", "surname": "Liu" },
+      { "forename": "F", "surname": "Wu" }
     ],
     "keywords": [
       "Index Terms—Opinion visualization",
@@ -3877,14 +3975,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1773_20tvcg12-zhao-2346922.pdf.tei.xml",
     "title": "#FluxFlow: Visual Analysis of Anomalous Information Spreading on Social Media",
     "authors": [
-      { "forename": "Jian", "surname": "Zhao" },
-      { "forename": "Nan", "surname": "Cao" },
-      { "forename": "Zhen", "surname": "Wen" },
-      { "forename": "Yale", "surname": "Song" },
-      { "forename": "Yu-Ru", "surname": "Lin" },
-      { "forename": "Christopher", "surname": "Collins" }
+      { "forename": "J", "surname": "Zhao" },
+      { "forename": "N", "surname": "Cao" },
+      { "forename": "Z", "surname": "Wen" },
+      { "forename": "Y", "surname": "Song" },
+      { "forename": "Y", "surname": "Lin" },
+      { "forename": "C", "surname": "Collins" }
     ],
     "keywords": [
       "Index Terms—Retweeting threads",
@@ -3898,10 +3997,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1783_20tvcg12-gotz-2346682.pdf.tei.xml",
     "title": "DecisionFlow: Visual Analytics for High-Dimensional Temporal Event Sequence Data (a) (b) (c) (d) (e) (f)",
     "authors": [
-      { "forename": "David", "surname": "Gotz" },
-      { "forename": "Harry", "surname": "Stavropoulos" }
+      { "forename": "D", "surname": "Gotz" },
+      { "forename": "H", "surname": "Stavropoulos" }
     ],
     "keywords": [
       "Index Terms—Information Visualization",
@@ -3914,13 +4014,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1793_20tvcg12-isaacs-2346743.pdf.tei.xml",
     "title": "Footprints: A Visual Search Tool that Supports Discovery and Coverage Tracking",
     "authors": [
-      { "forename": "Ellen", "surname": "Isaacs" },
-      { "forename": "Kelly", "surname": "Domico" },
-      { "forename": "Shane", "surname": "Ahern" },
-      { "forename": "Eugene", "surname": "Bart" },
-      { "forename": "Mudita", "surname": "Singhal" }
+      { "forename": "E", "surname": "Isaacs" },
+      { "forename": "K", "surname": "Domico" },
+      { "forename": "S", "surname": "Ahern" },
+      { "forename": "E", "surname": "Bart" },
+      { "forename": "M", "surname": "Singhal" }
     ],
     "keywords": [],
     "citations": [
@@ -3952,15 +4053,16 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1803_20tvcg12-matkovic-2346744.pdf.tei.xml",
     "title": "Visual Analytics for Complex Engineering Systems: Hybrid Visual Steering of Simulation Ensembles",
     "authors": [
-      { "forename": "Krešimir", "surname": "Matkovi´cmatkovi´c" },
-      { "forename": "Denis", "surname": "Cs" },
-      { "forename": "Rainer", "surname": "Splechtna" },
-      { "forename": "Mario", "surname": "Jelovi´cjelovi´c" },
-      { "forename": "Benedikt", "surname": "Stehno" },
-      { "forename": "Helwig", "surname": "Hauser" },
-      { "forename": "Werner", "surname": "Cs" },
+      { "forename": "K", "surname": "Matkovi´cmatkovi´c" },
+      { "forename": "D", "surname": "Cs" },
+      { "forename": "R", "surname": "Splechtna" },
+      { "forename": "M", "surname": "Jelovi´cjelovi´c" },
+      { "forename": "B", "surname": "Stehno" },
+      { "forename": "H", "surname": "Hauser" },
+      { "forename": "W", "surname": "Cs" },
       { "forename": "", "surname": "Purgathofer" }
     ],
     "keywords": [
@@ -3974,30 +4076,32 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1813_20tvcg12-wang-2346746.pdf.tei.xml",
     "title": "Visual Exploration of Sparse Traffic Trajectory Data",
     "authors": [
-      { "forename": "Zuchao", "surname": "Wang" },
-      { "forename": "Tangzhi", "surname": "Ye" },
-      { "forename": "Min", "surname": "Lu" },
-      { "forename": "Xiaoru", "surname": "Yuan" },
-      { "forename": "Huamin", "surname": "Qu" },
-      { "forename": "Jacky", "surname": "Yuan" },
-      { "forename": "Qianliang", "surname": "Wu" }
+      { "forename": "Z", "surname": "Wang" },
+      { "forename": "T", "surname": "Ye" },
+      { "forename": "M", "surname": "Lu" },
+      { "forename": "X", "surname": "Yuan" },
+      { "forename": "H", "surname": "Qu" },
+      { "forename": "J", "surname": "Yuan" },
+      { "forename": "Q", "surname": "Wu" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1823_20tvcg12-madhavan-2346747.pdf.tei.xml",
     "title": "DIA2: Web-based Cyberinfrastructure for Visual Analysis of Funding Portfolios",
     "authors": [
-      { "forename": "Krishna", "surname": "Madhavan" },
-      { "forename": "Mihaela", "surname": "Vorvoreanu" },
-      { "forename": "Chen", "surname": "Xin" },
-      { "forename": "Yuetling", "surname": "Wong" },
-      { "forename": "Hanjun", "surname": "Xian" },
-      { "forename": "Zhihua", "surname": "Dong" },
-      { "forename": "Aditya", "surname": "Johri" }
+      { "forename": "K", "surname": "Madhavan" },
+      { "forename": "M", "surname": "Vorvoreanu" },
+      { "forename": "C", "surname": "Xin" },
+      { "forename": "Y", "surname": "Wong" },
+      { "forename": "H", "surname": "Xian" },
+      { "forename": "Z", "surname": "Dong" },
+      { "forename": "A", "surname": "Johri" }
     ],
     "keywords": [
       "Index Terms—visual analytics",
@@ -4010,51 +4114,52 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1833_20tvcg12-zeng-2346893.pdf.tei.xml",
     "title": "Visualizing Mobility of Public Transportation System",
     "authors": [
-      { "forename": "Wei", "surname": "Zeng" },
-      { "forename": "Chi-Wing", "surname": "Fu" },
-      { "forename": "Stefan", "surname": "Arisona" },
-      { "forename": "Alexander", "surname": "Erath" },
-      { "forename": "Huamin", "surname": "Qu" }
+      { "forename": "W", "surname": "Zeng" },
+      { "forename": "C", "surname": "Fu" },
+      { "forename": "S", "surname": "Arisona" },
+      { "forename": "A", "surname": "Erath" },
+      { "forename": "H", "surname": "Qu" }
     ],
     "keywords": ["Index Terms—Mobility", "public transportation", "visual analytics"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1843_20tvcg12-zhang-2346898.pdf.tei.xml",
     "title": "Visual Analysis of Public Utility Service Problems in a Metropolis",
     "authors": [
-      { "forename": "Jiawan", "surname": "Zhang" },
-      { "forename": "Yanli", "surname": "" },
-      { "forename": "Jing", "surname": "Ma" },
-      { "forename": "Yahui", "surname": "Zhao" },
-      { "forename": "Binghan", "surname": "Xu" },
-      { "forename": "Liting", "surname": "Sun" },
-      { "forename": "Jinyan", "surname": "Chen" },
-      { "forename": "Xiaoru", "surname": "Yuan" }
+      { "forename": "J", "surname": "Zhang" },
+      { "forename": "J", "surname": "Ma" },
+      { "forename": "Y", "surname": "Zhao" },
+      { "forename": "B", "surname": "Xu" },
+      { "forename": "L", "surname": "Sun" },
+      { "forename": "J", "surname": "Chen" },
+      { "forename": "X", "surname": "Yuan" }
     ],
     "keywords": ["Index Terms—utility services", "evidence-based decision making", "visual analytics", "aggregate"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1853_20tvcg12-ko-2346911.pdf.tei.xml",
     "title": "VASA: Interactive Computational Steering of Large Asynchronous Simulation Pipelines for Societal Infrastructure",
     "authors": [
-      { "forename": "Sungahn", "surname": "Ko" },
-      { "forename": "Jieqiong", "surname": "Zhao" },
-      { "forename": "Jing", "surname": "Xia" },
-      { "forename": "Shehzad", "surname": "Afzal" },
-      { "forename": "Xiaoyu", "surname": "Wang" },
-      { "forename": "Greg", "surname": "Abram" },
-      { "forename": "Niklas", "surname": "" },
-      { "forename": "Len", "surname": "Kne" },
-      { "forename": "David", "surname": "Riper" },
-      { "forename": "Kelly", "surname": "Gaither" },
-      { "forename": "Shaun", "surname": "Kennedy" },
-      { "forename": "William", "surname": "Tolone" },
-      { "forename": "William", "surname": "Ribarsky" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "S", "surname": "Ko" },
+      { "forename": "J", "surname": "Zhao" },
+      { "forename": "J", "surname": "Xia" },
+      { "forename": "S", "surname": "Afzal" },
+      { "forename": "X", "surname": "Wang" },
+      { "forename": "G", "surname": "Abram" },
+      { "forename": "L", "surname": "Kne" },
+      { "forename": "D", "surname": "Riper" },
+      { "forename": "K", "surname": "Gaither" },
+      { "forename": "S", "surname": "Kennedy" },
+      { "forename": "W", "surname": "Tolone" },
+      { "forename": "W", "surname": "Ribarsky" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [
       "Index Terms—Computational steering",
@@ -4066,13 +4171,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1863_20tvcg12-malik-2346926.pdf.tei.xml",
     "title": "Proactive Spatiotemporal Resource Allocation and Predictive Visual Analytics for Community Policing and Law Enforcement",
     "authors": [
-      { "forename": "Abish", "surname": "Malik" },
-      { "forename": "Ross", "surname": "Maciejewski" },
-      { "forename": "Sherry", "surname": "Towers" },
-      { "forename": "Sean", "surname": "Mccullough" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "A", "surname": "Malik" },
+      { "forename": "R", "surname": "Maciejewski" },
+      { "forename": "S", "surname": "Towers" },
+      { "forename": "S", "surname": "Mccullough" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [
       "Index Terms—Visual Analytics",
@@ -4084,14 +4190,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1873_20tvcg12-konev-2346930.pdf.tei.xml",
     "title": "Run Watchers: Automatic Simulation-Based Decision Support in Flood Management",
     "authors": [
-      { "forename": "Artem", "surname": "Konev" },
+      { "forename": "A", "surname": "Konev" },
       { "forename": "J", "surname": "Urgen Waser" },
-      { "forename": "Bernhard", "surname": "Sadransky" },
-      { "forename": "Daniel", "surname": "Cornel" },
-      { "forename": "Rui", "surname": "Perdigãoperdig˜perdigão" },
-      { "forename": "Zsolt", "surname": "Horváthhorv´horváth" },
+      { "forename": "B", "surname": "Sadransky" },
+      { "forename": "D", "surname": "Cornel" },
+      { "forename": "R", "surname": "Perdigãoperdig˜perdigão" },
+      { "forename": "Z", "surname": "Horváthhorv´horváth" },
       { "forename": "M", "surname": "Gröllergr¨gröller" }
     ],
     "keywords": [
@@ -4105,27 +4212,29 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1883_20tvcg12-partl-2346752.pdf.tei.xml",
     "title": "ConTour: Data-Driven Exploration of Multi-Relational Datasets for Drug Discovery",
     "authors": [
-      { "forename": "Christian", "surname": "Partl" },
-      { "forename": "Alexander", "surname": "Lex" },
-      { "forename": "Marc", "surname": "Streit" },
-      { "forename": "Hendrik", "surname": "Strobelt" },
-      { "forename": "Anne-Mai", "surname": "Wassermann" },
-      { "forename": "Hanspeter", "surname": "Pfister" },
-      { "forename": "Dieter", "surname": "Schmalstieg" }
+      { "forename": "C", "surname": "Partl" },
+      { "forename": "A", "surname": "Lex" },
+      { "forename": "M", "surname": "Streit" },
+      { "forename": "H", "surname": "Strobelt" },
+      { "forename": "A", "surname": "Wassermann" },
+      { "forename": "H", "surname": "Pfister" },
+      { "forename": "D", "surname": "Schmalstieg" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1893_20tvcg12-kothur-2346751.pdf.tei.xml",
     "title": "Visual Analytics for Comparison of Ocean Model Output with Reference Data: Detecting and Analyzing Geophysical Processes Using Clustering Ensembles",
     "authors": [
-      { "forename": "Patrick", "surname": "Othur" },
-      { "forename": "Mike", "surname": "Sips" },
-      { "forename": "Henryk", "surname": "Dobslaw" },
-      { "forename": "Doris", "surname": "Dransch" }
+      { "forename": "P", "surname": "Othur" },
+      { "forename": "M", "surname": "Sips" },
+      { "forename": "H", "surname": "Dobslaw" },
+      { "forename": "D", "surname": "Dransch" }
     ],
     "keywords": [
       "Index Terms—Ocean modeling",
@@ -4139,17 +4248,18 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1903_20tvcg12-yu-2346753.pdf.tei.xml",
     "title": "Genotet: An Interactive Web-based Visual Exploration Framework to Support Validation of Gene Regulatory Networks",
     "authors": [
-      { "forename": "Bowen", "surname": "Yu" },
-      { "forename": "Harish", "surname": "Doraiswamy" },
-      { "forename": "Xi", "surname": "Chen" },
-      { "forename": "Emily", "surname": "Miraldi" },
-      { "forename": "Mario", "surname": "Luis Arrieta-Ortiz" },
-      { "forename": "Christoph", "surname": "Hafemeister" },
-      { "forename": "Aviv", "surname": "Madar" },
-      { "forename": "Richard", "surname": "Bonneau" },
-      { "forename": "Cí", "surname": "Audio" },
+      { "forename": "B", "surname": "Yu" },
+      { "forename": "H", "surname": "Doraiswamy" },
+      { "forename": "X", "surname": "Chen" },
+      { "forename": "E", "surname": "Miraldi" },
+      { "forename": "M", "surname": "Luis Arrieta-Ortiz" },
+      { "forename": "C", "surname": "Hafemeister" },
+      { "forename": "A", "surname": "Madar" },
+      { "forename": "R", "surname": "Bonneau" },
+      { "forename": "C", "surname": "Audio" },
       { "forename": "T", "surname": "Silva" }
     ],
     "keywords": [],
@@ -4157,14 +4267,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1913_20tvcg12-ganuza-2346754.pdf.tei.xml",
     "title": "The Spinel Explorer -Interactive Visual Analysis of Spinel Group Minerals",
     "authors": [
-      { "forename": "María", "surname": "Lujánluj´luján Ganuza" },
-      { "forename": "Gabriela", "surname": "Ferracutti" },
-      { "forename": "Florencia", "surname": "María" },
-      { "forename": "Silvia", "surname": "Gargiulo" },
-      { "forename": "Ernesto", "surname": "Castro" },
-      { "forename": "Eduard", "surname": "Bjerg" },
+      { "forename": "M", "surname": "Lujánluj´luján Ganuza" },
+      { "forename": "G", "surname": "Ferracutti" },
+      { "forename": "F", "surname": "María" },
+      { "forename": "S", "surname": "Gargiulo" },
+      { "forename": "E", "surname": "Castro" },
+      { "forename": "E", "surname": "Bjerg" },
       { "forename": "", "surname": "Gröllergr¨gröller" }
     ],
     "keywords": [],
@@ -4172,17 +4283,18 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/1923_20tvcg12-poco-2346755.pdf.tei.xml",
     "title": "Visual Reconciliation of Alternative Similarity Spaces in Climate Modeling",
     "authors": [
-      { "forename": "Jorge", "surname": "Poco" },
-      { "forename": "Aritra", "surname": "Dasgupta" },
-      { "forename": "Yaxing", "surname": "Wei" },
-      { "forename": "William", "surname": "Hargrove" },
-      { "forename": "Christopher", "surname": "Schwalm" },
-      { "forename": "Deborah", "surname": "Huntzinger" },
-      { "forename": "Robert", "surname": "Cook" },
-      { "forename": "Enrico", "surname": "Bertini" },
-      { "forename": "Cí", "surname": "Audio" },
+      { "forename": "J", "surname": "Poco" },
+      { "forename": "A", "surname": "Dasgupta" },
+      { "forename": "Y", "surname": "Wei" },
+      { "forename": "W", "surname": "Hargrove" },
+      { "forename": "C", "surname": "Schwalm" },
+      { "forename": "D", "surname": "Huntzinger" },
+      { "forename": "R", "surname": "Cook" },
+      { "forename": "E", "surname": "Bertini" },
+      { "forename": "C", "surname": "Audio" },
       { "forename": "T", "surname": "Silva" }
     ],
     "keywords": ["Index Terms—Similarity", "clustering", "matrix", "optimization", "climate model"],
@@ -4190,50 +4302,47 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/accorsi.pdf.tei.xml",
     "title": "HydroQual: Visual Analysis of River Water Quality",
     "authors": [
-      { "forename": "Pierre", "surname": "Accorsi" },
-      { "forename": "Mickäelmick¨mickäel", "surname": "Fabrèguefabr" },
+      { "forename": "P", "surname": "Accorsi" },
+      { "forename": "M", "surname": "Fabrèguefabr" },
       { "forename": "", "surname": "Fabrègue" },
-      { "forename": "Arnaud", "surname": "Sallaberry" },
-      { "forename": "Agroparistech", "surname": "Montpellier" },
-      { "forename": "Nathalie", "surname": "Lalande" },
-      { "forename": "†", "surname": "Irstea" },
-      { "forename": "Montpellier", "surname": "Agnèsagn" },
-      { "forename": "Agnès", "surname": "Braud" },
-      { "forename": "Sandra", "surname": "Bringay" },
-      { "forename": "Florence", "surname": "Le Ber" },
-      { "forename": "Pascal", "surname": "Poncelet" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" },
-      { "forename": "", "surname": "" }
+      { "forename": "A", "surname": "Sallaberry" },
+      { "forename": "A", "surname": "Montpellier" },
+      { "forename": "N", "surname": "Lalande" },
+      { "forename": "M", "surname": "Agnèsagn" },
+      { "forename": "A", "surname": "Braud" },
+      { "forename": "S", "surname": "Bringay" },
+      { "forename": "F", "surname": "Le Ber" },
+      { "forename": "P", "surname": "Poncelet" }
     ],
     "keywords": ["Visual Analytics", "Spatiotemporal Data Mining and Visualization", "Water Quality"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/alexander.pdf.tei.xml",
     "title": "Serendip: Topic Model-Driven Visual Exploration of Text Corpora",
     "authors": [
-      { "forename": "Eric", "surname": "Alexander" },
-      { "forename": "Joe", "surname": "Kohlmann" },
-      { "forename": "Robin", "surname": "Valenza" },
-      { "forename": "Michael", "surname": "Witmore" },
-      { "forename": "Michael", "surname": "Gleicher" }
+      { "forename": "E", "surname": "Alexander" },
+      { "forename": "J", "surname": "Kohlmann" },
+      { "forename": "R", "surname": "Valenza" },
+      { "forename": "M", "surname": "Witmore" },
+      { "forename": "M", "surname": "Gleicher" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/behrisch.pdf.tei.xml",
     "title": "Feedback-Driven Interactive Exploration of Large Multidimensional Data Supported by Visual Classifier",
     "authors": [
-      { "forename": "Michael", "surname": "Behrisch" },
-      { "forename": "Fatih", "surname": "Korkmaz" },
-      { "forename": "Lin", "surname": "Shao" },
-      { "forename": "Tobias", "surname": "Schreck" }
+      { "forename": "M", "surname": "Behrisch" },
+      { "forename": "F", "surname": "Korkmaz" },
+      { "forename": "L", "surname": "Shao" },
+      { "forename": "T", "surname": "Schreck" }
     ],
     "keywords": [
       "Index Terms—View Space Exploration Framework",
@@ -4268,26 +4377,28 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/bradel.pdf.tei.xml",
     "title": "Multi-Model Semantic Interaction for Text Analytics",
     "authors": [
-      { "forename": "Lauren", "surname": "Bradel" },
-      { "forename": "Chris", "surname": "North" },
-      { "forename": "Leanna", "surname": "House" },
-      { "forename": "Scotland", "surname": "Leman" }
+      { "forename": "L", "surname": "Bradel" },
+      { "forename": "C", "surname": "North" },
+      { "forename": "L", "surname": "House" },
+      { "forename": "S", "surname": "Leman" }
     ],
     "keywords": ["Index Terms— Visual analytics", "Semantic Interaction", "Sensemaking", "Text Analytics"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/dietrich.pdf.tei.xml",
     "title": "Baseball4D: A Tool for Baseball Game Reconstruction &amp; Visualization",
     "authors": [
-      { "forename": "Carlos", "surname": "Dietrich" },
-      { "forename": "David", "surname": "Koop" },
-      { "forename": "Huy", "surname": "Vo" },
-      { "forename": "Cí", "surname": "Audio" },
+      { "forename": "C", "surname": "Dietrich" },
+      { "forename": "D", "surname": "Koop" },
+      { "forename": "H", "surname": "Vo" },
+      { "forename": "C", "surname": "Audio" },
       { "forename": "T", "surname": "Silva" },
-      { "forename": "Ieee", "surname": "Fellow" }
+      { "forename": "I", "surname": "Fellow" }
     ],
     "keywords": [
       "Index Terms—sports visualization",
@@ -4301,12 +4412,13 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/gomez.pdf.tei.xml",
     "title": "An Insight-and Task-based Methodology for Evaluating Spatiotemporal Visual Analytics",
     "authors": [
-      { "forename": "Steven", "surname": "Gomez" },
-      { "forename": "Hua", "surname": "Guo" },
-      { "forename": "Caroline", "surname": "Ziemkiewicz" },
-      { "forename": "David", "surname": "Laidlaw" }
+      { "forename": "S", "surname": "Gomez" },
+      { "forename": "H", "surname": "Guo" },
+      { "forename": "C", "surname": "Ziemkiewicz" },
+      { "forename": "D", "surname": "Laidlaw" }
     ],
     "keywords": [
       "Index Terms—Evaluation methodology",
@@ -4319,31 +4431,33 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/janetzko.pdf.tei.xml",
     "title": "Feature-Driven Visual Analytics of Soccer Data",
     "authors": [
-      { "forename": "Janetzko", "surname": "Halldórhalld´halldór" },
-      { "forename": "Dominik", "surname": "Sacha" },
-      { "forename": "Manuel", "surname": "Stein" },
-      { "forename": "Tobias", "surname": "Schreck" },
-      { "forename": "Daniel", "surname": "Keim" },
-      { "forename": "Oliver", "surname": "Deussen" }
+      { "forename": "J", "surname": "Halldórhalld´halldór" },
+      { "forename": "D", "surname": "Sacha" },
+      { "forename": "M", "surname": "Stein" },
+      { "forename": "T", "surname": "Schreck" },
+      { "forename": "D", "surname": "Keim" },
+      { "forename": "O", "surname": "Deussen" }
     ],
     "keywords": ["Index Terms—Visual Analytics", "Sport Analytics", "Soccer Analysis"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/ko.pdf.tei.xml",
     "title": "Analyzing High-dimensional Multivariate Network Links with Integrated Anomaly Detection, Highlighting and Exploration",
     "authors": [
-      { "forename": "Sungahnn", "surname": "Ko" },
-      { "forename": "Shehzad", "surname": "Afzal" },
-      { "forename": "Simon", "surname": "Walton" },
-      { "forename": "Yang", "surname": "Yang" },
-      { "forename": "Junghoon", "surname": "Chae" },
-      { "forename": "Abish", "surname": "Malik" },
-      { "forename": "Yun", "surname": "Jang" },
-      { "forename": "Min", "surname": "Chen" },
-      { "forename": "David", "surname": "Ebert" }
+      { "forename": "S", "surname": "Ko" },
+      { "forename": "S", "surname": "Afzal" },
+      { "forename": "S", "surname": "Walton" },
+      { "forename": "Y", "surname": "Yang" },
+      { "forename": "J", "surname": "Chae" },
+      { "forename": "A", "surname": "Malik" },
+      { "forename": "Y", "surname": "Jang" },
+      { "forename": "M", "surname": "Chen" },
+      { "forename": "D", "surname": "Ebert" }
     ],
     "keywords": [
       "Index Terms: I36 [Computer Graphics]: Methodology and",
@@ -4354,13 +4468,14 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/landstorfer.pdf.tei.xml",
     "title": "Weaving a Carpet from Log Entries: A Network Security Visualization Built with Co-Creation",
     "authors": [
-      { "forename": "Johannes", "surname": "Landstorfer" },
-      { "forename": "Ivo", "surname": "Herrmann" },
-      { "forename": "Jan-Erik", "surname": "Stange" },
-      { "forename": "Marian", "surname": "Dörk" },
-      { "forename": "Reto", "surname": "Wettach" }
+      { "forename": "J", "surname": "Landstorfer" },
+      { "forename": "I", "surname": "Herrmann" },
+      { "forename": "J", "surname": "Stange" },
+      { "forename": "M", "surname": "Dörk" },
+      { "forename": "R", "surname": "Wettach" }
     ],
     "keywords": [
       "Pixel-oriented techniques",
@@ -4372,14 +4487,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/lenz.pdf.tei.xml",
     "title": "Visual Analysis of Patterns in Multiple Amino Acid Mutation Graphs",
     "authors": [
-      { "forename": "Olav", "surname": "Lenz" },
-      { "forename": "Frank", "surname": "Keul" },
-      { "forename": "Sebastian", "surname": "Bremm" },
-      { "forename": "Kay", "surname": "Hamacher" },
-      { "forename": "Tatiana", "surname": "Von Landesberger" },
-      { "forename": "@bullet", "surname": "Keul" },
+      { "forename": "O", "surname": "Lenz" },
+      { "forename": "F", "surname": "Keul" },
+      { "forename": "S", "surname": "Bremm" },
+      { "forename": "K", "surname": "Hamacher" },
+      { "forename": "T", "surname": "Von Landesberger" },
+      { "forename": "@", "surname": "Keul" },
       { "forename": "K", "surname": "Hamacher" }
     ],
     "keywords": [
@@ -4395,50 +4511,46 @@
     "citedBy": 0
   },
   {
-    "title": "",
-    "authors": [],
-    "keywords": [],
-    "citations": [],
-    "citedBy": 0
-  },
-  {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/liu.pdf.tei.xml",
     "title": "TopicPanorama: a Full Picture of Relevant Topics",
     "authors": [
-      { "forename": "Shixia", "surname": "Liu" },
-      { "forename": "Xiting", "surname": "Wang" },
-      { "forename": "Jianfei", "surname": "Chen" },
-      { "forename": "Jun", "surname": "Zhu" },
-      { "forename": "Baining", "surname": "Guo" }
+      { "forename": "S", "surname": "Liu" },
+      { "forename": "X", "surname": "Wang" },
+      { "forename": "J", "surname": "Chen" },
+      { "forename": "J", "surname": "Zhu" },
+      { "forename": "B", "surname": "Guo" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/lu.pdf.tei.xml",
     "title": "Integrating Predictive Analytics and Social Media",
     "authors": [
-      { "forename": "Yafeng", "surname": "Lu" },
-      { "forename": "Robert", "surname": "Krügerkr¨krüger" },
-      { "forename": "Dennis", "surname": "Thom" },
-      { "forename": "Feng", "surname": "Wang" },
-      { "forename": "Steffen", "surname": "Koch" },
-      { "forename": "Thomas", "surname": "Ertl" },
-      { "forename": "Ross", "surname": "Maciejewski" }
+      { "forename": "Y", "surname": "Lu" },
+      { "forename": "R", "surname": "Krügerkr¨krüger" },
+      { "forename": "D", "surname": "Thom" },
+      { "forename": "F", "surname": "Wang" },
+      { "forename": "S", "surname": "Koch" },
+      { "forename": "T", "surname": "Ertl" },
+      { "forename": "R", "surname": "Maciejewski" }
     ],
     "keywords": ["Index Terms—Social Media", "Predictive Analytics", "Feature Selection"],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/nunes.pdf.tei.xml",
     "title": "An Integrated Visual Analysis System for Fusing MR Spectroscopy and Multi-Modal Radiology Imaging",
     "authors": [
-      { "forename": "Miguel", "surname": "Nunes" },
-      { "forename": "Benjamin", "surname": "Rowland" },
-      { "forename": "Matthias", "surname": "Schlachter" },
-      { "forename": "Soí", "surname": "Eakhénaeakh´eakhéna Ken" },
-      { "forename": "Kresimir", "surname": "Matkovic" },
-      { "forename": "Anne", "surname": "Laprie" },
-      { "forename": "Katja", "surname": "Uhler" }
+      { "forename": "M", "surname": "Nunes" },
+      { "forename": "B", "surname": "Rowland" },
+      { "forename": "M", "surname": "Schlachter" },
+      { "forename": "S", "surname": "Eakhénaeakh´eakhéna Ken" },
+      { "forename": "K", "surname": "Matkovic" },
+      { "forename": "A", "surname": "Laprie" },
+      { "forename": "K", "surname": "Uhler" }
     ],
     "keywords": [
       "Index Terms—MR spectroscopy",
@@ -4453,14 +4565,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/schmidt.pdf.tei.xml",
     "title": "YMCA – Your Mesh Comparison Application",
     "authors": [
-      { "forename": "Johanna", "surname": "Schmidt" },
-      { "forename": "Reinhold", "surname": "Preiner" },
-      { "forename": "Thomas", "surname": "Auzinger" },
-      { "forename": "Michael", "surname": "Wimmer" },
+      { "forename": "J", "surname": "Schmidt" },
+      { "forename": "R", "surname": "Preiner" },
+      { "forename": "T", "surname": "Auzinger" },
+      { "forename": "M", "surname": "Wimmer" },
       { "forename": "M", "surname": "Gröllergr¨gröller" },
-      { "forename": "Stefan", "surname": "Bruckner" }
+      { "forename": "S", "surname": "Bruckner" }
     ],
     "keywords": [
       "Index Terms—Visual analysis",
@@ -4482,24 +4595,25 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/wang.pdf.tei.xml",
     "title": "A Visual Reasoning Approach for Data-driven Transport Assessment on Urban Roads",
     "authors": [
-      { "forename": "Fei", "surname": "Wang" },
-      { "forename": "Wei", "surname": "Chen" },
-      { "forename": "Feiran", "surname": "Wu" },
-      { "forename": "Ye", "surname": "Zhao" },
-      { "forename": "Han", "surname": "Hong" },
-      { "forename": "Tianyu", "surname": "Gu" },
-      { "forename": "Long", "surname": "Wang" },
-      { "forename": "Ronghua", "surname": "Liang" },
-      { "forename": "Hujun", "surname": "Bao" },
-      { "forename": "Fei", "surname": "@bullet" },
-      { "forename": "Wei", "surname": "Wang" },
-      { "forename": "Feiran", "surname": "Chen" },
-      { "forename": "Han", "surname": "Wu" },
-      { "forename": "Tianyu", "surname": "Hong" },
-      { "forename": "Long", "surname": "Gu" },
-      { "forename": "Hujun", "surname": "Wang" },
+      { "forename": "F", "surname": "Wang" },
+      { "forename": "W", "surname": "Chen" },
+      { "forename": "F", "surname": "Wu" },
+      { "forename": "Y", "surname": "Zhao" },
+      { "forename": "H", "surname": "Hong" },
+      { "forename": "T", "surname": "Gu" },
+      { "forename": "L", "surname": "Wang" },
+      { "forename": "R", "surname": "Liang" },
+      { "forename": "H", "surname": "Bao" },
+      { "forename": "F", "surname": "@bullet" },
+      { "forename": "W", "surname": "Wang" },
+      { "forename": "F", "surname": "Chen" },
+      { "forename": "H", "surname": "Wu" },
+      { "forename": "T", "surname": "Hong" },
+      { "forename": "L", "surname": "Gu" },
+      { "forename": "H", "surname": "Wang" },
       { "forename": "", "surname": "Bao" }
     ],
     "keywords": ["Index Terms—Road-based Query", "Taxi Trajectory", "Hash Index", "Visual Analysis"],
@@ -4507,10 +4621,11 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/wongsuphasawat.pdf.tei.xml",
     "title": "Using Visualizations to Monitor Changes and Harvest Insights from a Global-Scale Logging Infrastructure at Twitter",
     "authors": [
-      { "forename": "Krist", "surname": "Wongsuphasawat" },
-      { "forename": "Jimmy", "surname": "Lin" }
+      { "forename": "K", "surname": "Wongsuphasawat" },
+      { "forename": "J", "surname": "Lin" }
     ],
     "keywords": [
       "Index Terms—Information Visualization",
@@ -4524,14 +4639,15 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/wu.pdf.tei.xml",
     "title": "BoundarySeer: Visual Analysis of 2D Boundary Changes",
     "authors": [
-      { "forename": "Wenchao", "surname": "Wu" },
-      { "forename": "Yixian", "surname": "Zheng" },
-      { "forename": "Huamin", "surname": "Qu" },
-      { "forename": "Wei", "surname": "Chen" },
-      { "forename": "Eduard", "surname": "Gr¨oller" },
-      { "forename": "Lionel", "surname": "Ni" }
+      { "forename": "W", "surname": "Wu" },
+      { "forename": "Y", "surname": "Zheng" },
+      { "forename": "H", "surname": "Qu" },
+      { "forename": "W", "surname": "Chen" },
+      { "forename": "E", "surname": "Gr¨oller" },
+      { "forename": "L", "surname": "Ni" }
     ],
     "keywords": [
       "Index Terms—Boundary change",
@@ -4545,22 +4661,24 @@
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/zahalka.pdf.tei.xml",
     "title": "Towards Interactive, Intelligent, and Integrated Multimedia Analytics",
     "authors": [
-      { "forename": "Jan", "surname": "Zahálka" },
-      { "forename": "Marcel", "surname": "Worring" }
+      { "forename": "J", "surname": "Zahálka" },
+      { "forename": "M", "surname": "Worring" }
     ],
     "keywords": [],
     "citations": [],
     "citedBy": 0
   },
   {
+    "filePath": "./src/assets/documentAndMetadataCollection//Vast-2014/zhao.pdf.tei.xml",
     "title": "PEARL: An Interactive Visual Analytic Tool for Understanding Personal Emotion Style Derived from Social Media",
     "authors": [
-      { "forename": "Jian", "surname": "Zhao" },
-      { "forename": "Liang", "surname": "Gou" },
-      { "forename": "Fei", "surname": "Wang" },
-      { "forename": "Michelle", "surname": "Zhou" }
+      { "forename": "J", "surname": "Zhao" },
+      { "forename": "L", "surname": "Gou" },
+      { "forename": "F", "surname": "Wang" },
+      { "forename": "M", "surname": "Zhou" }
     ],
     "keywords": [
       "Index Terms—Personal emotion analytics",
