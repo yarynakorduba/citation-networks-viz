@@ -12,8 +12,8 @@ function App() {
         <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/citation" element={<CitationPage />} />
-            <Route path="/coauthorship" element={<CoauthorshipPage />} />
+            <Route path="/citation/" element={<CitationPage />} />
+            <Route path="/coauthorship/" element={<CoauthorshipPage />} />
           </Routes>
         </HashRouter>
       </main>

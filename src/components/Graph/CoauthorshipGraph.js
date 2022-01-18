@@ -11,16 +11,23 @@ const HEIGHT = 800;
 const COLOR_RANGE = ['#CCCCCC', 'blue'];
 const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 
+const radialPositionScale = (domain, range = [280, 210, 140, 70, 1]) => {
+  const [min, max] = domain;
+  const tQuarter = (max - min) / 4;
+  const thresholds = [min, min + tQuarter, min + 2 * tQuarter, min + 3 * tQuarter, max];
+  return d3.scaleThreshold().range(range).domain(thresholds);
+};
+
 // citation graph-related
 const getAuthorNodeRadius =
-  (domain, range = [1, 7]) =>
+  (domain, range = [2, 10]) =>
   (d) =>
-    d3.scaleLog().domain(domain).range(range)(d);
+    d3.scaleLinear().domain(domain).range(range)(d);
 const getCiteCollisionRadius =
-  (domain, range = [1, 7]) =>
+  (domain, range = [2, 10]) =>
   (d) =>
     getAuthorNodeRadius(domain, range)(d) > 4
-      ? getAuthorNodeRadius(domain, range)(d) * 5
+      ? getAuthorNodeRadius(domain, range)(d) * 3
       : getAuthorNodeRadius(domain, range)(d);
 
 function Graph({ data, setSelectedNode }) {
@@ -82,7 +89,7 @@ function Graph({ data, setSelectedNode }) {
     .selectAll('circle')
     .data(nodes)
     .join(...getD3ElementLifecycle('circle'))
-    .attr('r', (d) => getAuthorNodeRadius(papersCountDomain, [2, 7])(d.papersCount))
+    .attr('r', (d) => getAuthorNodeRadius(papersCountDomain, [2, 9])(d.papersCount))
     .attr('id', (d) => d.id)
     .attr('stroke', 'transparent')
     .attr('stroke-width', 3)
@@ -129,7 +136,15 @@ function Graph({ data, setSelectedNode }) {
       )
       .force(
         'collision',
-        d3.forceCollide((d) => getCiteCollisionRadius(papersCountDomain, [2, 7])(d.papersCount)).strength(0.25),
+        d3.forceCollide((d) => getCiteCollisionRadius(papersCountDomain, [3, 9])(d.papersCount)).strength(0.25),
+      )
+      .force(
+        'r',
+        d3
+          .forceRadial((d) => radialPositionScale(papersCountDomain)(d.papersCount))
+          .x(WIDTH / 2)
+          .y(HEIGHT / 2)
+          .strength(1),
       );
 
     simulationRef.current.nodes(nodes).on('tick', ticked(nodeElements, linkElements, WIDTH, HEIGHT));
