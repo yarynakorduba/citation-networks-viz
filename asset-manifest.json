@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/citation-networks-viz/static/css/main.39af4722.chunk.css",
+    "main.js": "/citation-networks-viz/static/js/main.e904ba46.chunk.js",
+    "main.js.map": "/citation-networks-viz/static/js/main.e904ba46.chunk.js.map",
+    "runtime-main.js": "/citation-networks-viz/static/js/runtime-main.988dcfa8.js",
+    "runtime-main.js.map": "/citation-networks-viz/static/js/runtime-main.988dcfa8.js.map",
+    "static/js/2.552f64d0.chunk.js": "/citation-networks-viz/static/js/2.552f64d0.chunk.js",
+    "static/js/2.552f64d0.chunk.js.map": "/citation-networks-viz/static/js/2.552f64d0.chunk.js.map",
+    "static/js/3.859a87fa.chunk.js": "/citation-networks-viz/static/js/3.859a87fa.chunk.js",
+    "static/js/3.859a87fa.chunk.js.map": "/citation-networks-viz/static/js/3.859a87fa.chunk.js.map",
+    "index.html": "/citation-networks-viz/index.html",
+    "static/css/main.39af4722.chunk.css.map": "/citation-networks-viz/static/css/main.39af4722.chunk.css.map",
+    "static/js/2.552f64d0.chunk.js.LICENSE.txt": "/citation-networks-viz/static/js/2.552f64d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.988dcfa8.js",
+    "static/js/2.552f64d0.chunk.js",
+    "static/css/main.39af4722.chunk.css",
+    "static/js/main.e904ba46.chunk.js"
+  ]
+}
