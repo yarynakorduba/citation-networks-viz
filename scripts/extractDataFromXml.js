@@ -10,6 +10,7 @@ const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
 // npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./src/assets/citeData-try-to-clean.json ./src/assets/authData-try-to-clean.json
+// npm run extract:xml:data ./src/assets/documentAndMetadataCollection/ ./public/citeData.json ./public/authData.json
 
 const getArgs = () => {
   const inputDirectoryPath = process.argv[2];
