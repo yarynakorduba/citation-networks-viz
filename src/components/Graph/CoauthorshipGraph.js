@@ -82,7 +82,7 @@ function Graph({ data, setSelectedNode }) {
     .data(links)
     .join(...getD3ElementLifecycle('line'))
     .style('stroke', (d) => getColorScale(authorshipDomain, COLOR_RANGE)((d.papers || []).length))
-    .attr('stroke-width', (d) => d3.scaleLog(authorshipDomain, STROKE_SIZE_RANGE)((d.papers || []).length))
+    .attr('stroke-width', (d) => d3.scaleLinear(authorshipDomain, STROKE_SIZE_RANGE)((d.papers || []).length))
     .lower();
 
   const nodeElements = svg
