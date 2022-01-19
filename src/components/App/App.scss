@@ -1,7 +1,6 @@
 .app {
   height: calc(100vh - var(--navbar-height));
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: var(--navbar-height);
 }

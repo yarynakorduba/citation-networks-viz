@@ -26,7 +26,6 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #bb2222;
 }
 
@@ -96,12 +95,12 @@ code {
 
 .coauthorship-graph-container {
   display: flex;
-  margin-top: 100px;
+  justify-content: flex-start;
+  width: 100%;
 }
 
-.coauthorship-graph {
-  border: 1px solid rgba(211, 206, 206, 0.404);
-  border-radius: 6px;
+.coauthorship-graph,
+.citation-graph {
   margin-bottom: 20px;
 }
 
@@ -112,14 +111,20 @@ code {
 }
 
 .coauthorship-results {
-  border-radius: 6px;
-  margin-right: 10px;
+  border-right: 1px solid rgba(211, 206, 206, 0.404);
   padding: 20px;
+  padding-right: 30px;
   width: 350px;
   justify-content: flex-start;
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex-grow: 0;
+  min-height: 100%;
+  height: max-content;
+}
+.viz-container {
+  flex-grow: 1;
 }
 
 .coauthorship-search {
@@ -160,6 +165,11 @@ code {
 
 .author-info-subtitle {
   font-size: 1rem;
+  margin-bottom: 0.25em;
+  text-align: center;
+}
+.author-info-2nd-subtitle {
+  font-size: 0.875rem;
   margin-bottom: 0.7em;
   text-align: center;
 }

@@ -6,8 +6,8 @@ import { ticked, getColorScale, getD3ElementLifecycle } from '../../helpers/grap
 
 import './Graph.scss';
 
-const WIDTH = 1000;
-const HEIGHT = 800;
+const WIDTH = 800;
+const HEIGHT = 700;
 const COLOR_RANGE = ['#CCCCCC', 'blue'];
 const NODE_COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 const NODE_SIZE_RANGE = [2.5, 12];

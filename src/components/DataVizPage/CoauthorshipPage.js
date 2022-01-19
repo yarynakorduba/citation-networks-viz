@@ -69,7 +69,9 @@ function CoauthorshipPage() {
           </div>
         )}
       </div>
-      <CoauthorshipGraph data={data} setSelectedNode={setSelectedNode} />
+      <div className="viz-container">
+        <CoauthorshipGraph data={data} setSelectedNode={setSelectedNode} />
+      </div>
     </div>
   );
 }

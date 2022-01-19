@@ -7,8 +7,8 @@ import { useArrowMarker } from '../../hooks/graph';
 
 import './Graph.scss';
 
-const WIDTH = 1000;
-const HEIGHT = 500;
+const WIDTH = 800;
+const HEIGHT = 600;
 const COLOR_RANGE = ['#ff4a4a', '#ad0303'];
 const ARROW_MARKER_ID = 'arrowhead';
 
@@ -75,7 +75,7 @@ function Graph({ data, setSelectedNode }) {
     .attr('cursor', 'pointer')
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
     .on('click', (ev, d) => {
-      const { authors, citedBy, keywords, title, id } = d;
+      const { authors, citedBy, keywords, title, id, year } = d;
       const authorNames = authors.map((author) => `${author.forename}. ${author.surname}`);
       setSelectedNode({
         authorNames,
@@ -83,6 +83,7 @@ function Graph({ data, setSelectedNode }) {
         keywords,
         title,
         id,
+        year,
       });
     });
 
@@ -113,6 +114,7 @@ function Graph({ data, setSelectedNode }) {
   return (
     <svg
       id="citationGraph"
+      class="citation-graph"
       width={WIDTH}
       height={HEIGHT}
       viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}

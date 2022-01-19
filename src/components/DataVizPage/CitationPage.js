@@ -111,6 +111,10 @@ function CitationPage() {
         {selectedNode ? (
           <div className="author-info">
             <div className="author-info-title">{selectedNode.title}</div>
+            <div className="author-info-subtitle">Year: {selectedNode.year}</div>
+            <div className="author-info-2nd-subtitle">
+              Cited by: {selectedNode.citedBy} {selectedNode.citedBy === 1 ? 'paper' : 'papers'}
+            </div>
             <div className="author-list">
               <b>Authors:</b> {selectedNode.authorNames.join(', ')}
             </div>
@@ -126,7 +130,9 @@ function CitationPage() {
           </div>
         )}
       </div>
-      <CitationGraph data={formattedData} setSelectedNode={setSelectedNode} />
+      <div className="viz-container">
+        <CitationGraph data={formattedData} setSelectedNode={setSelectedNode} />
+      </div>
     </div>
   );
 }
