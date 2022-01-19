@@ -77,7 +77,7 @@ export const useSearchWithNodeHighlighting = (data, searcher) => {
     highlighted &&
       highlighted.map(({ id, isHighlighted }) => {
         const element = document.getElementById(id);
-        element && element.setAttribute('stroke', isHighlighted ? 'blue' : 'none');
+        element && element.setAttribute('stroke', isHighlighted ? '#161853b8' : 'none');
       });
   }, [highlighted]);
 

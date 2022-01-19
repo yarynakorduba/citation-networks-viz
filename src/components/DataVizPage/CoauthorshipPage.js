@@ -50,6 +50,9 @@ function CoauthorshipPage() {
         {selectedNode ? (
           <div className="author-info">
             <div className="author-info-title">{selectedNode.fullName}</div>
+            <div className="author-info-subtitle">
+              {(selectedNode.papers || []).length} Paper{(selectedNode.papers || []).length === 1 ? '' : 's'}
+            </div>
             <div className="author-info-list">
               {selectedNode.papers.map((paper, i) => (
                 <div key={i} className="author-info-list-item">

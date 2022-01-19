@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import { reduce, indexBy, filter, compose, map, prop } from 'ramda';
 
 import { ticked, getColorScale, getD3ElementLifecycle } from '../../helpers/graph';
-import { useDnD, useArrowMarker } from '../../hooks/graph';
+import { useArrowMarker } from '../../hooks/graph';
 
 import './Graph.scss';
 
@@ -26,7 +26,6 @@ function Graph({ data, setSelectedNode }) {
   useArrowMarker(ARROW_MARKER_ID);
 
   const simulationRef = useRef(null);
-  const { dragstarted, dragged, dragended } = useDnD();
 
   const computeNodesAndLinks = useCallback(async () => {
     if (data) {
@@ -73,6 +72,7 @@ function Graph({ data, setSelectedNode }) {
     .attr('id', (d) => d.id)
     .attr('stroke', 'transparent')
     .attr('stroke-width', 3)
+    .attr('cursor', 'pointer')
     .style('fill', (d) => getColorScale(citedByDomain, COLOR_RANGE)(d.citedBy))
     .on('click', (ev, d) => {
       const { authors, citedBy, keywords, title, id } = d;
@@ -82,7 +82,7 @@ function Graph({ data, setSelectedNode }) {
         citedBy,
         keywords,
         title,
-        id
+        id,
       });
     });
 

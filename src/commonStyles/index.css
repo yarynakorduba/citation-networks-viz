@@ -158,6 +158,12 @@ code {
   text-align: center;
 }
 
+.author-info-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+
 .author-info-list {
   display: flex;
   flex-direction: column;

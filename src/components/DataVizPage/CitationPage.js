@@ -39,7 +39,6 @@ function CitationPage() {
   const searchYear =
     (input) =>
     ({ id, year }) => {
-      console.log({ year, input });
       const isHighlighted = equals(input, year);
       return { id, isHighlighted };
     };
