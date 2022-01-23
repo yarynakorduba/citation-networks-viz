@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/citation-networks-viz/static/css/main.dc7548fc.chunk.css",
-    "main.js": "/citation-networks-viz/static/js/main.91fdc576.chunk.js",
-    "main.js.map": "/citation-networks-viz/static/js/main.91fdc576.chunk.js.map",
+    "main.css": "/citation-networks-viz/static/css/main.1d7eae2c.chunk.css",
+    "main.js": "/citation-networks-viz/static/js/main.cad11c24.chunk.js",
+    "main.js.map": "/citation-networks-viz/static/js/main.cad11c24.chunk.js.map",
     "runtime-main.js": "/citation-networks-viz/static/js/runtime-main.7d10f3ad.js",
     "runtime-main.js.map": "/citation-networks-viz/static/js/runtime-main.7d10f3ad.js.map",
     "static/js/2.b728ad04.chunk.js": "/citation-networks-viz/static/js/2.b728ad04.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.33ef281a.chunk.js": "/citation-networks-viz/static/js/3.33ef281a.chunk.js",
     "static/js/3.33ef281a.chunk.js.map": "/citation-networks-viz/static/js/3.33ef281a.chunk.js.map",
     "index.html": "/citation-networks-viz/index.html",
-    "static/css/main.dc7548fc.chunk.css.map": "/citation-networks-viz/static/css/main.dc7548fc.chunk.css.map",
+    "static/css/main.1d7eae2c.chunk.css.map": "/citation-networks-viz/static/css/main.1d7eae2c.chunk.css.map",
     "static/js/2.b728ad04.chunk.js.LICENSE.txt": "/citation-networks-viz/static/js/2.b728ad04.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7d10f3ad.js",
     "static/js/2.b728ad04.chunk.js",
-    "static/css/main.dc7548fc.chunk.css",
-    "static/js/main.91fdc576.chunk.js"
+    "static/css/main.1d7eae2c.chunk.css",
+    "static/js/main.cad11c24.chunk.js"
   ]
 }
