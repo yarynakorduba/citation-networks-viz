@@ -112,13 +112,31 @@ function Graph({ data, setSelectedNode }) {
   }, []);
 
   return (
-    <svg
-      id="citationGraph"
-      class="citation-graph"
-      width={WIDTH}
-      height={HEIGHT}
-      viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
-    />
+    <>
+      <div className="legend">
+        <div className="legend-description legend-node-gen-description">Node corresponds to a paper.</div>
+        <div className="legend-description legend-link-gen-description">
+          Link corresponds to a citation. Each link goes from a paper which cites to a paper which is cited.
+        </div>
+        <div className="legend-description legend-node-description">
+          <span className="legend-color legend-node-color">
+            <span className="legend-min">{citedByDomain[0]}</span>
+            <span className="legend-max">{citedByDomain[1]}</span>
+          </span>
+          Number of paper citations
+        </div>
+        <div className="legend-description legend-node-size">
+          <small>Paper citations count is also encoded by the node size</small>
+        </div>
+      </div>
+      <svg
+        id="citationGraph"
+        class="citation-graph"
+        width={WIDTH}
+        height={HEIGHT}
+        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
+      />
+    </>
   );
 }
 

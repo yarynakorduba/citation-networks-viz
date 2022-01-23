@@ -97,6 +97,7 @@ code {
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  position: relative;
 }
 
 .coauthorship-graph,
@@ -207,6 +208,50 @@ code {
   margin-top: 0.5em;
 }
 
+.legend {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  width: 370px;
+}
+.legend-description {
+  display: flex;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  align-items: center;
+}
+.legend-color {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 8px;
+}
+.legend-node-color {
+  background: content-box linear-gradient(0.25turn, #ff4a4a, #ad0303);
+}
+.legend-link-color {
+  background: content-box linear-gradient(0.25turn, #cccccc, blue);
+}
+
+.legend-node-size,
+.legend-link-gen-description,
+.legend-node-gen-description {
+  margin-bottom: 1rem;
+}
+
+.legend-max,
+.legend-min {
+  color: white;
+  font-size: 0.65rem;
+  padding: 0 3px;
+}
+.legend-link-color .legend-min {
+  color: #111;
+}
+
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }

@@ -38,8 +38,6 @@ function Graph({ data, setSelectedNode }) {
     [data],
   );
 
-  console.log(authorshipDomain);
-
   const papersCountDomain = useMemo(
     () => d3.extent(values(pathOr({}, ['authors'], data)), (d) => d.papersCount),
     [data],
@@ -157,13 +155,34 @@ function Graph({ data, setSelectedNode }) {
   }, [nodes, links, svg, authorshipDomain, papersCountDomain, setSelectedNode, nodeElements, linkElements]);
 
   return (
-    <svg
-      className="coauthorship-graph"
-      id="coauthorshipGraph"
-      width={WIDTH}
-      height={HEIGHT}
-      viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
-    />
+    <>
+      <div className="legend">
+        <div className="legend-description legend-node-description">
+          <span className="legend-color legend-node-color">
+            <span className="legend-min">{papersCountDomain[0]}</span>
+            <span className="legend-max">{papersCountDomain[1]}</span>
+          </span>
+          Number of authored papers
+        </div>
+        <div className="legend-description legend-node-size">
+          <small>Paper count is also encoded by the node size</small>
+        </div>
+        <div className="legend-description legend-link-description">
+          <span className="legend-color legend-link-color"></span>
+          Number of co-authored papers between two authors
+        </div>
+        <div className="legend-description legend-link-size">
+          <small>Co-authored papers count is also encoded by the link width</small>
+        </div>
+      </div>
+      <svg
+        className="coauthorship-graph"
+        id="coauthorshipGraph"
+        width={WIDTH}
+        height={HEIGHT}
+        viewBox={`${-WIDTH / 2} ${-HEIGHT / 2} ${-WIDTH} ${-HEIGHT}`}
+      />
+    </>
   );
 }
 
