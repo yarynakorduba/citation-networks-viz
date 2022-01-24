@@ -5,20 +5,13 @@ This is the data digital libraries course project. The goal of this project is t
 ## Dataset
 
 ### Dataset processing
-
-```JSON
-[{
-    'forename': "<Author name>",
-    'surname': "<Author surname>",
-    'coauthors': [
-        {
-            'forename': "<Author name>",
-            'surname': "<Author surname>",
-            'papers': ["<Paper title>"]
-        }
-    ]
-}]
+We created an `npm` script for dataset processing. You can find the script under `./scripts/extractDataFromXml.js`.
+To run the script using npm, put your dataset folder under `src/assets/` and run:
 ```
+npm run extract:xml:data ./src/assets/<dataset folder>/ ./public/<resulting citation dataset>.json ./public/<resulting co-authorship dataset>.json
+```
+
+You can find already created datasets, which are currently used in the project under `./public/authorData.json` and `./public/citeData.json`.
 
 ## Starting the project
 
@@ -28,4 +21,7 @@ To start the project, open the terminal and run these commands
 npm install
 npm run start
 ```
+
+## Demo
+You can access the demo version by this link: [https://yarynakorduba.github.io/citation-networks-viz/]()
 
